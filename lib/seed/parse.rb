@@ -73,4 +73,58 @@ end
 #puts "Google Helpers: #{google.count} #{google}"
 
 require 'yaml'
-puts conferences.to_yaml
+#puts conferences.to_yaml
+
+first_conf = conferences[10]
+
+require 'geocoder'
+conferences.to_enum.with_index(1).each do |conf, i|
+  filename = "seed#{i}.yml"
+
+  next #if File.exists? filename
+
+  city = conf[:city]
+  city = conf[:google] if conf[:google]
+
+  begin
+    search = "#{city}, #{conf[:country]}"
+    result = Geocoder.search search
+
+    conf[:result_count] = result.count
+
+    conf[:lat] = result.first.data["geometry"]["location"]["lat"]
+    conf[:lng] = result.first.data["geometry"]["location"]["lng"]
+    conf[:type] = result.first.data["geometry"]["location_type"]
+    conf[:formatted] = result.first.data["formatted_address"]
+
+    conf[:geocode] = result.to_yaml
+
+    puts "#{i} out of 94 -- #{conf[:formatted]}"
+    File.open(filename, 'w') { |file| file.write(conf.to_yaml) }
+  rescue Exception => e
+    puts search
+    puts result.to_yaml
+    puts "#{e}"
+  end
+end
+#File.open('seed.yml', 'w') { |file| file.write(conferences.to_yaml) }
+
+seed_text = []
+95.times do |i|
+  next
+  filename = "seed#{i+1}.yml"
+  file = File.new(filename, 'r')
+  while (line = file.gets)
+    seed_text << line
+  end
+end
+#File.open('seed.yml', 'w') { |file| file.write(seed_text.join("")) }
+
+results = YAML.load_file('seed.yml')
+
+results.each do |c|
+  puts c
+end
+
+#File.open('temp.yml', 'w') { |file| file.write([{name:"kevin",last:"trotter"},{name:"selena",last:"trotter"}].to_yaml) }
+
