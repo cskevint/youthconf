@@ -20,7 +20,7 @@ var conf_attr = {
 	opacity: .8
 };
 
-function plot(lat,lon,size) {
+function plot(lat, lon, size) {
 	size = size * .5 + 4;
 	return R.circle(lon2x(lon), lat2y(lat), size).attr(conf_attr).hover(function(e) {
 		this.attr({
@@ -47,7 +47,6 @@ renderMap(R, map, attr);
 
 
 var conferences = {};
-
 conferences.Accra = plot(5.5500, -0.2167, 2);
 conferences.Manila = plot(14.5833, 121.0000, 1);
 conferences.Oakland = plot(37.8044, -122.2697, 20);
