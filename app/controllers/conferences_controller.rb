@@ -2,7 +2,7 @@ class ConferencesController < ApplicationController
   # GET /conferences
   # GET /conferences.json
   def index
-    @conferences = Conference.all
+    @conferences = Conference.all.sort_by! { |a| a.name }
 
     respond_to do |format|
       format.html # index.html.erb

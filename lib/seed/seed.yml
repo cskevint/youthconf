@@ -1,0 +1,2663 @@
+---
+- :city: Accra
+  :country: Ghana
+  :result_count: 1
+  :lat: 5.5557169
+  :lng: -0.196306
+  :type: APPROXIMATE
+  :formatted: Accra, Ghana
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Accra\n      short_name: Accra\n      types:\n      - locality\n
+    \     - political\n    - long_name: Accra Metropolis\n      short_name: Accra Metropolis\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Greater Accra\n      short_name: Greater Accra\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Ghana\n      short_name: GH\n      types:\n
+    \     - country\n      - political\n    formatted_address: Accra, Ghana\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 5.668430499999999\n          lng:
+    -0.060339\n        southwest:\n          lat: 5.5139869\n          lng: -0.2991199\n
+    \     location:\n        lat: 5.5557169\n        lng: -0.196306\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 5.668430499999999\n
+    \         lng: -0.060339\n        southwest:\n          lat: 5.5139869\n          lng:
+    -0.2991199\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Addis Ababa
+  :country: Ethiopia
+  :result_count: 1
+  :lat: 9.022736
+  :lng: 38.746799
+  :type: APPROXIMATE
+  :formatted: Addis Ababa, Ethiopia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Addis Ababa\n      short_name: Addis Ababa\n      types:\n      -
+    locality\n      - political\n    - long_name: Addis Ababa\n      short_name: Addis
+    Ababa\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Ethiopia\n      short_name: ET\n      types:\n      - country\n      -
+    political\n    formatted_address: Addis Ababa, Ethiopia\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 9.0856549\n          lng: 38.90020730000001\n
+    \       southwest:\n          lat: 8.8406988\n          lng: 38.6560823\n      location:\n
+    \       lat: 9.022736\n        lng: 38.746799\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 9.0856549\n          lng: 38.90020730000001\n
+    \       southwest:\n          lat: 8.8406988\n          lng: 38.6560823\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Aguascalientes
+  :country: Mexico
+  :result_count: 2
+  :lat: 21.8833333
+  :lng: -102.3
+  :type: APPROXIMATE
+  :formatted: Aguascalientes Municipality, Aguascalientes, Mexico
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Aguascalientes Municipality\n      short_name: Aguascalientes Municipality\n
+    \     types:\n      - locality\n      - political\n    - long_name: Aguascalientes\n
+    \     short_name: AGS\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Mexico\n      short_name: MX\n      types:\n      -
+    country\n      - political\n    formatted_address: Aguascalientes Municipality,
+    Aguascalientes, Mexico\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    21.9580787\n          lng: -102.2301414\n        southwest:\n          lat: 21.8200957\n
+    \         lng: -102.3555606\n      location:\n        lat: 21.8833333\n        lng:
+    -102.3\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 21.9580787\n          lng: -102.2301414\n        southwest:\n          lat:
+    21.8200957\n          lng: -102.3555606\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Aguascalients Airport\n      short_name: Aguascalients Airport\n
+    \     types:\n      - establishment\n    - long_name: Aguascalientes\n      short_name:
+    AGS\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Mexico\n      short_name: MX\n      types:\n      - country\n      -
+    political\n    formatted_address: Aguascalients Airport (AGU), Aguascalientes, Mexico\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 21.7261032\n          lng:
+    -102.3103979\n        southwest:\n          lat: 21.6754659\n          lng: -102.3223619\n
+    \     location:\n        lat: 21.705278\n        lng: -102.317778\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 21.7261032\n          lng:
+    -102.3103979\n        southwest:\n          lat: 21.6754659\n          lng: -102.3223619\n
+    \   types:\n    - airport\n    - transit_station\n    - establishment\n  cache_hit:
+    \n"
+- :city: Almaty
+  :country: Kazakhstan
+  :result_count: 1
+  :lat: 43.255058
+  :lng: 76.912628
+  :type: APPROXIMATE
+  :formatted: Almaty, Kazakhstan
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Almaty\n      short_name: Almaty\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kazakhstan\n      short_name: KZ\n      types:\n
+    \     - country\n      - political\n    formatted_address: Almaty, Kazakhstan\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 43.4194502\n          lng:
+    77.1467686\n        southwest:\n          lat: 43.11050789999999\n          lng:
+    76.785679\n      location:\n        lat: 43.255058\n        lng: 76.912628\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 43.4194502\n          lng:
+    77.1467686\n        southwest:\n          lat: 43.11050789999999\n          lng:
+    76.785679\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Antananarivo
+  :country: Madagascar
+  :result_count: 2
+  :lat: -18.914872
+  :lng: 47.531612
+  :type: APPROXIMATE
+  :formatted: Antananarivo, Madagascar
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Antananarivo\n      short_name: Antananarivo\n      types:\n      -
+    locality\n      - political\n    - long_name: Antananarivo Atsimondrano\n      short_name:
+    Antananarivo Atsimondrano\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: Antananarivo\n      short_name: Antananarivo\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Madagascar\n
+    \     short_name: MG\n      types:\n      - country\n      - political\n    formatted_address:
+    Antananarivo, Madagascar\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -18.747587\n          lng: 47.60607719999999\n        southwest:\n          lat:
+    -19.0278715\n          lng: 47.4191379\n      location:\n        lat: -18.914872\n
+    \       lng: 47.531612\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -18.747587\n          lng: 47.60607719999999\n        southwest:\n
+    \         lat: -19.0278715\n          lng: 47.4191379\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: Antananarivo\n      short_name: Antananarivo\n
+    \     types:\n      - locality\n      - political\n    - long_name: Vohimarina\n
+    \     short_name: Vohimarina\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Antsiranana\n      short_name: Antsiranana\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Madagascar\n      short_name: MG\n      types:\n      - country\n      - political\n
+    \   formatted_address: Antananarivo, Madagascar\n    geometry:\n      location:\n
+    \       lat: -13.366667\n        lng: 49.716667\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -13.3653180197085\n          lng:
+    49.7180159802915\n        southwest:\n          lat: -13.3680159802915\n          lng:
+    49.7153180197085\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Apia
+  :country: Samoa
+  :result_count: 1
+  :lat: -13.8333333
+  :lng: -171.75
+  :type: APPROXIMATE
+  :formatted: Apia, Samoa
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Apia\n      short_name: Apia\n      types:\n      - locality\n
+    \     - political\n    - long_name: Tuamasaga\n      short_name: Tuamasaga\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Samoa\n
+    \     short_name: WS\n      types:\n      - country\n      - political\n    formatted_address:
+    Apia, Samoa\n    geometry:\n      bounds:\n        northeast:\n          lat: -13.8203118\n
+    \         lng: -171.7215443\n        southwest:\n          lat: -13.9056643\n          lng:
+    -171.8147655\n      location:\n        lat: -13.8333333\n        lng: -171.75\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    -13.8203118\n          lng: -171.7215443\n        southwest:\n          lat: -13.9056643\n
+    \         lng: -171.8147655\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n"
+- :city: Atlanta
+  :country: USA
+  :state_province: GA
+  :result_count: 6
+  :lat: 33.7489954
+  :lng: -84.3879824
+  :type: APPROXIMATE
+  :formatted: Atlanta, GA, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Atlanta\n      short_name: Atlanta\n      types:\n      - locality\n
+    \     - political\n    - long_name: Fulton\n      short_name: Fulton\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Georgia\n
+    \     short_name: GA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Atlanta, GA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 33.8876179\n          lng: -84.289389\n
+    \       southwest:\n          lat: 33.6478079\n          lng: -84.5518189\n      location:\n
+    \       lat: 33.7489954\n        lng: -84.3879824\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 33.8876179\n          lng: -84.289389\n
+    \       southwest:\n          lat: 33.6478079\n          lng: -84.5518189\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Atlanta\n      short_name: Atlanta\n
+    \     types:\n      - locality\n      - political\n    - long_name: Jackson\n      short_name:
+    Jackson\n      types:\n      - administrative_area_level_3\n      - political\n
+    \   - long_name: Hamilton\n      short_name: Hamilton\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Indiana\n      short_name: IN\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Atlanta, IN, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 40.2179579\n          lng: -86.021737\n        southwest:\n          lat:
+    40.206245\n          lng: -86.032007\n      location:\n        lat: 40.2153151\n
+    \       lng: -86.0263746\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 40.2179579\n          lng: -86.021737\n        southwest:\n          lat:
+    40.206245\n          lng: -86.032007\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Atlanta\n      short_name: Atlanta\n      types:\n      - locality\n
+    \     - political\n    - long_name: Cass\n      short_name: Cass\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Texas\n
+    \     short_name: TX\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Atlanta, TX, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 33.145496\n          lng: -94.123227\n
+    \       southwest:\n          lat: 33.0841039\n          lng: -94.2296559\n      location:\n
+    \       lat: 33.1137419\n        lng: -94.16435369999999\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 33.145496\n          lng: -94.123227\n
+    \       southwest:\n          lat: 33.0841039\n          lng: -94.2296559\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Atlanta\n      short_name: Atlanta\n
+    \     types:\n      - locality\n      - political\n    - long_name: Atlanta\n      short_name:
+    Atlanta\n      types:\n      - administrative_area_level_3\n      - political\n
+    \   - long_name: Logan\n      short_name: Logan\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Illinois\n      short_name: IL\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   - long_name: '61723'\n      short_name: '61723'\n      types:\n      - postal_code\n
+    \   formatted_address: Atlanta, IL 61723, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 40.27860889999999\n          lng: -89.2137279\n        southwest:\n
+    \         lat: 40.252136\n          lng: -89.2433789\n      location:\n        lat:
+    40.2594846\n        lng: -89.2334236\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 40.27860889999999\n          lng: -89.2137279\n
+    \       southwest:\n          lat: 40.252136\n          lng: -89.2433789\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Atlanta\n      short_name: Atlanta\n
+    \     types:\n      - locality\n      - political\n    - long_name: Industry-Rock
+    Falls\n      short_name: Industry-Rock Falls\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Phelps\n      short_name: Phelps\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Nebraska\n
+    \     short_name: NE\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Atlanta, NE, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 40.37177800000001\n          lng:
+    -99.467209\n        southwest:\n          lat: 40.364567\n          lng: -99.479109\n
+    \     location:\n        lat: 40.3687607\n        lng: -99.4734821\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 40.37177800000001\n
+    \         lng: -99.467209\n        southwest:\n          lat: 40.364567\n          lng:
+    -99.479109\n    types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Atlanta\n      short_name: Atlanta\n
+    \     types:\n      - locality\n      - political\n    - long_name: Lyda\n      short_name:
+    Lyda\n      types:\n      - administrative_area_level_3\n      - political\n    -
+    long_name: Macon\n      short_name: Macon\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Missouri\n      short_name: MO\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   - long_name: '63530'\n      short_name: '63530'\n      types:\n      - postal_code\n
+    \   formatted_address: Atlanta, MO 63530, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 39.904944\n          lng: -92.473969\n        southwest:\n          lat:
+    39.8928731\n          lng: -92.4866799\n      location:\n        lat: 39.898646\n
+    \       lng: -92.4810208\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 39.904944\n          lng: -92.473969\n        southwest:\n          lat:
+    39.8928731\n          lng: -92.4866799\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Auckland
+  :country: New Zealand
+  :result_count: 2
+  :lat: -36.8484597
+  :lng: 174.7633315
+  :type: APPROXIMATE
+  :formatted: Auckland, New Zealand
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Auckland\n      short_name: Auckland\n      types:\n      - locality\n
+    \     - political\n    - long_name: Auckland\n      short_name: Auckland\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Auckland\n
+    \     short_name: Auckland\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: New Zealand\n      short_name: NZ\n      types:\n
+    \     - country\n      - political\n    formatted_address: Auckland, New Zealand\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: -36.660571\n          lng:
+    175.2871371\n        southwest:\n          lat: -37.0654751\n          lng: 174.4438016\n
+    \     location:\n        lat: -36.8484597\n        lng: 174.7633315\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -36.660571\n          lng:
+    175.2871371\n        southwest:\n          lat: -37.0654751\n          lng: 174.4438016\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Auckland\n      short_name: Auckland\n
+    \     types:\n      - sublocality\n      - political\n    - long_name: Auckland\n
+    \     short_name: Auckland\n      types:\n      - locality\n      - political\n
+    \   - long_name: Auckland\n      short_name: Auckland\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Auckland\n      short_name: Auckland\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: New Zealand\n
+    \     short_name: NZ\n      types:\n      - country\n      - political\n    formatted_address:
+    Auckland, New Zealand\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -36.8364659\n          lng: 174.7838398\n        southwest:\n          lat: -36.8621041\n
+    \         lng: 174.7503805\n      location:\n        lat: -36.8484597\n        lng:
+    174.7633315\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -36.8364659\n          lng: 174.7838398\n        southwest:\n          lat:
+    -36.8621041\n          lng: 174.7503805\n    types:\n    - sublocality\n    - political\n
+    \ cache_hit: \n"
+- :city: Baku
+  :country: Azerbaijan
+  :result_count: 1
+  :lat: 40.4349504
+  :lng: 49.8676232
+  :type: APPROXIMATE
+  :formatted: Baku, Azerbaijan
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Baku\n      short_name: Baku\n      types:\n      - locality\n
+    \     - political\n    - long_name: Baku\n      short_name: Baku\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Azerbaijan\n
+    \     short_name: AZ\n      types:\n      - country\n      - political\n    formatted_address:
+    Baku, Azerbaijan\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    40.486602\n          lng: 50.0561143\n        southwest:\n          lat: 40.303999\n
+    \         lng: 49.6538049\n      location:\n        lat: 40.4349504\n        lng:
+    49.8676232\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 40.486602\n          lng: 50.0561143\n        southwest:\n          lat:
+    40.303999\n          lng: 49.6538049\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Bangalore
+  :country: India
+  :state_province: Karnataka
+  :result_count: 1
+  :lat: 12.9715987
+  :lng: 77.5945627
+  :type: APPROXIMATE
+  :formatted: Bangalore, Karnataka, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bangalore\n      short_name: Bangalore\n      types:\n      - locality\n
+    \     - political\n    - long_name: Bengaluru Urban\n      short_name: Bengaluru
+    Urban\n      types:\n      - administrative_area_level_2\n      - political\n    -
+    long_name: Karnataka\n      short_name: KA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: India\n      short_name: IN\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bangalore, Karnataka,
+    India\n    geometry:\n      bounds:\n        northeast:\n          lat: 13.173706\n
+    \         lng: 77.8826809\n        southwest:\n          lat: 12.7342888\n          lng:
+    77.3791981\n      location:\n        lat: 12.9715987\n        lng: 77.5945627\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    13.173706\n          lng: 77.8826809\n        southwest:\n          lat: 12.7342888\n
+    \         lng: 77.3791981\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n"
+- :city: Bangui
+  :country: Central African Republic
+  :result_count: 2
+  :lat: 4.361698
+  :lng: 18.555975
+  :type: APPROXIMATE
+  :formatted: Bangui, Central African Republic
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bangui\n      short_name: Bangui\n      types:\n      - locality\n
+    \     - political\n    - long_name: Bangui\n      short_name: Bangui\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Bangui\n
+    \     short_name: Bangui\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Central African Republic\n      short_name: CF\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bangui, Central African
+    Republic\n    geometry:\n      bounds:\n        northeast:\n          lat: 4.48329\n
+    \         lng: 18.6420063\n        southwest:\n          lat: 4.3176571\n          lng:
+    18.500762\n      location:\n        lat: 4.361698\n        lng: 18.555975\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 4.48329\n          lng:
+    18.6420063\n        southwest:\n          lat: 4.3176571\n          lng: 18.500762\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Bangui\n      short_name: Bangui\n
+    \     types:\n      - locality\n      - political\n    - long_name: Bembari\n      short_name:
+    Bembari\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Ouaka\n      short_name: Ouaka\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Central African Republic\n      short_name:
+    CF\n      types:\n      - country\n      - political\n    formatted_address: Bangui,
+    Central African Republic\n    geometry:\n      location:\n        lat: 5.630555999999999\n
+    \       lng: 21.640659\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 5.631904980291502\n          lng: 21.6420079802915\n        southwest:\n
+    \         lat: 5.629207019708497\n          lng: 21.6393100197085\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Bardiya
+  :country: Nepal
+  :result_count: 1
+  :lat: 28.3102323
+  :lng: 81.42789839999999
+  :type: APPROXIMATE
+  :formatted: Bardiya, Nepal
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bardiya\n      short_name: Bardiya\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Bheri\n      short_name: Bheri\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Mid-Western
+    Region\n      short_name: Mid-Western Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Nepal\n      short_name: NP\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bardiya, Nepal\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 28.64721\n          lng: 81.7475511\n
+    \       southwest:\n          lat: 28.0696326\n          lng: 81.04494079999999\n
+    \     location:\n        lat: 28.3102323\n        lng: 81.42789839999999\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 28.64721\n          lng:
+    81.7475511\n        southwest:\n          lat: 28.0696326\n          lng: 81.04494079999999\n
+    \   types:\n    - administrative_area_level_3\n    - political\n  cache_hit: \n"
+- :city: Battambang
+  :country: Cambodia
+  :result_count: 1
+  :lat: 13.0286971
+  :lng: 102.989615
+  :type: APPROXIMATE
+  :formatted: Bat Dambang, Cambodia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bat Dambang\n      short_name: Bat Dambang\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: Cambodia\n      short_name:
+    KH\n      types:\n      - country\n      - political\n    formatted_address: Bat
+    Dambang, Cambodia\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    13.4669679\n          lng: 103.7615619\n        southwest:\n          lat: 12.4044009\n
+    \         lng: 102.350647\n      location:\n        lat: 13.0286971\n        lng:
+    102.989615\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 13.4669679\n          lng: 103.7615619\n        southwest:\n          lat:
+    12.4044009\n          lng: 102.350647\n    types:\n    - administrative_area_level_1\n
+    \   - political\n  cache_hit: \n"
+- :city: Bhopal
+  :country: India
+  :state_province: Madhya Pradesh
+  :result_count: 1
+  :lat: 23.2599333
+  :lng: 77.412615
+  :type: APPROXIMATE
+  :formatted: Bhopal, Madhya Pradesh, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bhopal\n      short_name: Bhopal\n      types:\n      - locality\n
+    \     - political\n    - long_name: Bhopal\n      short_name: Bhopal\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Madhya
+    Pradesh\n      short_name: MP\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: India\n      short_name: IN\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bhopal, Madhya Pradesh,
+    India\n    geometry:\n      bounds:\n        northeast:\n          lat: 23.3326697\n
+    \         lng: 77.5459661\n        southwest:\n          lat: 23.1384658\n          lng:
+    77.2386932\n      location:\n        lat: 23.2599333\n        lng: 77.412615\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 23.3326697\n          lng:
+    77.5459661\n        southwest:\n          lat: 23.1384658\n          lng: 77.2386932\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Bhubaneswar
+  :country: India
+  :state_province: Odic
+  :result_count: 1
+  :lat: 20.2960587
+  :lng: 85.8245398
+  :type: APPROXIMATE
+  :formatted: Bhubaneshwar, Odisha, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bhubaneshwar\n      short_name: Bhubaneshwar\n      types:\n      -
+    locality\n      - political\n    - long_name: Khordha\n      short_name: Khordha\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Odisha\n      short_name: OD\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: India\n      short_name: IN\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bhubaneshwar, Odisha,
+    India\n    geometry:\n      bounds:\n        northeast:\n          lat: 20.4093164\n
+    \         lng: 85.8881949\n        southwest:\n          lat: 20.1924519\n          lng:
+    85.7380342\n      location:\n        lat: 20.2960587\n        lng: 85.8245398\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    20.4093164\n          lng: 85.8881949\n        southwest:\n          lat: 20.1924519\n
+    \         lng: 85.7380342\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n"
+- :city: Boston
+  :country: USA
+  :state_province: MA
+  :result_count: 6
+  :lat: 42.3584308
+  :lng: -71.0597732
+  :type: APPROXIMATE
+  :formatted: Boston, MA, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Boston\n      short_name: Boston\n      types:\n      - locality\n
+    \     - political\n    - long_name: Suffolk\n      short_name: Suffolk\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Massachusetts\n
+    \     short_name: MA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Boston, MA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 42.3988669\n          lng: -70.9232011\n
+    \       southwest:\n          lat: 42.22788\n          lng: -71.191113\n      location:\n
+    \       lat: 42.3584308\n        lng: -71.0597732\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 42.3988669\n          lng: -70.9232011\n
+    \       southwest:\n          lat: 42.22788\n          lng: -71.191113\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Boston\n      short_name: Boston\n
+    \     types:\n      - locality\n      - political\n    - long_name: Boston\n      short_name:
+    Boston\n      types:\n      - administrative_area_level_3\n      - political\n    -
+    long_name: Wayne\n      short_name: Wayne\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Indiana\n      short_name: IN\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Boston, IN, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 39.7447779\n          lng: -84.847769\n        southwest:\n          lat:
+    39.737455\n          lng: -84.855762\n      location:\n        lat: 39.74116009999999\n
+    \       lng: -84.8519034\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 39.7447779\n          lng: -84.847769\n        southwest:\n          lat:
+    39.737455\n          lng: -84.855762\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Boston\n      short_name: Boston\n      types:\n      - locality\n
+    \     - political\n    - long_name: Thomas\n      short_name: Thomas\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Georgia\n
+    \     short_name: GA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '31626'\n      short_name:
+    '31626'\n      types:\n      - postal_code\n    formatted_address: Boston, GA 31626,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 30.8030511\n
+    \         lng: -83.7772141\n        southwest:\n          lat: 30.781034\n          lng:
+    -83.80265\n      location:\n        lat: 30.7918613\n        lng: -83.78988679999999\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    30.8030511\n          lng: -83.7772141\n        southwest:\n          lat: 30.781034\n
+    \         lng: -83.80265\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    -
+    long_name: Boston\n      short_name: Boston\n      types:\n      - locality\n      -
+    political\n    - long_name: Salem\n      short_name: Salem\n      types:\n      -
+    administrative_area_level_3\n      - political\n    - long_name: Culpeper\n      short_name:
+    Culpeper\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Virginia\n      short_name: VA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '22713'\n      short_name:
+    '22713'\n      types:\n      - postal_code\n    formatted_address: Boston, VA 22713,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 38.5511563\n
+    \         lng: -78.1254703\n        southwest:\n          lat: 38.5376298\n          lng:
+    -78.1401872\n      location:\n        lat: 38.5421671\n        lng: -78.1322733\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    38.5511563\n          lng: -78.1254703\n        southwest:\n          lat: 38.5376298\n
+    \         lng: -78.1401872\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    -
+    long_name: Boston\n      short_name: Boston\n      types:\n      - sublocality\n
+    \     - political\n    - long_name: Boston\n      short_name: Boston\n      types:\n
+    \     - administrative_area_level_3\n      - political\n    - long_name: Erie\n
+    \     short_name: Erie\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: New York\n      short_name: NY\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: United States\n
+    \     short_name: US\n      types:\n      - country\n      - political\n    - long_name:
+    '14025'\n      short_name: '14025'\n      types:\n      - postal_code\n    formatted_address:
+    Boston, NY 14025, USA\n    geometry:\n      location:\n        lat: 42.6289495\n
+    \       lng: -78.7375289\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 42.63029848029151\n          lng: -78.73617991970849\n        southwest:\n
+    \         lat: 42.62760051970851\n          lng: -78.73887788029151\n    types:\n
+    \   - sublocality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Boston\n      short_name: Boston\n
+    \     types:\n      - sublocality\n      - political\n    - long_name: Nelson\n
+    \     short_name: Nelson\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: Kentucky\n      short_name: KY\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: United States\n
+    \     short_name: US\n      types:\n      - country\n      - political\n    - long_name:
+    '40107'\n      short_name: '40107'\n      types:\n      - postal_code\n    formatted_address:
+    Boston, KY 40107, USA\n    geometry:\n      location:\n        lat: 37.787563\n
+    \       lng: -85.6727374\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 37.78891198029149\n          lng: -85.67138841970849\n        southwest:\n
+    \         lat: 37.7862140197085\n          lng: -85.67408638029151\n    types:\n
+    \   - sublocality\n    - political\n  cache_hit: \n"
+- :city: Brasilia
+  :country: Brazil
+  :state_province: Federal District
+  :result_count: 2
+  :lat: -15.7801482
+  :lng: -47.9291698
+  :type: APPROXIMATE
+  :formatted: Brasília - Federal District, Brazil
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Brasilia\n      short_name: Brasilia\n      types:\n      - locality\n
+    \     - political\n    - long_name: Federal District\n      short_name: DF\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Brazil\n
+    \     short_name: BR\n      types:\n      - country\n      - political\n    formatted_address:
+    Brasília - Federal District, Brazil\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -15.5001937\n          lng: -47.3072623\n        southwest:\n          lat:
+    -16.0524045\n          lng: -48.2859823\n      location:\n        lat: -15.7801482\n
+    \       lng: -47.9291698\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -15.5001937\n          lng: -47.3072623\n        southwest:\n          lat:
+    -16.0524045\n          lng: -48.2859823\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Brasília\n      short_name: Brasília\n      types:\n      - sublocality\n
+    \     - political\n    - long_name: Brasilia\n      short_name: Brasilia\n      types:\n
+    \     - locality\n      - political\n    - long_name: Federal District\n      short_name:
+    DF\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Brazil\n      short_name: BR\n      types:\n      - country\n      -
+    political\n    formatted_address: Brasília, Federal District, Brazil\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -15.5779022\n          lng: -47.7811538\n
+    \       southwest:\n          lat: -15.8653387\n          lng: -48.0896456\n      location:\n
+    \       lat: -15.7000219\n        lng: -47.9416114\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -15.5779022\n          lng:
+    -47.7811538\n        southwest:\n          lat: -15.8653387\n          lng: -48.0896456\n
+    \   types:\n    - sublocality\n    - political\n  cache_hit: \n"
+- :city: Bridgetown
+  :country: Barbados
+  :result_count: 1
+  :lat: 13.098938
+  :lng: -59.61335200000001
+  :type: APPROXIMATE
+  :formatted: Bridgetown, Barbados
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bridgetown\n      short_name: Bridgetown\n      types:\n      -
+    locality\n      - political\n    - long_name: Saint Michael\n      short_name: Saint
+    Michael\n      types:\n      - administrative_area_level_1\n      - political\n
+    \   - long_name: Barbados\n      short_name: BB\n      types:\n      - country\n
+    \     - political\n    formatted_address: Bridgetown, Barbados\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 13.133407\n          lng: -59.5582134\n
+    \       southwest:\n          lat: 13.0692163\n          lng: -59.6348175\n      location:\n
+    \       lat: 13.098938\n        lng: -59.61335200000001\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 13.133407\n          lng: -59.5582134\n
+    \       southwest:\n          lat: 13.0692163\n          lng: -59.6348175\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Bukavu
+  :country: Democratic Republic of the Congo
+  :result_count: 1
+  :lat: -2.515364
+  :lng: 28.845079
+  :type: APPROXIMATE
+  :formatted: Bukavu, Democratic Republic of the Congo
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bukavu\n      short_name: Bukavu\n      types:\n      - locality\n
+    \     - political\n    - long_name: South Kivu\n      short_name: South Kivu\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Democratic
+    Republic of the Congo\n      short_name: CD\n      types:\n      - country\n      -
+    political\n    formatted_address: Bukavu, Democratic Republic of the Congo\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -2.4596667\n          lng: 28.8903522\n
+    \       southwest:\n          lat: -2.5639365\n          lng: 28.8176536\n      location:\n
+    \       lat: -2.515364\n        lng: 28.845079\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -2.4596667\n          lng: 28.8903522\n
+    \       southwest:\n          lat: -2.5639365\n          lng: 28.8176536\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Cali
+  :country: Colombia
+  :state_province: Valle del Cauca
+  :result_count: 2
+  :lat: 3.4205556
+  :lng: -76.5222222
+  :type: APPROXIMATE
+  :formatted: Cali, Valle del Cauca, Colombia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Cali\n      short_name: Cali\n      types:\n      - locality\n
+    \     - political\n    - long_name: Valle del Cauca\n      short_name: Valle del
+    Cauca\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Colombia\n      short_name: CO\n      types:\n      - country\n      -
+    political\n    formatted_address: Cali, Valle del Cauca, Colombia\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 3.54622\n          lng: -76.45397\n
+    \       southwest:\n          lat: 3.27202\n          lng: -76.70694999999999\n
+    \     location:\n        lat: 3.4205556\n        lng: -76.5222222\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 3.54622\n          lng:
+    -76.45397\n        southwest:\n          lat: 3.27202\n          lng: -76.70694999999999\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Cali\n      short_name: Cali\n
+    \     types:\n      - sublocality\n      - political\n    - long_name: Cali\n      short_name:
+    Cali\n      types:\n      - locality\n      - political\n    - long_name: Valle
+    del Cauca\n      short_name: Valle del Cauca\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Colombia\n      short_name: CO\n      types:\n
+    \     - country\n      - political\n    formatted_address: Cali, Valle del Cauca,
+    Colombia\n    geometry:\n      location:\n        lat: 3.43829\n        lng: -76.51611\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    3.439638980291502\n          lng: -76.51476101970849\n        southwest:\n          lat:
+    3.436941019708498\n          lng: -76.51745898029151\n    types:\n    - sublocality\n
+    \   - political\n  cache_hit: \n"
+- :city: Canoas
+  :country: Brazil
+  :state_province: Rio Grande do Sul
+  :result_count: 1
+  :lat: -29.918889
+  :lng: -51.1780587
+  :type: APPROXIMATE
+  :formatted: Canoas - Rio Grande do Sul, Brazil
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Canoas\n      short_name: Canoas\n      types:\n      - locality\n
+    \     - political\n    - long_name: Rio Grande do Sul\n      short_name: RS\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Brazil\n
+    \     short_name: BR\n      types:\n      - country\n      - political\n    formatted_address:
+    Canoas - Rio Grande do Sul, Brazil\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -29.858964\n          lng: -51.1050161\n        southwest:\n          lat:
+    -29.9717101\n          lng: -51.24953499999999\n      location:\n        lat: -29.918889\n
+    \       lng: -51.1780587\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -29.858964\n          lng: -51.1050161\n        southwest:\n          lat:
+    -29.9717101\n          lng: -51.24953499999999\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n"
+- :city: Cartagena de Indias
+  :country: Colombia
+  :state_province: Bolivar
+  :result_count: 1
+  :lat: 10.3873369
+  :lng: -75.5196631
+  :type: APPROXIMATE
+  :formatted: Cartagenita, Cartagena, Bolivar, Colombia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Cartagenita\n      short_name: Cartagenita\n      types:\n      -
+    sublocality\n      - political\n    - long_name: Cartagena\n      short_name: Cartagena\n
+    \     types:\n      - locality\n      - political\n    - long_name: Bolivar\n      short_name:
+    Bolivar\n      types:\n      - administrative_area_level_1\n      - political\n
+    \   - long_name: Colombia\n      short_name: CO\n      types:\n      - country\n
+    \     - political\n    formatted_address: Cartagenita, Cartagena, Bolivar, Colombia\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 10.3896779\n          lng:
+    -75.5173435\n        southwest:\n          lat: 10.3851137\n          lng: -75.5225435\n
+    \     location:\n        lat: 10.3873369\n        lng: -75.5196631\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 10.3896779\n          lng:
+    -75.5173435\n        southwest:\n          lat: 10.3851137\n          lng: -75.5225435\n
+    \   partial_match: true\n    types:\n    - sublocality\n    - political\n  cache_hit:
+    \n"
+- :city: Chennai
+  :country: India
+  :state_province: Tamil Nadu
+  :result_count: 1
+  :lat: 13.060422
+  :lng: 80.249583
+  :type: APPROXIMATE
+  :formatted: Chennai, Tamil Nadu, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Chennai\n      short_name: Chennai\n      types:\n      - locality\n
+    \     - political\n    - long_name: Chennai\n      short_name: Chennai\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Tamil Nadu\n
+    \     short_name: TN\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Chennai, Tamil Nadu, India\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 13.2340852\n          lng: 80.3322912\n
+    \       southwest:\n          lat: 12.9459267\n          lng: 80.14878259999999\n
+    \     location:\n        lat: 13.060422\n        lng: 80.249583\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 13.2340852\n          lng:
+    80.3322912\n        southwest:\n          lat: 12.9459267\n          lng: 80.14878259999999\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Chibombo
+  :country: Zambia
+  :result_count: 1
+  :lat: -14.65785
+  :lng: 28.07221
+  :type: APPROXIMATE
+  :formatted: Chibombo, Zambia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Chibombo\n      short_name: Chibombo\n      types:\n      - locality\n
+    \     - political\n    - long_name: Chibombo\n      short_name: Chibombo\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Central\n
+    \     short_name: Central\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Zambia\n      short_name: ZM\n      types:\n      -
+    country\n      - political\n    formatted_address: Chibombo, Zambia\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -14.5998637\n          lng: 28.1356429\n
+    \       southwest:\n          lat: -14.7141234\n          lng: 28.0326462\n      location:\n
+    \       lat: -14.65785\n        lng: 28.07221\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -14.5998637\n          lng:
+    28.1356429\n        southwest:\n          lat: -14.7141234\n          lng: 28.0326462\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Chicago
+  :country: USA
+  :state_province: IL
+  :result_count: 1
+  :lat: 41.8781136
+  :lng: -87.6297982
+  :type: APPROXIMATE
+  :formatted: Chicago, IL, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Chicago\n      short_name: Chicago\n      types:\n      - locality\n
+    \     - political\n    - long_name: Cook\n      short_name: Cook\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Illinois\n
+    \     short_name: IL\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Chicago, IL, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 42.023131\n          lng: -87.52404399999999\n
+    \       southwest:\n          lat: 41.6443349\n          lng: -87.9402669\n      location:\n
+    \       lat: 41.8781136\n        lng: -87.6297982\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 42.023131\n          lng: -87.52404399999999\n
+    \       southwest:\n          lat: 41.6443349\n          lng: -87.9402669\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Chisinau
+  :country: Moldova
+  :result_count: 1
+  :lat: 47.02685899999999
+  :lng: 28.841551
+  :type: APPROXIMATE
+  :formatted: Chi?in?u, Moldova
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Chi?in?u\n      short_name: Chi?in?u\n      types:\n      - locality\n
+    \     - political\n    - long_name: Moldova\n      short_name: MD\n      types:\n
+    \     - country\n      - political\n    formatted_address: Chi?in?u, Moldova\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 47.079175\n          lng: 28.9716983\n
+    \       southwest:\n          lat: 46.9205631\n          lng: 28.7446548\n      location:\n
+    \       lat: 47.02685899999999\n        lng: 28.841551\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 47.079175\n          lng: 28.9716983\n
+    \       southwest:\n          lat: 46.9205631\n          lng: 28.7446548\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Cochabamba
+  :country: Bolivia
+  :result_count: 3
+  :lat: -17.38414
+  :lng: -66.166702
+  :type: APPROXIMATE
+  :formatted: Cochabamba, Bolivia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Cochabamba\n      short_name: Cochabamba\n      types:\n      -
+    locality\n      - political\n    - long_name: Cercado\n      short_name: Cercado\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Cochabamba Department\n      short_name: Cochabamba Department\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: Bolivia\n      short_name:
+    BO\n      types:\n      - country\n      - political\n    formatted_address: Cochabamba,
+    Bolivia\n    geometry:\n      bounds:\n        northeast:\n          lat: -17.3239035\n
+    \         lng: -66.10552179999999\n        southwest:\n          lat: -17.4648065\n
+    \         lng: -66.2231827\n      location:\n        lat: -17.38414\n        lng:
+    -66.166702\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -17.3239035\n          lng: -66.10552179999999\n        southwest:\n
+    \         lat: -17.4648065\n          lng: -66.2231827\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: Cochabamba\n      short_name: Cochabamba\n
+    \     types:\n      - locality\n      - political\n    - long_name: Marbán Province\n
+    \     short_name: Marbán Province\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Beni Department\n      short_name: Beni Department\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Bolivia\n      short_name: BO\n      types:\n      - country\n      - political\n
+    \   formatted_address: Cochabamba, Bolivia\n    geometry:\n      location:\n        lat:
+    -15.35\n        lng: -64.966667\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: -15.3486510197085\n          lng: -64.9653180197085\n
+    \       southwest:\n          lat: -15.3513489802915\n          lng: -64.96801598029151\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Cochabamba\n      short_name:
+    Cochabamba\n      types:\n      - locality\n      - political\n    - long_name:
+    Itenez\n      short_name: Itenez\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Beni Department\n      short_name: Beni Department\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Bolivia\n      short_name: BO\n      types:\n      - country\n      - political\n
+    \   formatted_address: Cochabamba, Bolivia\n    geometry:\n      location:\n        lat:
+    -13.716667\n        lng: -62.50000000000001\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -13.7153180197085\n          lng:
+    -62.4986510197085\n        southwest:\n          lat: -13.7180159802915\n          lng:
+    -62.50134898029151\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Daidanaw
+  :country: Myanmar
+  :state_province: Yangon Region
+  :google: Tawgyaung
+  :result_count: 1
+  :lat: 16.4376127
+  :lng: 95.99383390000001
+  :type: APPROXIMATE
+  :formatted: Tawgyaung, Myanmar
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Tawgyaung\n      short_name: Tawgyaung\n      types:\n      - locality\n
+    \     - political\n    - long_name: Yangon Region\n      short_name: Yangon Region\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Myanmar\n      short_name: MM\n      types:\n      - country\n      - political\n
+    \   formatted_address: Tawgyaung, Myanmar\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 16.4618027\n          lng: 96.04780199999999\n        southwest:\n
+    \         lat: 16.4070268\n          lng: 95.92188829999999\n      location:\n        lat:
+    16.4376127\n        lng: 95.99383390000001\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 16.4618027\n          lng: 96.04780199999999\n
+    \       southwest:\n          lat: 16.4070268\n          lng: 95.92188829999999\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Dakar
+  :country: Senegal
+  :result_count: 1
+  :lat: 14.6927778
+  :lng: -17.4466667
+  :type: APPROXIMATE
+  :formatted: Dakar, Senegal
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dakar\n      short_name: Dakar\n      types:\n      - locality\n
+    \     - political\n    - long_name: Guediawaye\n      short_name: Guediawaye\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Dakar\n
+    \     short_name: Dakar\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Senegal\n      short_name: SN\n      types:\n      -
+    country\n      - political\n    formatted_address: Dakar, Senegal\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 14.8178646\n          lng: -17.2463906\n
+    \       southwest:\n          lat: 14.6469399\n          lng: -17.5298482\n      location:\n
+    \       lat: 14.6927778\n        lng: -17.4466667\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 14.8178646\n          lng: -17.2463906\n
+    \       southwest:\n          lat: 14.6469399\n          lng: -17.5298482\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Dallas
+  :country: USA
+  :state_province: TX
+  :result_count: 6
+  :lat: 32.7801399
+  :lng: -96.80045109999999
+  :type: APPROXIMATE
+  :formatted: Dallas, TX, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dallas\n      short_name: Dallas\n      types:\n      - locality\n
+    \     - political\n    - long_name: Dallas\n      short_name: Dallas\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Texas\n
+    \     short_name: TX\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Dallas, TX, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 33.0237921\n          lng: -96.4637379\n
+    \       southwest:\n          lat: 32.617537\n          lng: -96.9989413\n      location:\n
+    \       lat: 32.7801399\n        lng: -96.80045109999999\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 33.0237921\n          lng: -96.4637379\n
+    \       southwest:\n          lat: 32.617537\n          lng: -96.9989413\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Dallas\n      short_name: Dallas\n
+    \     types:\n      - locality\n      - political\n    - long_name: Polk\n      short_name:
+    Polk\n      types:\n      - administrative_area_level_2\n      - political\n    -
+    long_name: Oregon\n      short_name: OR\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '97338'\n      short_name:
+    '97338'\n      types:\n      - postal_code\n    formatted_address: Dallas, OR 97338,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 44.937987\n
+    \         lng: -123.274951\n        southwest:\n          lat: 44.9031279\n          lng:
+    -123.3491459\n      location:\n        lat: 44.9192844\n        lng: -123.3170472\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    44.937987\n          lng: -123.274951\n        southwest:\n          lat: 44.9031279\n
+    \         lng: -123.3491459\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    -
+    long_name: Dallas\n      short_name: Dallas\n      types:\n      - locality\n      -
+    political\n    - long_name: Paulding\n      short_name: Paulding\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Georgia\n
+    \     short_name: GA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Dallas, GA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 33.9408401\n          lng: -84.7927369\n
+    \       southwest:\n          lat: 33.8900608\n          lng: -84.8974\n      location:\n
+    \       lat: 33.9237141\n        lng: -84.8407732\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 33.9408401\n          lng: -84.7927369\n
+    \       southwest:\n          lat: 33.8900608\n          lng: -84.8974\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Dallas\n      short_name: Dallas\n
+    \     types:\n      - locality\n      - political\n    - long_name: Dallas\n      short_name:
+    Dallas\n      types:\n      - administrative_area_level_3\n      - political\n    -
+    long_name: Gaston\n      short_name: Gaston\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: North Carolina\n      short_name: NC\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Dallas, NC, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 35.332091\n          lng: -81.132375\n        southwest:\n          lat:
+    35.299382\n          lng: -81.21529009999999\n      location:\n        lat: 35.3165257\n
+    \       lng: -81.17618949999999\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 35.332091\n          lng: -81.14779279999999\n
+    \       southwest:\n          lat: 35.299382\n          lng: -81.21529009999999\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Dallas\n      short_name: Dallas\n
+    \     types:\n      - locality\n      - political\n    - long_name: Luzerne\n      short_name:
+    Luzerne\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Pennsylvania\n      short_name: PA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '18612'\n      short_name:
+    '18612'\n      types:\n      - postal_code\n    formatted_address: Dallas, PA 18612,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 41.345579\n
+    \         lng: -75.947543\n        southwest:\n          lat: 41.31568\n          lng:
+    -75.99494399999999\n      location:\n        lat: 41.3361911\n        lng: -75.9632546\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    41.345579\n          lng: -75.947543\n        southwest:\n          lat: 41.31568\n
+    \         lng: -75.99494399999999\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dallas\n      short_name: Dallas\n      types:\n      - locality\n
+    \     - political\n    - long_name: Barron\n      short_name: Barron\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Wisconsin\n
+    \     short_name: WI\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Dallas, WI, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 45.2663389\n          lng: -91.7987698\n
+    \       southwest:\n          lat: 45.2515689\n          lng: -91.82950790000001\n
+    \     location:\n        lat: 45.2591275\n        lng: -91.8148954\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 45.2663389\n          lng:
+    -91.7987698\n        southwest:\n          lat: 45.2515689\n          lng: -91.82950790000001\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Danane
+  :country: Côte d'Ivoire
+  :result_count: 1
+  :lat: 7.260796999999999
+  :lng: -8.153685
+  :type: APPROXIMATE
+  :formatted: Danane, Côte d'Ivoire
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Danane\n      short_name: Danane\n      types:\n      - locality\n
+    \     - political\n    - long_name: Danané\n      short_name: Danané\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Dix-Huit
+    Montagnes\n      short_name: Dix-Huit Montagnes\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Côte d'Ivoire\n      short_name: CI\n      types:\n
+    \     - country\n      - political\n    formatted_address: Danane, Côte d'Ivoire\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 7.285083299999999\n
+    \         lng: -8.125419599999999\n        southwest:\n          lat: 7.2366373\n
+    \         lng: -8.174428899999999\n      location:\n        lat: 7.260796999999999\n
+    \       lng: -8.153685\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 7.285083299999999\n          lng: -8.125419599999999\n        southwest:\n
+    \         lat: 7.2366373\n          lng: -8.174428899999999\n    partial_match:
+    true\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Dar es Salaam
+  :country: Tanzania
+  :result_count: 1
+  :lat: -6.822921
+  :lng: 39.269661
+  :type: APPROXIMATE
+  :formatted: Dar es Salaam, Tanzania
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dar es Salaam\n      short_name: Dar es Salaam\n      types:\n
+    \     - locality\n      - political\n    - long_name: Kinondoni\n      short_name:
+    Kinondoni\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Dar es Salaam\n      short_name: Dar es Salaam\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Tanzania\n
+    \     short_name: TZ\n      types:\n      - country\n      - political\n    formatted_address:
+    Dar es Salaam, Tanzania\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -6.589429699999999\n          lng: 39.5060261\n        southwest:\n          lat:
+    -6.950965\n          lng: 39.0268707\n      location:\n        lat: -6.822921\n
+    \       lng: 39.269661\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -6.589429699999999\n          lng: 39.5060261\n        southwest:\n
+    \         lat: -6.950965\n          lng: 39.0268707\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n"
+- :city: Dhaka
+  :country: Bangladesh
+  :result_count: 1
+  :lat: 23.709921
+  :lng: 90.40714299999999
+  :type: APPROXIMATE
+  :formatted: Dhaka, Bangladesh
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dhaka\n      short_name: Dhaka\n      types:\n      - locality\n
+    \     - political\n    - long_name: Dhaka\n      short_name: Dhaka\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Dhaka Division\n
+    \     short_name: Dhaka Division\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Bangladesh\n      short_name: BD\n      types:\n
+    \     - country\n      - political\n    formatted_address: Dhaka, Bangladesh\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 23.9000025\n          lng: 90.5091047\n
+    \       southwest:\n          lat: 23.6612704\n          lng: 90.3295468\n      location:\n
+    \       lat: 23.709921\n        lng: 90.40714299999999\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 23.9000025\n          lng: 90.5091047\n
+    \       southwest:\n          lat: 23.6612704\n          lng: 90.3295468\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Dnipropetrovsk
+  :country: Ukraine
+  :state_province: Dnipropetrovsk Oblast
+  :result_count: 2
+  :lat: 48.464717
+  :lng: 35.046183
+  :type: APPROXIMATE
+  :formatted: Dnipropetrovs'k, Dnipropetrovsk Oblast, Ukraine
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Dnipropetrovs'k\n      short_name: Dnipropetrovs'k\n      types:\n
+    \     - locality\n      - political\n    - long_name: Dnipropetrovs'ka city council\n
+    \     short_name: Dnipropetrovs'ka city council\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Dnipropetrovsk Oblast\n      short_name: Dnipropetrovsk
+    Oblast\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Ukraine\n      short_name: UA\n      types:\n      - country\n      -
+    political\n    formatted_address: Dnipropetrovs'k, Dnipropetrovsk Oblast, Ukraine\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 48.56886799999999\n
+    \         lng: 35.242738\n        southwest:\n          lat: 48.355729\n          lng:
+    34.757975\n      location:\n        lat: 48.464717\n        lng: 35.046183\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 48.56886799999999\n
+    \         lng: 35.242738\n        southwest:\n          lat: 48.355729\n          lng:
+    34.757975\n    types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Donetsk\n      short_name: Donetsk\n
+    \     types:\n      - locality\n      - political\n    - long_name: Donetsk\n      short_name:
+    Donetsk\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Rostov Oblast\n      short_name: Rostov Oblast\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Russia\n
+    \     short_name: RU\n      types:\n      - country\n      - political\n    formatted_address:
+    Donetsk, Rostov Oblast, Russia\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 48.3649209\n          lng: 40.051354\n        southwest:\n          lat:
+    48.292466\n          lng: 39.8547269\n      location:\n        lat: 48.328693\n
+    \       lng: 39.95304\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 48.3649209\n          lng: 40.051354\n        southwest:\n          lat:
+    48.292466\n          lng: 39.8547269\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Durham
+  :country: USA
+  :state_province: NC
+  :result_count: 6
+  :lat: 35.999451
+  :lng: -78.898811
+  :type: APPROXIMATE
+  :formatted: Durham, NC 27701, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Durham\n      short_name: Durham\n      types:\n      - locality\n
+    \     - political\n    - long_name: Durham\n      short_name: Durham\n      types:\n
+    \     - administrative_area_level_3\n      - political\n    - long_name: Durham\n
+    \     short_name: Durham\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: North Carolina\n      short_name: NC\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   - long_name: '27701'\n      short_name: '27701'\n      types:\n      - postal_code\n
+    \   formatted_address: Durham, NC 27701, USA\n    geometry:\n      location:\n        lat:
+    35.999451\n        lng: -78.898811\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 36.0084775\n          lng: -78.8828036\n        southwest:\n
+    \         lat: 35.9904234\n          lng: -78.9148184\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: Durham\n      short_name: Durham\n      types:\n
+    \     - locality\n      - political\n    - long_name: Strafford\n      short_name:
+    Strafford\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: New Hampshire\n      short_name: NH\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Durham, NH, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 43.1629471\n          lng: -70.85240399999999\n
+    \       southwest:\n          lat: 43.0823117\n          lng: -70.9806275\n      location:\n
+    \       lat: 43.1339545\n        lng: -70.9264393\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 43.1629471\n          lng: -70.85240399999999\n
+    \       southwest:\n          lat: 43.0823117\n          lng: -70.9806275\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Durham\n      short_name: Durham\n
+    \     types:\n      - locality\n      - political\n    - long_name: Butte\n      short_name:
+    Butte\n      types:\n      - administrative_area_level_2\n      - political\n    -
+    long_name: California\n      short_name: CA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Durham, CA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 39.713333\n          lng: -121.6887029\n
+    \       southwest:\n          lat: 39.5374251\n          lng: -121.909901\n      location:\n
+    \       lat: 39.6462733\n        lng: -121.7999767\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 39.713333\n          lng: -121.6887029\n
+    \       southwest:\n          lat: 39.5374251\n          lng: -121.909901\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Durham\n      short_name: Durham\n
+    \     types:\n      - locality\n      - political\n    - long_name: Androscoggin\n
+    \     short_name: Androscoggin\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Maine\n      short_name: ME\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Durham, ME, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 44.020575\n          lng: -70.03389600000001\n        southwest:\n
+    \         lat: 43.9067129\n          lng: -70.2276969\n      location:\n        lat:
+    43.9725\n        lng: -70.12305560000001\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 44.020575\n          lng: -70.03389600000001\n
+    \       southwest:\n          lat: 43.9067129\n          lng: -70.2276969\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Durham\n      short_name: Durham\n
+    \     types:\n      - locality\n      - political\n    - long_name: Middlesex\n
+    \     short_name: Middlesex\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Connecticut\n      short_name: CT\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Durham, CT, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 41.50024\n          lng: -72.60896009999999\n        southwest:\n
+    \         lat: 41.423578\n          lng: -72.7447356\n      location:\n        lat:
+    41.4817822\n        lng: -72.6812582\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 41.50024\n          lng: -72.60896009999999\n
+    \       southwest:\n          lat: 41.423578\n          lng: -72.7447356\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Durham\n      short_name: Durham\n
+    \     types:\n      - locality\n      - political\n    - long_name: Washington\n
+    \     short_name: Washington\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Oregon\n      short_name: OR\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   formatted_address: Durham, OR, USA\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 45.4027739\n          lng: -122.7510791\n        southwest:\n          lat:
+    45.3854409\n          lng: -122.764442\n      location:\n        lat: 45.3944444\n
+    \       lng: -122.7586111\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 45.4027739\n          lng: -122.7510791\n        southwest:\n          lat:
+    45.3854409\n          lng: -122.764442\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Frankfurt
+  :country: Germany
+  :result_count: 2
+  :lat: 50.1109221
+  :lng: 8.6821267
+  :type: APPROXIMATE
+  :formatted: Frankfurt, Germany
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Frankfurt\n      short_name: Frankfurt\n      types:\n      - locality\n
+    \     - political\n    - long_name: Darmstadt\n      short_name: DA\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Hesse\n
+    \     short_name: HE\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Germany\n      short_name: DE\n      types:\n      -
+    country\n      - political\n    formatted_address: Frankfurt, Germany\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 50.2272095\n          lng: 8.8003977\n
+    \       southwest:\n          lat: 50.0152145\n          lng: 8.4727299\n      location:\n
+    \       lat: 50.1109221\n        lng: 8.6821267\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 50.2272095\n          lng: 8.8003977\n
+    \       southwest:\n          lat: 50.0152145\n          lng: 8.4727299\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Frankfurt\n      short_name:
+    Frankfurt\n      types:\n      - locality\n      - political\n    - long_name: Brandenburg\n
+    \     short_name: BB\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Germany\n      short_name: DE\n      types:\n      -
+    country\n      - political\n    formatted_address: Frankfurt, Germany\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 52.398199\n          lng: 14.6014472\n
+    \       southwest:\n          lat: 52.2528701\n          lng: 14.3949617\n      location:\n
+    \       lat: 52.342491\n        lng: 14.53813\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 52.398199\n          lng: 14.6014472\n
+    \       southwest:\n          lat: 52.2528701\n          lng: 14.3949617\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Guwahati
+  :country: Assam India
+  :result_count: 1
+  :lat: 26.147129
+  :lng: 91.7355511
+  :type: APPROXIMATE
+  :formatted: Guwahati, Assam, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Guwahati\n      short_name: GHY\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kamrup\n      short_name: Kamrup\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Assam\n
+    \     short_name: AS\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Guwahati, Assam, India\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 26.2170551\n          lng: 91.8755722\n
+    \       southwest:\n          lat: 26.0851548\n          lng: 91.5576553\n      location:\n
+    \       lat: 26.147129\n        lng: 91.7355511\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 26.2170551\n          lng: 91.8755722\n
+    \       southwest:\n          lat: 26.0851548\n          lng: 91.5576553\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Helsinki
+  :country: Finland
+  :result_count: 3
+  :lat: 60.169845
+  :lng: 24.9385508
+  :type: APPROXIMATE
+  :formatted: Helsinki, Finland
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Helsinki\n      short_name: HKI\n      types:\n      - locality\n
+    \     - political\n    - long_name: Helsinki\n      short_name: Helsinki\n      types:\n
+    \     - administrative_area_level_3\n      - political\n    - long_name: Finland\n
+    \     short_name: FI\n      types:\n      - country\n      - political\n    formatted_address:
+    Helsinki, Finland\n    geometry:\n      location:\n        lat: 60.169845\n        lng:
+    24.9385508\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 60.17539489999999\n          lng: 24.9545582\n        southwest:\n
+    \         lat: 60.1642942\n          lng: 24.9225434\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: Helsinki\n      short_name: Helsinki\n
+    \     types:\n      - locality\n      - political\n    - long_name: Taivassalo\n
+    \     short_name: Taivassalo\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Finland\n      short_name: FI\n      types:\n
+    \     - country\n      - political\n    - long_name: '23310'\n      short_name:
+    '23310'\n      types:\n      - postal_code\n    formatted_address: 23310 Helsinki,
+    Finland\n    geometry:\n      location:\n        lat: 60.60845039999999\n        lng:
+    21.4388308\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 60.6097993802915\n          lng: 21.4401797802915\n        southwest:\n
+    \         lat: 60.60710141970848\n          lng: 21.4374818197085\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Helsinki\n      short_name: Helsinki\n
+    \     types:\n      - train_station\n      - transit_station\n      - establishment\n
+    \   - long_name: Helsinki\n      short_name: Helsinki\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Finland\n      short_name: FI\n      types:\n
+    \     - country\n      - political\n    - long_name: '00100'\n      short_name:
+    '00100'\n      types:\n      - postal_code\n    formatted_address: Helsinki, 00100
+    Helsinki, Finland\n    geometry:\n      location:\n        lat: 60.170904\n        lng:
+    24.941441\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 60.1722529802915\n          lng: 24.9427899802915\n        southwest:\n
+    \         lat: 60.16955501970849\n          lng: 24.9400920197085\n    types:\n
+    \   - train_station\n    - transit_station\n    - establishment\n  cache_hit: \n"
+- :city: Istanbul
+  :country: Turkey
+  :special: '2'
+  :result_count: 1
+  :lat: 41.00527
+  :lng: 28.97696
+  :type: APPROXIMATE
+  :formatted: Istanbul, Turkey
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Istanbul\n      short_name: Istanbul\n      types:\n      - locality\n
+    \     - political\n    - long_name: Turkey\n      short_name: TR\n      types:\n
+    \     - country\n      - political\n    formatted_address: Istanbul, Turkey\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.199239\n          lng: 29.4288053\n
+    \       southwest:\n          lat: 40.811404\n          lng: 28.5955539\n      location:\n
+    \       lat: 41.00527\n        lng: 28.97696\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 41.199239\n          lng: 29.4288053\n
+    \       southwest:\n          lat: 40.811404\n          lng: 28.5955539\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Jakarta
+  :country: Indonesia
+  :result_count: 1
+  :lat: -6.211544
+  :lng: 106.845172
+  :type: APPROXIMATE
+  :formatted: Jakarta, Indonesia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Djakarta\n      short_name: Djakarta\n      types:\n      - locality\n
+    \     - political\n    - long_name: Jakarta Capital Region\n      short_name: Jakarta
+    Capital Region\n      types:\n      - administrative_area_level_1\n      - political\n
+    \   - long_name: Indonesia\n      short_name: ID\n      types:\n      - country\n
+    \     - political\n    formatted_address: Jakarta, Indonesia\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: -6.08935\n          lng: 106.980499\n        southwest:\n
+    \         lat: -6.37657\n          lng: 106.6883999\n      location:\n        lat:
+    -6.211544\n        lng: 106.845172\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: -6.08935\n          lng: 106.980499\n        southwest:\n
+    \         lat: -6.37657\n          lng: 106.6883999\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n"
+- :city: Johannesburg
+  :country: South Africa
+  :result_count: 2
+  :lat: -26.2041028
+  :lng: 28.0473051
+  :type: APPROXIMATE
+  :formatted: Johannesburg, South Africa
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Johannesburg\n      short_name: Johannesburg\n      types:\n      -
+    locality\n      - political\n    - long_name: Johannesburg\n      short_name: Johannesburg\n
+    \     types:\n      - administrative_area_level_3\n      - political\n    - long_name:
+    City of Johannesburg Metropolitan Municipality\n      short_name: City of Johannesburg
+    Metropolitan Municipality\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: Gauteng\n      short_name: GP\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: South Africa\n
+    \     short_name: ZA\n      types:\n      - country\n      - political\n    formatted_address:
+    Johannesburg, South Africa\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -26.1041199\n          lng: 28.1376001\n        southwest:\n          lat: -26.2389231\n
+    \         lng: 27.942449\n      location:\n        lat: -26.2041028\n        lng:
+    28.0473051\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -26.1041199\n          lng: 28.1376001\n        southwest:\n          lat:
+    -26.2389231\n          lng: 27.942449\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Johannesburg\n      short_name: Johannesburg\n      types:\n      -
+    sublocality\n      - political\n    - long_name: Johannesburg\n      short_name:
+    Johannesburg\n      types:\n      - locality\n      - political\n    - long_name:
+    Johannesburg\n      short_name: Johannesburg\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: City of Johannesburg Metropolitan Municipality\n
+    \     short_name: City of Johannesburg Metropolitan Municipality\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Gauteng\n
+    \     short_name: GP\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: South Africa\n      short_name: ZA\n      types:\n      -
+    country\n      - political\n    formatted_address: Johannesburg, South Africa\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: -26.1830538\n          lng:
+    28.0492129\n        southwest:\n          lat: -26.2061599\n          lng: 28.018104\n
+    \     location:\n        lat: -26.1939473\n        lng: 28.0273914\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -26.1830538\n          lng:
+    28.0492129\n        southwest:\n          lat: -26.2061599\n          lng: 28.018104\n
+    \   types:\n    - sublocality\n    - political\n  cache_hit: \n"
+- :city: Kadugannawa
+  :country: Sri Lanka
+  :result_count: 1
+  :lat: 7.2549725
+  :lng: 80.51883959999999
+  :type: APPROXIMATE
+  :formatted: Kadugannawa, Sri Lanka
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kadugannawa\n      short_name: Kadugannawa\n      types:\n      -
+    locality\n      - political\n    - long_name: Kandy\n      short_name: Kandy\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Central
+    Province\n      short_name: Central Province\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Sri Lanka\n      short_name: LK\n      types:\n
+    \     - country\n      - political\n    formatted_address: Kadugannawa, Sri Lanka\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 7.2643093\n          lng:
+    80.52761799999999\n        southwest:\n          lat: 7.246599199999999\n          lng:
+    80.5053878\n      location:\n        lat: 7.2549725\n        lng: 80.51883959999999\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    7.2643093\n          lng: 80.52761799999999\n        southwest:\n          lat:
+    7.246599199999999\n          lng: 80.5053878\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n"
+- :city: Kampala
+  :country: Uganda
+  :result_count: 1
+  :lat: 0.3136111
+  :lng: 32.5811111
+  :type: APPROXIMATE
+  :formatted: Kampala, Uganda
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kampala\n      short_name: Kampala\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kampala\n      short_name: Kampala\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Central
+    Region\n      short_name: Central Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Uganda\n      short_name: UG\n      types:\n
+    \     - country\n      - political\n    formatted_address: Kampala, Uganda\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 0.413199\n          lng: 32.6892796\n
+    \       southwest:\n          lat: 0.2144992\n          lng: 32.5096198\n      location:\n
+    \       lat: 0.3136111\n        lng: 32.5811111\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 0.413199\n          lng: 32.6892796\n
+    \       southwest:\n          lat: 0.2144992\n          lng: 32.5096198\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Kananga
+  :country: Democratic Republic of the Congo
+  :result_count: 1
+  :lat: -5.892211
+  :lng: 22.402781
+  :type: APPROXIMATE
+  :formatted: Kananga, Democratic Republic of the Congo
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kananga\n      short_name: Kananga\n      types:\n      - locality\n
+    \     - political\n    - long_name: Lulua\n      short_name: Lulua\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Kasai Occidental\n
+    \     short_name: Kasai Occidental\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Democratic Republic of the Congo\n      short_name:
+    CD\n      types:\n      - country\n      - political\n    formatted_address: Kananga,
+    Democratic Republic of the Congo\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -5.857499199999999\n          lng: 22.4779414\n        southwest:\n
+    \         lat: -5.9371554\n          lng: 22.36413\n      location:\n        lat:
+    -5.892211\n        lng: 22.402781\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: -5.857499199999999\n          lng: 22.4779414\n
+    \       southwest:\n          lat: -5.9371554\n          lng: 22.36413\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Karachi
+  :country: Pakistan
+  :result_count: 1
+  :lat: 24.893379
+  :lng: 67.0280609
+  :type: APPROXIMATE
+  :formatted: Karachi, Pakistan
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Karachi\n      short_name: Karachi\n      types:\n      - locality\n
+    \     - political\n    - long_name: Karachi District\n      short_name: Karachi
+    District\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Sindh\n      short_name: Sindh\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Pakistan\n      short_name: PK\n      types:\n
+    \     - country\n      - political\n    formatted_address: Karachi, Pakistan\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 25.2658111\n          lng: 67.4622344\n
+    \       southwest:\n          lat: 24.748234\n          lng: 66.6578506\n      location:\n
+    \       lat: 24.893379\n        lng: 67.0280609\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 25.2658111\n          lng: 67.4622344\n
+    \       southwest:\n          lat: 24.748234\n          lng: 66.6578506\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Khujand
+  :country: Tajikistan
+  :state_province: Sughd Province
+  :result_count: 1
+  :lat: 40.2833333
+  :lng: 69.6333333
+  :type: APPROXIMATE
+  :formatted: Khujand, Tajikistan
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Khujand\n      short_name: Khujand\n      types:\n      - locality\n
+    \     - political\n    - long_name: Rasulov\n      short_name: Rasulov\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Sughd Province\n
+    \     short_name: Sughd Province\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Tajikistan\n      short_name: TJ\n      types:\n
+    \     - country\n      - political\n    formatted_address: Khujand, Tajikistan\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 40.3351609\n          lng:
+    69.727993\n        southwest:\n          lat: 40.233674\n          lng: 69.54586019999999\n
+    \     location:\n        lat: 40.2833333\n        lng: 69.6333333\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 40.3351609\n          lng:
+    69.727993\n        southwest:\n          lat: 40.233674\n          lng: 69.54586019999999\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Kolkata
+  :country: West Bengal India
+  :result_count: 1
+  :lat: 22.572646
+  :lng: 88.36389500000001
+  :type: APPROXIMATE
+  :formatted: Kolkata, West Bengal, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kolkata\n      short_name: Kolkata\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kolkata\n      short_name: Kolkata\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: West Bengal\n
+    \     short_name: WB\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Kolkata, West Bengal, India\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 22.7715918\n          lng: 88.5443116\n
+    \       southwest:\n          lat: 22.3435662\n          lng: 88.1933445\n      location:\n
+    \       lat: 22.572646\n        lng: 88.36389500000001\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 22.7715918\n          lng: 88.5443116\n
+    \       southwest:\n          lat: 22.3435662\n          lng: 88.1933445\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Kuching
+  :country: Malaysia
+  :state_province: Sarawak
+  :result_count: 1
+  :lat: 1.530976
+  :lng: 110.3442199
+  :type: APPROXIMATE
+  :formatted: Kuching, Sarawak, Malaysia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kuching\n      short_name: Kuching\n      types:\n      - locality\n
+    \     - political\n    - long_name: Sarawak\n      short_name: Sarawak\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Malaysia\n
+    \     short_name: MY\n      types:\n      - country\n      - political\n    formatted_address:
+    Kuching, Sarawak, Malaysia\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    1.803038\n          lng: 110.5221199\n        southwest:\n          lat: 1.400952\n
+    \         lng: 110.126787\n      location:\n        lat: 1.530976\n        lng:
+    110.3442199\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 1.803038\n          lng: 110.5221199\n        southwest:\n          lat:
+    1.400952\n          lng: 110.126787\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Lae
+  :country: Papua New Guinea
+  :result_count: 1
+  :lat: -6.723669999999999
+  :lng: 146.990906
+  :type: APPROXIMATE
+  :formatted: Lae, Papua New Guinea
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Lae\n      short_name: Lae\n      types:\n      - locality\n      -
+    political\n    - long_name: Lae\n      short_name: Lae\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Morobe Province\n      short_name: Morobe Province\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Papua New Guinea\n      short_name: PG\n      types:\n      - country\n      - political\n
+    \   formatted_address: Lae, Papua New Guinea\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -6.684214799999999\n          lng: 147.0376683\n        southwest:\n
+    \         lat: -6.743226399999999\n          lng: 146.9532968\n      location:\n
+    \       lat: -6.723669999999999\n        lng: 146.990906\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -6.684214799999999\n          lng:
+    147.0376683\n        southwest:\n          lat: -6.743226399999999\n          lng:
+    146.9532968\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Lima
+  :country: Peru
+  :result_count: 1
+  :lat: -12.0478158
+  :lng: -77.0622028
+  :type: APPROXIMATE
+  :formatted: Lima, Peru
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Lima\n      short_name: Lima\n      types:\n      - locality\n
+    \     - political\n    - long_name: Lima Region\n      short_name: Lima Region\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Peru\n      short_name: PE\n      types:\n      - country\n      - political\n    formatted_address:
+    Lima, Peru\n    geometry:\n      bounds:\n        northeast:\n          lat: -12.0308632\n
+    \         lng: -77.0020311\n        southwest:\n          lat: -12.0798252\n          lng:
+    -77.0883395\n      location:\n        lat: -12.0478158\n        lng: -77.0622028\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    -12.0308632\n          lng: -77.0020311\n        southwest:\n          lat: -12.0798252\n
+    \         lng: -77.0883395\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n"
+- :city: London
+  :country: UK
+  :result_count: 1
+  :lat: 51.5073346
+  :lng: -0.1276831
+  :type: APPROXIMATE
+  :formatted: London, UK
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: London\n      short_name: London\n      types:\n      - locality\n
+    \     - political\n    - long_name: United Kingdom\n      short_name: GB\n      types:\n
+    \     - country\n      - political\n    formatted_address: London, UK\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 51.6723432\n          lng: 0.1478797\n
+    \       southwest:\n          lat: 51.38494009999999\n          lng: -0.3514683\n
+    \     location:\n        lat: 51.5073346\n        lng: -0.1276831\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 51.6723432\n          lng:
+    0.1478797\n        southwest:\n          lat: 51.38494009999999\n          lng:
+    -0.3514683\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Lubumbashi
+  :country: Democratic Republic of the Congo
+  :result_count: 1
+  :lat: -11.664677
+  :lng: 27.479553
+  :type: APPROXIMATE
+  :formatted: Lubumbashi, Democratic Republic of the Congo
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Lubumbashi\n      short_name: Lubumbashi\n      types:\n      -
+    locality\n      - political\n    - long_name: Haut-Katanga\n      short_name: Haut-Katanga\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Katanga\n      short_name: Katanga\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Democratic Republic of the Congo\n      short_name:
+    CD\n      types:\n      - country\n      - political\n    formatted_address: Lubumbashi,
+    Democratic Republic of the Congo\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -11.5624306\n          lng: 27.6093293\n        southwest:\n          lat:
+    -11.7882536\n          lng: 27.3950539\n      location:\n        lat: -11.664677\n
+    \       lng: 27.479553\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -11.5624306\n          lng: 27.6093293\n        southwest:\n          lat:
+    -11.7882536\n          lng: 27.3950539\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Lucknow
+  :country: Uttar Pradesh India
+  :result_count: 1
+  :lat: 26.8465108
+  :lng: 80.9466832
+  :type: APPROXIMATE
+  :formatted: Lucknow, Uttar Pradesh, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Lucknow\n      short_name: Lucknow\n      types:\n      - locality\n
+    \     - political\n    - long_name: Lucknow\n      short_name: Lucknow\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Uttar Pradesh\n
+    \     short_name: UP\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Lucknow, Uttar Pradesh, India\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 26.9949016\n          lng: 81.08304989999999\n
+    \       southwest:\n          lat: 26.6787538\n          lng: 80.8181764\n      location:\n
+    \       lat: 26.8465108\n        lng: 80.9466832\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 26.9949016\n          lng: 81.08304989999999\n
+    \       southwest:\n          lat: 26.6787538\n          lng: 80.8181764\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Madrid
+  :country: Spain
+  :result_count: 2
+  :lat: 40.4167754
+  :lng: -3.7037902
+  :type: APPROXIMATE
+  :formatted: Madrid, Spain
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Madrid\n      short_name: Madrid\n      types:\n      - locality\n
+    \     - political\n    - long_name: Madrid\n      short_name: Madrid\n      types:\n
+    \     - political\n    - long_name: Madrid\n      short_name: M\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Community
+    of Madrid\n      short_name: Community of Madrid\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Spain\n      short_name: ES\n      types:\n
+    \     - country\n      - political\n    formatted_address: Madrid, Spain\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 40.5635903\n          lng: -3.5249115\n
+    \       southwest:\n          lat: 40.3120639\n          lng: -3.8341618\n      location:\n
+    \       lat: 40.4167754\n        lng: -3.7037902\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 40.5635903\n          lng: -3.5249115\n
+    \       southwest:\n          lat: 40.3120639\n          lng: -3.8341618\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Madrid\n      short_name: Madrid
+    de las Caderechas\n      types:\n      - locality\n      - political\n    - long_name:
+    Rucandio\n      short_name: Rucandio\n      types:\n      - political\n    - long_name:
+    Burgos\n      short_name: Burgos\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Castile and León\n      short_name: CL\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Spain\n
+    \     short_name: ES\n      types:\n      - country\n      - political\n    - long_name:
+    09593\n      short_name: 09593\n      types:\n      - postal_code\n    formatted_address:
+    09593 Madrid, Burgos, Spain\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 42.77213210000001\n          lng: -3.538175\n        southwest:\n
+    \         lat: 42.7694126\n          lng: -3.5414953\n      location:\n        lat:
+    42.7705252\n        lng: -3.5404748\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 42.77213210000001\n          lng: -3.538175\n
+    \       southwest:\n          lat: 42.7694126\n          lng: -3.5414953\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Manila
+  :country: Philippines
+  :result_count: 1
+  :lat: 14.5995124
+  :lng: 120.9842195
+  :type: APPROXIMATE
+  :formatted: Manila, Philippines
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Manila\n      short_name: Manila\n      types:\n      - locality\n
+    \     - political\n    - long_name: Metro Manila\n      short_name: NCR\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Philippines\n
+    \     short_name: PH\n      types:\n      - country\n      - political\n    formatted_address:
+    Manila, Philippines\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    14.6396454\n          lng: 121.0261686\n        southwest:\n          lat: 14.5541555\n
+    \         lng: 120.933238\n      location:\n        lat: 14.5995124\n        lng:
+    120.9842195\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 14.6396454\n          lng: 121.0261686\n        southwest:\n          lat:
+    14.5541555\n          lng: 120.933238\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Matunda Soy
+  :country: Kenya
+  :google: Matunda
+  :result_count: 1
+  :lat: 0.8272566000000001
+  :lng: 35.1206893
+  :type: APPROXIMATE
+  :formatted: Matunda, Kenya
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Matunda\n      short_name: Matunda\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kakamega\n      short_name: Kakamega\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Kenya\n
+    \     short_name: KE\n      types:\n      - country\n      - political\n    formatted_address:
+    Matunda, Kenya\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    0.8334724\n          lng: 35.1235484\n        southwest:\n          lat: 0.8226589\n
+    \         lng: 35.1189995\n      location:\n        lat: 0.8272566000000001\n        lng:
+    35.1206893\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 0.8334724\n          lng: 35.1235484\n        southwest:\n          lat:
+    0.8226589\n          lng: 35.1189995\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Moscow
+  :country: Russia
+  :result_count: 1
+  :lat: 55.749646
+  :lng: 37.62368
+  :type: APPROXIMATE
+  :formatted: Moscow, Russia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Moscow\n      short_name: Moscow\n      types:\n      - locality\n
+    \     - political\n    - long_name: gorod Moskva\n      short_name: g. Moskva\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Moscow\n      short_name: Moscow\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Russia\n      short_name: RU\n      types:\n
+    \     - country\n      - political\n    formatted_address: Moscow, Russia\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 56.009657\n          lng: 37.9456611\n
+    \       southwest:\n          lat: 55.48992699999999\n          lng: 37.3193288\n
+    \     location:\n        lat: 55.749646\n        lng: 37.62368\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 56.009657\n          lng:
+    37.9456611\n        southwest:\n          lat: 55.48992699999999\n          lng:
+    37.3193288\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Mwinilunga
+  :country: Zambia
+  :result_count: 1
+  :lat: -12.0217497
+  :lng: 24.524264
+  :type: APPROXIMATE
+  :formatted: Mwinilunga, Zambia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Mwinilunga\n      short_name: Mwinilunga\n      types:\n      -
+    administrative_area_level_2\n      - political\n    - long_name: North-Western\n
+    \     short_name: North-Western\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Zambia\n      short_name: ZM\n      types:\n
+    \     - country\n      - political\n    formatted_address: Mwinilunga, Zambia\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: -10.8866263\n          lng:
+    25.4760933\n        southwest:\n          lat: -13.1239515\n          lng: 23.9692498\n
+    \     location:\n        lat: -12.0217497\n        lng: 24.524264\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -10.8866263\n          lng:
+    25.4760933\n        southwest:\n          lat: -13.1239515\n          lng: 23.9692498\n
+    \   types:\n    - administrative_area_level_2\n    - political\n  cache_hit: \n"
+- :city: Mzuzu
+  :country: Malawi
+  :result_count: 1
+  :lat: -11.45807
+  :lng: 34.015131
+  :type: APPROXIMATE
+  :formatted: Mzuzu, Malawi
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Mzuzu\n      short_name: Mzuzu\n      types:\n      - locality\n
+    \     - political\n    - long_name: Mzimba\n      short_name: Mzimba\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Northern
+    Region\n      short_name: Northern Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Malawi\n      short_name: MW\n      types:\n
+    \     - country\n      - political\n    formatted_address: Mzuzu, Malawi\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -11.3821836\n          lng: 34.0558146\n
+    \       southwest:\n          lat: -11.4807818\n          lng: 33.97556300000001\n
+    \     location:\n        lat: -11.45807\n        lng: 34.015131\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -11.3821836\n          lng:
+    34.0558146\n        southwest:\n          lat: -11.4807818\n          lng: 33.97556300000001\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Nadi
+  :country: Fiji
+  :result_count: 1
+  :lat: -17.8
+  :lng: 177.4166667
+  :type: APPROXIMATE
+  :formatted: Nadi, Fiji
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Nadi\n      short_name: Nadi\n      types:\n      - locality\n
+    \     - political\n    - long_name: Ba\n      short_name: Ba\n      types:\n      -
+    administrative_area_level_2\n      - political\n    - long_name: Fiji\n      short_name:
+    FJ\n      types:\n      - country\n      - political\n    formatted_address: Nadi,
+    Fiji\n    geometry:\n      bounds:\n        northeast:\n          lat: -17.744681\n
+    \         lng: 177.4840057\n        southwest:\n          lat: -17.8134173\n          lng:
+    177.4001025\n      location:\n        lat: -17.8\n        lng: 177.4166667\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -17.744681\n          lng:
+    177.4840057\n        southwest:\n          lat: -17.8134173\n          lng: 177.4001025\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Nairobi
+  :country: Kenya
+  :result_count: 1
+  :lat: -1.2920659
+  :lng: 36.8219462
+  :type: APPROXIMATE
+  :formatted: Nairobi, Kenya
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Nairobi\n      short_name: Nairobi\n      types:\n      - locality\n
+    \     - political\n    - long_name: Nairobi\n      short_name: Nairobi\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Kenya\n
+    \     short_name: KE\n      types:\n      - country\n      - political\n    formatted_address:
+    Nairobi, Kenya\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -1.164744\n          lng: 37.0493746\n        southwest:\n          lat: -1.4448631\n
+    \         lng: 36.6454191\n      location:\n        lat: -1.2920659\n        lng:
+    36.8219462\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -1.164744\n          lng: 37.0493746\n        southwest:\n          lat:
+    -1.4448631\n          lng: 36.6454191\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: New Delhi
+  :country: India
+  :state_province: Delhi
+  :result_count: 1
+  :lat: 28.635308
+  :lng: 77.22496
+  :type: APPROXIMATE
+  :formatted: New Delhi, Delhi, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: New Delhi\n      short_name: New Delhi\n      types:\n      - locality\n
+    \     - political\n    - long_name: Delhi\n      short_name: DL\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: India\n
+    \     short_name: IN\n      types:\n      - country\n      - political\n    formatted_address:
+    New Delhi, Delhi, India\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    28.8822535\n          lng: 77.3416993\n        southwest:\n          lat: 28.4221974\n
+    \         lng: 76.85382849999999\n      location:\n        lat: 28.635308\n        lng:
+    77.22496\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 28.8822535\n          lng: 77.3416993\n        southwest:\n          lat:
+    28.4221974\n          lng: 76.85382849999999\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n"
+- :city: Oakland
+  :country: USA
+  :state_province: CA
+  :result_count: 6
+  :lat: 37.8043637
+  :lng: -122.2711137
+  :type: APPROXIMATE
+  :formatted: Oakland, CA, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Oakland\n      short_name: Oakland\n      types:\n      - locality\n
+    \     - political\n    - long_name: Alameda\n      short_name: Alameda\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: California\n
+    \     short_name: CA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Oakland, CA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 37.88472489999999\n          lng:
+    -122.1149234\n        southwest:\n          lat: 37.699192\n          lng: -122.3426648\n
+    \     location:\n        lat: 37.8043637\n        lng: -122.2711137\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 37.88472489999999\n
+    \         lng: -122.1149234\n        southwest:\n          lat: 37.699192\n          lng:
+    -122.3426648\n    types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Oakland\n      short_name: Oakland\n
+    \     types:\n      - locality\n      - political\n    - long_name: Bergen\n      short_name:
+    Bergen\n      types:\n      - administrative_area_level_2\n      - political\n    -
+    long_name: New Jersey\n      short_name: NJ\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Oakland, NJ, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.0638201\n          lng: -74.201773\n
+    \       southwest:\n          lat: 40.992303\n          lng: -74.2724838\n      location:\n
+    \       lat: 41.0131529\n        lng: -74.26431430000001\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 41.0638201\n          lng: -74.201773\n
+    \       southwest:\n          lat: 40.992303\n          lng: -74.2724838\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Oakland\n      short_name: Oakland\n
+    \     types:\n      - locality\n      - political\n    - long_name: 7, East Oakland\n
+    \     short_name: 7, East Oakland\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Garrett\n      short_name: Garrett\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Maryland\n
+    \     short_name: MD\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '21550'\n      short_name:
+    '21550'\n      types:\n      - postal_code\n    formatted_address: Oakland, MD 21550,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 39.4370331\n
+    \         lng: -79.388762\n        southwest:\n          lat: 39.3998919\n          lng:
+    -79.424464\n      location:\n        lat: 39.4078747\n        lng: -79.4067116\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    39.4370331\n          lng: -79.388762\n        southwest:\n          lat: 39.3998919\n
+    \         lng: -79.424464\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    -
+    long_name: Oakland\n      short_name: Oakland\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kennebec\n      short_name: Kennebec\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Maine\n
+    \     short_name: ME\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Oakland, ME, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 44.60615809999999\n          lng:
+    -69.664343\n        southwest:\n          lat: 44.508168\n          lng: -69.79281990000001\n
+    \     location:\n        lat: 44.5402221\n        lng: -69.72199499999999\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 44.60615809999999\n
+    \         lng: -69.664343\n        southwest:\n          lat: 44.508168\n          lng:
+    -69.79281990000001\n    types:\n    - locality\n    - political\n  cache_hit: \n-
+    !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    - long_name:
+    Oakland\n      short_name: Oakland\n      types:\n      - locality\n      - political\n
+    \   - long_name: Belknap\n      short_name: Belknap\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Pottawattamie\n      short_name: Pottawattamie\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Iowa\n      short_name: IA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Oakland, IA, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.31808710000001\n          lng:
+    -95.3822299\n        southwest:\n          lat: 41.2977289\n          lng: -95.4148379\n
+    \     location:\n        lat: 41.3094375\n        lng: -95.3957997\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 41.31808710000001\n
+    \         lng: -95.3822299\n        southwest:\n          lat: 41.2977289\n          lng:
+    -95.4148379\n    types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Oakland\n      short_name: Oakland\n
+    \     types:\n      - locality\n      - political\n    - long_name: Burt\n      short_name:
+    Burt\n      types:\n      - administrative_area_level_2\n      - political\n    -
+    long_name: Nebraska\n      short_name: NE\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '68045'\n      short_name:
+    '68045'\n      types:\n      - postal_code\n    formatted_address: Oakland, NE 68045,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 41.848188\n
+    \         lng: -96.451584\n        southwest:\n          lat: 41.8265839\n          lng:
+    -96.48282999999999\n      location:\n        lat: 41.8357057\n        lng: -96.4666634\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    41.848188\n          lng: -96.451584\n        southwest:\n          lat: 41.8265839\n
+    \         lng: -96.48282999999999\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Otavalo
+  :country: Ecuador
+  :result_count: 1
+  :lat: 0.2333333
+  :lng: -78.2666667
+  :type: APPROXIMATE
+  :formatted: Otavalo, Ecuador
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Otavalo\n      short_name: Otavalo\n      types:\n      - locality\n
+    \     - political\n    - long_name: Imbabura\n      short_name: Imbabura\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Ecuador\n
+    \     short_name: EC\n      types:\n      - country\n      - political\n    formatted_address:
+    Otavalo, Ecuador\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    0.2499382\n          lng: -78.2465172\n        southwest:\n          lat: 0.2167219\n
+    \         lng: -78.27381129999999\n      location:\n        lat: 0.2333333\n        lng:
+    -78.2666667\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 0.2499382\n          lng: -78.2465172\n        southwest:\n          lat:
+    0.2167219\n          lng: -78.27381129999999\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n"
+- :city: Ouagadougou
+  :country: Burkina Faso
+  :result_count: 1
+  :lat: 12.364637
+  :lng: -1.5338639
+  :type: APPROXIMATE
+  :formatted: Ouagadougou, Burkina Faso
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Ouagadougou\n      short_name: Ouagadougou\n      types:\n      -
+    locality\n      - political\n    - long_name: Kadiogo\n      short_name: Kadiogo\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Centre Region\n      short_name: Centre Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Burkina Faso\n      short_name: BF\n      types:\n
+    \     - country\n      - political\n    formatted_address: Ouagadougou, Burkina
+    Faso\n    geometry:\n      bounds:\n        northeast:\n          lat: 12.4495679\n
+    \         lng: -1.4236093\n        southwest:\n          lat: 12.2674162\n          lng:
+    -1.6500773\n      location:\n        lat: 12.364637\n        lng: -1.5338639\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 12.4495679\n          lng:
+    -1.4236093\n        southwest:\n          lat: 12.2674162\n          lng: -1.6500773\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Panchgani
+  :country: India
+  :state_province: Maharashtra
+  :result_count: 1
+  :lat: 17.9203699
+  :lng: 73.793854
+  :type: APPROXIMATE
+  :formatted: Panchgani, Maharashtra, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Panchgani\n      short_name: Panchgani\n      types:\n      - locality\n
+    \     - political\n    - long_name: Satara\n      short_name: Satara\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Maharashtra\n
+    \     short_name: MH\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Panchgani, Maharashtra, India\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 17.9375003\n          lng: 73.8167739\n
+    \       southwest:\n          lat: 17.9132867\n          lng: 73.7788582\n      location:\n
+    \       lat: 17.9203699\n        lng: 73.793854\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 17.9375003\n          lng: 73.8167739\n
+    \       southwest:\n          lat: 17.9132867\n          lng: 73.7788582\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Paris
+  :country: France
+  :result_count: 1
+  :lat: 48.856614
+  :lng: 2.3522219
+  :type: APPROXIMATE
+  :formatted: Paris, France
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Paris\n      short_name: Paris\n      types:\n      - locality\n
+    \     - political\n    - long_name: Paris\n      short_name: '75'\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Île-de-France\n
+    \     short_name: IdF\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: France\n      short_name: FR\n      types:\n      -
+    country\n      - political\n    formatted_address: Paris, France\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 48.9021449\n          lng: 2.4699208\n
+    \       southwest:\n          lat: 48.815573\n          lng: 2.224199\n      location:\n
+    \       lat: 48.856614\n        lng: 2.3522219\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 48.9021449\n          lng: 2.4699208\n
+    \       southwest:\n          lat: 48.815573\n          lng: 2.224199\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Patna
+  :country: India
+  :state_province: Bihar
+  :result_count: 1
+  :lat: 25.61046
+  :lng: 85.141667
+  :type: APPROXIMATE
+  :formatted: Patna, Bihar, India
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Patna\n      short_name: Patna\n      types:\n      - locality\n
+    \     - political\n    - long_name: Patna\n      short_name: Patna\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Bihar\n
+    \     short_name: BR\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: India\n      short_name: IN\n      types:\n      - country\n
+    \     - political\n    formatted_address: Patna, Bihar, India\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 25.6564425\n          lng: 85.2687289\n        southwest:\n
+    \         lat: 25.5651091\n          lng: 85.0595855\n      location:\n        lat:
+    25.61046\n        lng: 85.141667\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 25.6564425\n          lng: 85.2687289\n        southwest:\n
+    \         lat: 25.5651091\n          lng: 85.0595855\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n"
+- :city: Perth
+  :country: Australia
+  :state_province: WA
+  :result_count: 1
+  :lat: -31.9530044
+  :lng: 115.8574693
+  :type: APPROXIMATE
+  :formatted: Perth WA, Australia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Perth\n      short_name: Perth\n      types:\n      - locality\n
+    \     - political\n    - long_name: Western Australia\n      short_name: WA\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Australia\n
+    \     short_name: AU\n      types:\n      - country\n      - political\n    formatted_address:
+    Perth WA, Australia\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -31.45486\n          lng: 116.4139149\n        southwest:\n          lat: -32.4829073\n
+    \         lng: 115.4487669\n      location:\n        lat: -31.9530044\n        lng:
+    115.8574693\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -31.45486\n          lng: 116.4139149\n        southwest:\n          lat:
+    -32.4829073\n          lng: 115.4487669\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Phoenix
+  :country: USA
+  :state_province: AZ
+  :result_count: 6
+  :lat: 33.4483771
+  :lng: -112.0740373
+  :type: APPROXIMATE
+  :formatted: Phoenix, AZ, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Phoenix\n      short_name: Phoenix\n      types:\n      - locality\n
+    \     - political\n    - long_name: Maricopa\n      short_name: Maricopa\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Arizona\n
+    \     short_name: AZ\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Phoenix, AZ, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 33.92057\n          lng: -111.926046\n
+    \       southwest:\n          lat: 33.29025980000001\n          lng: -112.324056\n
+    \     location:\n        lat: 33.4483771\n        lng: -112.0740373\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 33.92057\n          lng:
+    -111.926046\n        southwest:\n          lat: 33.29025980000001\n          lng:
+    -112.324056\n    types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Phoenix\n      short_name: Phoenix\n
+    \     types:\n      - locality\n      - political\n    - long_name: Jackson\n      short_name:
+    Jackson\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Oregon\n      short_name: OR\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Phoenix, OR, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 42.2850051\n          lng: -122.801185\n
+    \       southwest:\n          lat: 42.263416\n          lng: -122.83235\n      location:\n
+    \       lat: 42.2754058\n        lng: -122.818092\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 42.2850051\n          lng: -122.801185\n
+    \       southwest:\n          lat: 42.263416\n          lng: -122.83235\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Phoenix\n      short_name: Phoenix\n
+    \     types:\n      - locality\n      - political\n    - long_name: Schroeppel\n
+    \     short_name: Schroeppel\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Oswego\n      short_name: Oswego\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: New York\n
+    \     short_name: NY\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    - long_name: '13135'\n      short_name:
+    '13135'\n      types:\n      - postal_code\n    formatted_address: Phoenix, NY 13135,
+    USA\n    geometry:\n      bounds:\n        northeast:\n          lat: 43.242342\n
+    \         lng: -76.281977\n        southwest:\n          lat: 43.219028\n          lng:
+    -76.31226079999999\n      location:\n        lat: 43.2311794\n        lng: -76.30076389999999\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    43.242342\n          lng: -76.281977\n        southwest:\n          lat: 43.219028\n
+    \         lng: -76.31226079999999\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Phoenix\n      short_name: Phoenix\n      types:\n      - locality\n
+    \     - political\n    - long_name: Sparks\n      short_name: Sparks\n      types:\n
+    \     - administrative_area_level_3\n      - political\n    - long_name: Baltimore\n
+    \     short_name: Baltimore\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Maryland\n      short_name: MD\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   - long_name: '21131'\n      short_name: '21131'\n      types:\n      - postal_code\n
+    \   formatted_address: Phoenix, MD 21131, USA\n    geometry:\n      location:\n
+    \       lat: 39.517155\n        lng: -76.61573\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 39.51850398029149\n          lng:
+    -76.6143810197085\n        southwest:\n          lat: 39.51580601970849\n          lng:
+    -76.61707898029151\n    types:\n    - locality\n    - political\n  cache_hit: \n-
+    !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    - long_name:
+    Phoenix\n      short_name: Phoenix\n      types:\n      - locality\n      - political\n
+    \   - long_name: Thornton\n      short_name: Thornton\n      types:\n      - administrative_area_level_3\n
+    \     - political\n    - long_name: Cook\n      short_name: Cook\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Illinois\n
+    \     short_name: IL\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: Phoenix, IL, USA\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.6192339\n          lng: -87.6238449\n
+    \       southwest:\n          lat: 41.604634\n          lng: -87.636366\n      location:\n
+    \       lat: 41.6111456\n        lng: -87.63476829999999\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 41.6192339\n          lng: -87.6238449\n
+    \       southwest:\n          lat: 41.604634\n          lng: -87.636366\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Phoenix\n      short_name: Phoenix\n
+    \     types:\n      - locality\n      - political\n    - long_name: '1'\n      short_name:
+    '1'\n      types:\n      - administrative_area_level_3\n      - political\n    -
+    long_name: Plaquemines\n      short_name: Plaquemines\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Louisiana\n      short_name: LA\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: United
+    States\n      short_name: US\n      types:\n      - country\n      - political\n
+    \   - long_name: '70040'\n      short_name: '70040'\n      types:\n      - postal_code\n
+    \   formatted_address: Phoenix, LA 70040, USA\n    geometry:\n      location:\n
+    \       lat: 29.645833\n        lng: -89.93972199999999\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 29.6471819802915\n          lng:
+    -89.93837301970848\n        southwest:\n          lat: 29.6444840197085\n          lng:
+    -89.94107098029149\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Port-au-Prince
+  :country: Haiti
+  :result_count: 1
+  :lat: 18.539269
+  :lng: -72.336408
+  :type: APPROXIMATE
+  :formatted: Port-au-Prince, Haiti
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Port-au-Prince\n      short_name: PAP\n      types:\n      - locality\n
+    \     - political\n    - long_name: Ouest\n      short_name: Ouest\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Haiti\n
+    \     short_name: HT\n      types:\n      - country\n      - political\n    formatted_address:
+    Port-au-Prince, Haiti\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    18.6600686\n          lng: -72.2071266\n        southwest:\n          lat: 18.4980056\n
+    \         lng: -72.3617289\n      location:\n        lat: 18.539269\n        lng:
+    -72.336408\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 18.6600686\n          lng: -72.2071266\n        southwest:\n          lat:
+    18.4980056\n          lng: -72.3617289\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Port Dickson
+  :country: Malaysia
+  :state_province: Negeri Sembilan
+  :result_count: 1
+  :lat: 2.536424
+  :lng: 101.8068142
+  :type: APPROXIMATE
+  :formatted: Port Dickson, Negeri Sembilan, Malaysia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Port Dickson\n      short_name: Port Dickson\n      types:\n      -
+    locality\n      - political\n    - long_name: Negeri Sembilan\n      short_name:
+    Negeri Sembilan\n      types:\n      - administrative_area_level_1\n      - political\n
+    \   - long_name: Malaysia\n      short_name: MY\n      types:\n      - country\n
+    \     - political\n    formatted_address: Port Dickson, Negeri Sembilan, Malaysia\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 2.689196\n          lng:
+    101.8880691\n        southwest:\n          lat: 2.4395589\n          lng: 101.734357\n
+    \     location:\n        lat: 2.536424\n        lng: 101.8068142\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 2.689196\n          lng:
+    101.8880691\n        southwest:\n          lat: 2.4395589\n          lng: 101.734357\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Port Moresby
+  :country: Papua New Guinea
+  :result_count: 2
+  :lat: -9.481553000000002
+  :lng: 147.190242
+  :type: APPROXIMATE
+  :formatted: Port Moresby, Papua New Guinea
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Port Moresby\n      short_name: Port Moresby\n      types:\n      -
+    locality\n      - political\n    - long_name: National Capital District\n      short_name:
+    National Capital District\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Papua New Guinea\n      short_name: PG\n      types:\n
+    \     - country\n      - political\n    formatted_address: Port Moresby, Papua New
+    Guinea\n    geometry:\n      bounds:\n        northeast:\n          lat: -9.3703217\n
+    \         lng: 147.2438668\n        southwest:\n          lat: -9.5045786\n          lng:
+    147.136652\n      location:\n        lat: -9.481553000000002\n        lng: 147.190242\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    -9.3703217\n          lng: 147.2438668\n        southwest:\n          lat: -9.5045786\n
+    \         lng: 147.136652\n    types:\n    - locality\n    - political\n  cache_hit:
+    \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n    -
+    long_name: Port Moresby\n      short_name: Port Moresby\n      types:\n      - sublocality\n
+    \     - political\n    - long_name: Port Moresby\n      short_name: Port Moresby\n
+    \     types:\n      - locality\n      - political\n    - long_name: National Capital
+    District\n      short_name: National Capital District\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Papua New Guinea\n      short_name: PG\n      types:\n
+    \     - country\n      - political\n    formatted_address: Port Moresby, Papua New
+    Guinea\n    geometry:\n      bounds:\n        northeast:\n          lat: -9.4684685\n
+    \         lng: 147.1582135\n        southwest:\n          lat: -9.4855678\n          lng:
+    147.143571\n      location:\n        lat: -9.4780123\n        lng: 147.1506542\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    -9.4684685\n          lng: 147.1582135\n        southwest:\n          lat: -9.4855678\n
+    \         lng: 147.143571\n    types:\n    - sublocality\n    - political\n  cache_hit:
+    \n"
+- :city: Port-Vila
+  :country: Vanuatu
+  :result_count: 1
+  :lat: -17.734818
+  :lng: 168.3220289
+  :type: APPROXIMATE
+  :formatted: Port Vila, Vanuatu
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Port Vila\n      short_name: Port Vila\n      types:\n      - locality\n
+    \     - political\n    - long_name: Shefa Province\n      short_name: Shefa Province\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Vanuatu\n      short_name: VU\n      types:\n      - country\n      - political\n
+    \   formatted_address: Port Vila, Vanuatu\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -17.6923017\n          lng: 168.3539414\n        southwest:\n          lat:
+    -17.7815849\n          lng: 168.2923738\n      location:\n        lat: -17.734818\n
+    \       lng: 168.3220289\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -17.6923017\n          lng: 168.3539414\n        southwest:\n          lat:
+    -17.7815849\n          lng: 168.2923738\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: San Diego
+  :country: USA
+  :state_province: CA
+  :result_count: 2
+  :lat: 32.7153292
+  :lng: -117.1572551
+  :type: APPROXIMATE
+  :formatted: San Diego, CA, USA
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Diego\n      short_name: San Diego\n      types:\n      - locality\n
+    \     - political\n    - long_name: San Diego\n      short_name: San Diego\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: California\n
+    \     short_name: CA\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: San Diego, CA, USA\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 33.114249\n          lng:
+    -116.90816\n        southwest:\n          lat: 32.534856\n          lng: -117.2821665\n
+    \     location:\n        lat: 32.7153292\n        lng: -117.1572551\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 33.114249\n          lng:
+    -116.90816\n        southwest:\n          lat: 32.534856\n          lng: -117.2821665\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: San Diego\n      short_name:
+    San Diego\n      types:\n      - locality\n      - political\n    - long_name: Duval\n
+    \     short_name: Duval\n      types:\n      - administrative_area_level_2\n      -
+    political\n    - long_name: Texas\n      short_name: TX\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: United States\n      short_name: US\n      types:\n
+    \     - country\n      - political\n    formatted_address: San Diego, TX, USA\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 27.7736671\n          lng:
+    -98.228505\n        southwest:\n          lat: 27.74694\n          lng: -98.249943\n
+    \     location:\n        lat: 27.7639145\n        lng: -98.2388953\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 27.7736671\n          lng:
+    -98.228505\n        southwest:\n          lat: 27.74694\n          lng: -98.249943\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: San Jose
+  :country: Costa Rica
+  :result_count: 4
+  :lat: 9.927128
+  :lng: -84.08201199999999
+  :type: APPROXIMATE
+  :formatted: San Jose, Costa Rica
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Jose\n      short_name: San Jose\n      types:\n      - locality\n
+    \     - political\n    - long_name: San Jose\n      short_name: San Jose\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Costa Rica\n
+    \     short_name: CR\n      types:\n      - country\n      - political\n    formatted_address:
+    San Jose, Costa Rica\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    9.9712598\n          lng: -84.047191\n        southwest:\n          lat: 9.899968699999999\n
+    \         lng: -84.1794991\n      location:\n        lat: 9.927128\n        lng:
+    -84.08201199999999\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 9.9712598\n          lng: -84.047191\n        southwest:\n          lat:
+    9.899968699999999\n          lng: -84.1794991\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Jose\n      short_name: San Jose\n      types:\n      - locality\n
+    \     - political\n    - long_name: Alajuela\n      short_name: Alajuela\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Costa Rica\n
+    \     short_name: CR\n      types:\n      - country\n      - political\n    formatted_address:
+    San Jose, Costa Rica\n    geometry:\n      location:\n        lat: 10.49797\n        lng:
+    -84.52561999999999\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 10.4993189802915\n          lng: -84.5242710197085\n        southwest:\n
+    \         lat: 10.4966210197085\n          lng: -84.5269689802915\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: San José\n      short_name: San
+    José\n      types:\n      - sublocality\n      - political\n    - long_name: Alajuela\n
+    \     short_name: Alajuela\n      types:\n      - locality\n      - political\n
+    \   - long_name: Alajuela Canton\n      short_name: Alajuela Canton\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Alajuela\n
+    \     short_name: Alajuela\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Costa Rica\n      short_name: CR\n      types:\n
+    \     - country\n      - political\n    formatted_address: San José, Alajuela, Costa
+    Rica\n    geometry:\n      bounds:\n        northeast:\n          lat: 10.0240472\n
+    \         lng: -84.2344952\n        southwest:\n          lat: 10.0066354\n          lng:
+    -84.25947190000001\n      location:\n        lat: 10.0170529\n        lng: -84.24631880000001\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    10.0240472\n          lng: -84.2344952\n        southwest:\n          lat: 10.0066354\n
+    \         lng: -84.25947190000001\n    types:\n    - sublocality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San José\n      short_name: San José\n      types:\n      - locality\n
+    \     - political\n    - long_name: Guanacaste\n      short_name: Guanacaste\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Costa Rica\n
+    \     short_name: CR\n      types:\n      - country\n      - political\n    formatted_address:
+    San José, Costa Rica\n    geometry:\n      location:\n        lat: 10.386956\n        lng:
+    -84.969879\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 10.3883049802915\n          lng: -84.96853001970851\n        southwest:\n
+    \         lat: 10.3856070197085\n          lng: -84.97122798029152\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: San Jose City
+  :country: Philippines
+  :result_count: 6
+  :lat: 15.79006
+  :lng: 120.987396
+  :type: APPROXIMATE
+  :formatted: San Jose City, Philippines
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Jose City\n      short_name: San Jose City\n      types:\n
+    \     - locality\n      - political\n    - long_name: Nueva Ecija\n      short_name:
+    Nueva Ecija\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Central Luzon\n      short_name: Central Luzon\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Philippines\n
+    \     short_name: PH\n      types:\n      - country\n      - political\n    formatted_address:
+    San Jose City, Philippines\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    15.8616685\n          lng: 121.04824\n        southwest:\n          lat: 15.7498869\n
+    \         lng: 120.9328477\n      location:\n        lat: 15.79006\n        lng:
+    120.987396\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 15.8616685\n          lng: 121.04824\n        southwest:\n          lat:
+    15.7498869\n          lng: 120.9328477\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Jose\n      short_name: San Jose\n      types:\n      - locality\n
+    \     - political\n    - long_name: Occidental Mindoro\n      short_name: Occidental
+    Mindoro\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: MIMAROPA\n      short_name: MIMAROPA\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Philippines\n      short_name: PH\n      types:\n
+    \     - country\n      - political\n    formatted_address: San Jose, Philippines\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 12.5543122\n          lng:
+    121.2446022\n        southwest:\n          lat: 12.1501665\n          lng: 120.9723689\n
+    \     location:\n        lat: 12.3474326\n        lng: 121.0659175\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 12.5543122\n          lng:
+    121.2446022\n        southwest:\n          lat: 12.1501665\n          lng: 120.9723689\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: San Jose de Buenavista\n      short_name:
+    San Jose de Buenavista\n      types:\n      - locality\n      - political\n    -
+    long_name: Antique\n      short_name: Antique\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Western Visayas\n      short_name: Western Visayas\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Philippines\n      short_name: PH\n      types:\n      - country\n      - political\n
+    \   formatted_address: San Jose de Buenavista, Philippines\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 10.8248671\n          lng: 122.0077367\n        southwest:\n
+    \         lat: 10.7182266\n          lng: 121.9232654\n      location:\n        lat:
+    10.7489069\n        lng: 121.9412608\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 10.8248671\n          lng: 122.0077367\n        southwest:\n
+    \         lat: 10.7182266\n          lng: 121.9232654\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: San Jose\n      short_name: San Jose\n
+    \     types:\n      - locality\n      - political\n    - long_name: Camarines Sur\n
+    \     short_name: Camarines Sur\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Bicol\n      short_name: Bicol\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Philippines\n
+    \     short_name: PH\n      types:\n      - country\n      - political\n    formatted_address:
+    San Jose, Philippines\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    13.7240436\n          lng: 123.5842609\n        southwest:\n          lat: 13.6286373\n
+    \         lng: 123.4956837\n      location:\n        lat: 13.6991667\n        lng:
+    123.5183333\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 13.7240436\n          lng: 123.5842609\n        southwest:\n          lat:
+    13.6286373\n          lng: 123.4956837\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Jose\n      short_name: San Jose\n      types:\n      - locality\n
+    \     - political\n    - long_name: Tarlac\n      short_name: Tarlac\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Central
+    Luzon\n      short_name: Central Luzon\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Philippines\n      short_name: PH\n      types:\n
+    \     - country\n      - political\n    formatted_address: San Jose, Philippines\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 15.5461491\n          lng:
+    120.5471641\n        southwest:\n          lat: 15.317554\n          lng: 120.1631355\n
+    \     location:\n        lat: 15.4\n        lng: 120.3333333\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 15.5461491\n          lng:
+    120.5471641\n        southwest:\n          lat: 15.317554\n          lng: 120.1631355\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: San Jose\n      short_name: San
+    Jose\n      types:\n      - locality\n      - political\n    - long_name: Dinagat
+    Islands\n      short_name: Dinagat Islands\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Caraga\n      short_name: Caraga\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Philippines\n
+    \     short_name: PH\n      types:\n      - country\n      - political\n    formatted_address:
+    San Jose, Philippines\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    10.0609533\n          lng: 125.6223106\n        southwest:\n          lat: 9.9901527\n
+    \         lng: 125.5693587\n      location:\n        lat: 10.0083333\n        lng:
+    125.5888889\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 10.0609533\n          lng: 125.6223106\n        southwest:\n          lat:
+    9.9901527\n          lng: 125.5693587\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: San Salvador
+  :country: El Salvador
+  :state_province: San Salvador
+  :result_count: 2
+  :lat: 13.706881
+  :lng: -89.20181
+  :type: APPROXIMATE
+  :formatted: San Salvador, El Salvador
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Salvador\n      short_name: San Salvador\n      types:\n      -
+    locality\n      - political\n    - long_name: San Salvador\n      short_name: San
+    Salvador\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: San Salvador\n      short_name: San Salvador\n      types:\n      -
+    administrative_area_level_1\n      - political\n    - long_name: El Salvador\n      short_name:
+    SV\n      types:\n      - country\n      - political\n    formatted_address: San
+    Salvador, El Salvador\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    13.7327726\n          lng: -89.1587734\n        southwest:\n          lat: 13.6524925\n
+    \         lng: -89.2663228\n      location:\n        lat: 13.706881\n        lng:
+    -89.20181\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 13.7327726\n          lng: -89.1587734\n        southwest:\n          lat:
+    13.6524925\n          lng: -89.2663228\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: San Salvador\n      short_name: San Salvador\n      types:\n      -
+    sublocality\n      - political\n    - long_name: San Salvador\n      short_name:
+    San Salvador\n      types:\n      - locality\n      - political\n    - long_name:
+    San Salvador\n      short_name: San Salvador\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: San Salvador\n      short_name: San Salvador\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    El Salvador\n      short_name: SV\n      types:\n      - country\n      - political\n
+    \   formatted_address: San Salvador, El Salvador\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 13.7306142\n          lng: -89.16302809999999\n
+    \       southwest:\n          lat: 13.6492335\n          lng: -89.27077539999999\n
+    \     location:\n        lat: 13.6928799\n        lng: -89.19916119999999\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 13.7306142\n          lng:
+    -89.16302809999999\n        southwest:\n          lat: 13.6492335\n          lng:
+    -89.27077539999999\n    types:\n    - sublocality\n    - political\n  cache_hit:
+    \n"
+- :city: Santiago
+  :country: Chile
+  :state_province: Santiago Metropolitan Region
+  :result_count: 1
+  :lat: -33.4691199
+  :lng: -70.641997
+  :type: APPROXIMATE
+  :formatted: Santiago, Santiago Metropolitan Region, Chile
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Santiago\n      short_name: Stgo\n      types:\n      - locality\n
+    \     - political\n    - long_name: Santiago Metropolitan Region\n      short_name:
+    Santiago Metropolitan Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Chile\n      short_name: CL\n      types:\n
+    \     - country\n      - political\n    formatted_address: Santiago, Santiago Metropolitan
+    Region, Chile\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -33.0487158\n          lng: -69.7689943\n        southwest:\n          lat: -34.2878805\n
+    \         lng: -70.9577496\n      location:\n        lat: -33.4691199\n        lng:
+    -70.641997\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -33.0487158\n          lng: -69.7689943\n        southwest:\n          lat:
+    -34.2878805\n          lng: -70.9577496\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Sapele
+  :country: Nigeria
+  :result_count: 1
+  :lat: 5.893112899999999
+  :lng: 5.678691
+  :type: APPROXIMATE
+  :formatted: Sapele, Nigeria
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Sapele\n      short_name: Sapele\n      types:\n      - locality\n
+    \     - political\n    - long_name: Delta\n      short_name: Delta\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Nigeria\n
+    \     short_name: NG\n      types:\n      - country\n      - political\n    formatted_address:
+    Sapele, Nigeria\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    5.9292124\n          lng: 5.7543497\n        southwest:\n          lat: 5.8310266\n
+    \         lng: 5.6157302\n      location:\n        lat: 5.893112899999999\n        lng:
+    5.678691\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 5.9292124\n          lng: 5.7543497\n        southwest:\n          lat:
+    5.8310266\n          lng: 5.6157302\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Sarh
+  :country: Chad
+  :result_count: 1
+  :lat: 9.15
+  :lng: 18.3833333
+  :type: APPROXIMATE
+  :formatted: Sarh, Chad
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Sarh\n      short_name: Sarh\n      types:\n      - locality\n
+    \     - political\n    - long_name: Barh Koh\n      short_name: Barh Koh\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Moyen-Chari\n
+    \     short_name: Moyen-Chari\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Chad\n      short_name: TD\n      types:\n      -
+    country\n      - political\n    formatted_address: Sarh, Chad\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 9.190178099999999\n          lng: 18.4170305\n
+    \       southwest:\n          lat: 9.1110472\n          lng: 18.3478654\n      location:\n
+    \       lat: 9.15\n        lng: 18.3833333\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 9.190178099999999\n          lng: 18.4170305\n
+    \       southwest:\n          lat: 9.1110472\n          lng: 18.3478654\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Seberang Perai
+  :country: Malaysia
+  :state_province: Penang
+  :google: Perai
+  :result_count: 1
+  :lat: 5.384388
+  :lng: 100.3896169
+  :type: APPROXIMATE
+  :formatted: Perai, Penang, Malaysia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Perai\n      short_name: Perai\n      types:\n      - locality\n
+    \     - political\n    - long_name: Penang\n      short_name: Penang\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Malaysia\n
+    \     short_name: MY\n      types:\n      - country\n      - political\n    formatted_address:
+    Perai, Penang, Malaysia\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    5.413328\n          lng: 100.43545\n        southwest:\n          lat: 5.331221999999999\n
+    \         lng: 100.366739\n      location:\n        lat: 5.384388\n        lng:
+    100.3896169\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 5.413328\n          lng: 100.43545\n        southwest:\n          lat:
+    5.331221999999999\n          lng: 100.366739\n    types:\n    - locality\n    -
+    political\n  cache_hit: \n"
+- :city: South Tarawa
+  :country: Kiribati
+  :google: Bairiki
+  :result_count: 1
+  :lat: 1.3290526
+  :lng: 172.9790528
+  :type: APPROXIMATE
+  :formatted: Bairiki, Kiribati
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Bairiki\n      short_name: Bairiki\n      types:\n      - locality\n
+    \     - political\n    - long_name: Kiribati\n      short_name: KI\n      types:\n
+    \     - country\n      - political\n    formatted_address: Bairiki, Kiribati\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 1.3320152\n          lng: 172.9916024\n
+    \       southwest:\n          lat: 1.3269972\n          lng: 172.9726982\n      location:\n
+    \       lat: 1.3290526\n        lng: 172.9790528\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 1.3320152\n          lng: 172.9916024\n
+    \       southwest:\n          lat: 1.3269972\n          lng: 172.9726982\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Sydney
+  :country: Australia
+  :state_province: NSW
+  :result_count: 1
+  :lat: -33.8674869
+  :lng: 151.2069902
+  :type: APPROXIMATE
+  :formatted: Sydney NSW, Australia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Sydney\n      short_name: Sydney\n      types:\n      - locality\n
+    \     - political\n    - long_name: New South Wales\n      short_name: NSW\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Australia\n
+    \     short_name: AU\n      types:\n      - country\n      - political\n    formatted_address:
+    Sydney NSW, Australia\n    geometry:\n      bounds:\n        northeast:\n          lat:
+    -33.4245981\n          lng: 151.3426361\n        southwest:\n          lat: -34.1692489\n
+    \         lng: 150.502229\n      location:\n        lat: -33.8674869\n        lng:
+    151.2069902\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: -33.4245981\n          lng: 151.3426361\n        southwest:\n          lat:
+    -34.1692489\n          lng: 150.502229\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Tbilisi
+  :country: Georgia
+  :result_count: 1
+  :lat: 41.709981
+  :lng: 44.792998
+  :type: APPROXIMATE
+  :formatted: Tbilisi, Georgia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Tbilisi\n      short_name: Tbilisi\n      types:\n      - locality\n
+    \     - political\n    - long_name: Didi digomi\n      short_name: Didi digomi\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Tbilisi\n      short_name: Tbilisi\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Georgia\n      short_name: GE\n      types:\n
+    \     - country\n      - political\n    formatted_address: Tbilisi, Georgia\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.8305287\n          lng: 45.0172521\n
+    \       southwest:\n          lat: 41.6323806\n          lng: 44.592476\n      location:\n
+    \       lat: 41.709981\n        lng: 44.792998\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 41.8305287\n          lng: 45.0172521\n
+    \       southwest:\n          lat: 41.6323806\n          lng: 44.592476\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Thyolo
+  :country: Malawi
+  :result_count: 1
+  :lat: -16.069257
+  :lng: 35.1406293
+  :type: APPROXIMATE
+  :formatted: Thyolo, Malawi
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Thyolo\n      short_name: Thyolo\n      types:\n      - locality\n
+    \     - political\n    - long_name: Thyolo\n      short_name: Thyolo\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Southern
+    Region\n      short_name: Southern Region\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Malawi\n      short_name: MW\n      types:\n
+    \     - country\n      - political\n    formatted_address: Thyolo, Malawi\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -16.0617329\n          lng: 35.1527309\n
+    \       southwest:\n          lat: -16.0789703\n          lng: 35.1302433\n      location:\n
+    \       lat: -16.069257\n        lng: 35.1406293\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: -16.0617329\n          lng:
+    35.1527309\n        southwest:\n          lat: -16.0789703\n          lng: 35.1302433\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Tirana
+  :country: Albania
+  :result_count: 1
+  :lat: 41.33165
+  :lng: 19.8318
+  :type: APPROXIMATE
+  :formatted: Tirana, Albania
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Tirana\n      short_name: Tirana\n      types:\n      - locality\n
+    \     - political\n    - long_name: Tiranë\n      short_name: Tiranë\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Tirana\n
+    \     short_name: Tirana\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Albania\n      short_name: AL\n      types:\n      -
+    country\n      - political\n    formatted_address: Tirana, Albania\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 41.3692405\n          lng: 19.8723364\n
+    \       southwest:\n          lat: 41.2950105\n          lng: 19.753418\n      location:\n
+    \       lat: 41.33165\n        lng: 19.8318\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 41.3692405\n          lng: 19.8723364\n
+    \       southwest:\n          lat: 41.2950105\n          lng: 19.753418\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"
+- :city: Toronto
+  :country: Canada
+  :state_province: 'ON'
+  :result_count: 1
+  :lat: 43.653226
+  :lng: -79.3831843
+  :type: APPROXIMATE
+  :formatted: Toronto, ON, Canada
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Toronto\n      short_name: Toronto\n      types:\n      - locality\n
+    \     - political\n    - long_name: Toronto Division\n      short_name: Toronto
+    Division\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: Ontario\n      short_name: 'ON'\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Canada\n      short_name: CA\n      types:\n
+    \     - country\n      - political\n    formatted_address: Toronto, ON, Canada\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 43.8554579\n          lng:
+    -79.1161932\n        southwest:\n          lat: 43.5810846\n          lng: -79.639219\n
+    \     location:\n        lat: 43.653226\n        lng: -79.3831843\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 43.8554579\n          lng:
+    -79.1161932\n        southwest:\n          lat: 43.5810846\n          lng: -79.639219\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Ulaanbaatar
+  :country: Mongolia
+  :result_count: 1
+  :lat: 47.921378
+  :lng: 106.90554
+  :type: APPROXIMATE
+  :formatted: Ulaanbaatar, Mongolia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Ulaanbaatar\n      short_name: Ulaanbaatar\n      types:\n      -
+    locality\n      - political\n    - long_name: Khan Uul\n      short_name: Khan Uul\n
+    \     types:\n      - administrative_area_level_2\n      - political\n    - long_name:
+    Ulaanbaatar\n      short_name: Ulaanbaatar\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Mongolia\n      short_name: MN\n      types:\n
+    \     - country\n      - political\n    formatted_address: Ulaanbaatar, Mongolia\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 47.9591229\n          lng:
+    107.1043\n        southwest:\n          lat: 47.8241773\n          lng: 106.6994427\n
+    \     location:\n        lat: 47.921378\n        lng: 106.90554\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 47.9591229\n          lng:
+    107.1043\n        southwest:\n          lat: 47.8241773\n          lng: 106.6994427\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Vancouver
+  :country: Canada
+  :state_province: BC
+  :result_count: 1
+  :lat: 49.261226
+  :lng: -123.1139268
+  :type: APPROXIMATE
+  :formatted: Vancouver, BC, Canada
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Vancouver\n      short_name: Vancouver\n      types:\n      - locality\n
+    \     - political\n    - long_name: Greater Vancouver\n      short_name: Greater
+    Vancouver\n      types:\n      - administrative_area_level_2\n      - political\n
+    \   - long_name: British Columbia\n      short_name: BC\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Canada\n      short_name: CA\n      types:\n
+    \     - country\n      - political\n    formatted_address: Vancouver, BC, Canada\n
+    \   geometry:\n      bounds:\n        northeast:\n          lat: 49.31409499999999\n
+    \         lng: -123.023068\n        southwest:\n          lat: 49.1998604\n          lng:
+    -123.22474\n      location:\n        lat: 49.261226\n        lng: -123.1139268\n
+    \     location_type: APPROXIMATE\n      viewport:\n        northeast:\n          lat:
+    49.31409499999999\n          lng: -123.023068\n        southwest:\n          lat:
+    49.1998604\n          lng: -123.22474\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n"
+- :city: Verona
+  :country: Italy
+  :result_count: 3
+  :lat: 45.4383563
+  :lng: 10.9916578
+  :type: APPROXIMATE
+  :formatted: Verona Province of Verona, Italy
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Verona\n      short_name: Verona\n      types:\n      - locality\n
+    \     - political\n    - long_name: Verona\n      short_name: Verona\n      types:\n
+    \     - administrative_area_level_3\n      - political\n    - long_name: Province
+    of Verona\n      short_name: VR\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Veneto\n      short_name: Veneto\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Italy\n
+    \     short_name: IT\n      types:\n      - country\n      - political\n    formatted_address:
+    Verona Province of Verona, Italy\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 45.4812978\n          lng: 11.0703201\n        southwest:\n          lat:
+    45.3742342\n          lng: 10.9147425\n      location:\n        lat: 45.4383563\n
+    \       lng: 10.9916578\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 45.4812978\n          lng: 11.0703201\n        southwest:\n          lat:
+    45.3742342\n          lng: 10.9147425\n    types:\n    - locality\n    - political\n
+    \ cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Verona\n      short_name: Verona\n      types:\n      - locality\n
+    \     - political\n    - long_name: Annone Veneto\n      short_name: Annone Veneto\n
+    \     types:\n      - administrative_area_level_3\n      - political\n    - long_name:
+    Province of Venice\n      short_name: VE\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Veneto\n      short_name: Veneto\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Italy\n
+    \     short_name: IT\n      types:\n      - country\n      - political\n    - long_name:
+    '30020'\n      short_name: '30020'\n      types:\n      - postal_code\n    formatted_address:
+    30020 Verona Province of Venice, Italy\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: 45.770565\n          lng: 12.6868411\n        southwest:\n          lat:
+    45.7690304\n          lng: 12.6835742\n      location:\n        lat: 45.7696449\n
+    \       lng: 12.6852112\n      location_type: APPROXIMATE\n      viewport:\n        northeast:\n
+    \         lat: 45.7711466802915\n          lng: 12.6868411\n        southwest:\n
+    \         lat: 45.7684487197085\n          lng: 12.6835742\n    types:\n    - locality\n
+    \   - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n  data:\n
+    \   address_components:\n    - long_name: Verona\n      short_name: Verona\n      types:\n
+    \     - locality\n      - political\n    - long_name: Noventa di Piave\n      short_name:
+    Noventa di Piave\n      types:\n      - administrative_area_level_3\n      - political\n
+    \   - long_name: Province of Venice\n      short_name: VE\n      types:\n      -
+    administrative_area_level_2\n      - political\n    - long_name: Veneto\n      short_name:
+    Veneto\n      types:\n      - administrative_area_level_1\n      - political\n    -
+    long_name: Italy\n      short_name: IT\n      types:\n      - country\n      - political\n
+    \   - long_name: '30020'\n      short_name: '30020'\n      types:\n      - postal_code\n
+    \   formatted_address: 30020 Verona Province of Venice, Italy\n    geometry:\n      bounds:\n
+    \       northeast:\n          lat: 45.6599307\n          lng: 12.5469435\n        southwest:\n
+    \         lat: 45.65789640000001\n          lng: 12.5450336\n      location:\n        lat:
+    45.6590199\n        lng: 12.5459139\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: 45.6602625302915\n          lng: 12.5473375302915\n
+    \       southwest:\n          lat: 45.6575645697085\n          lng: 12.5446395697085\n
+    \   types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Yaounde
+  :country: Cameroon
+  :result_count: 1
+  :lat: 3.866666699999999
+  :lng: 11.5166667
+  :type: APPROXIMATE
+  :formatted: Yaounde, Cameroon
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Yaounde\n      short_name: Yaounde\n      types:\n      - locality\n
+    \     - political\n    - long_name: Mfoundi\n      short_name: Mfoundi\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Central\n
+    \     short_name: Central\n      types:\n      - administrative_area_level_1\n      -
+    political\n    - long_name: Cameroon\n      short_name: CM\n      types:\n      -
+    country\n      - political\n    formatted_address: Yaounde, Cameroon\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 3.9613913\n          lng: 11.5924644\n
+    \       southwest:\n          lat: 3.699219099999999\n          lng: 11.4284419\n
+    \     location:\n        lat: 3.866666699999999\n        lng: 11.5166667\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: 3.9613913\n          lng:
+    11.5924644\n        southwest:\n          lat: 3.699219099999999\n          lng:
+    11.4284419\n    types:\n    - locality\n    - political\n  cache_hit: \n"
+- :city: Kuching
+  :country: China
+  :result_count: 1
+  :lat: 1.558363
+  :lng: 110.345917
+  :type: GEOMETRIC_CENTER
+  :formatted: Jalan China, 93000 Kuching, Sarawak, Malaysia
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Jalan China\n      short_name: Jalan China\n      types:\n      -
+    route\n    - long_name: Kuching\n      short_name: Kuching\n      types:\n      -
+    locality\n      - political\n    - long_name: Sarawak\n      short_name: Sarawak\n
+    \     types:\n      - administrative_area_level_1\n      - political\n    - long_name:
+    Malaysia\n      short_name: MY\n      types:\n      - country\n      - political\n
+    \   - long_name: '93000'\n      short_name: '93000'\n      types:\n      - postal_code\n
+    \   formatted_address: Jalan China, 93000 Kuching, Sarawak, Malaysia\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 1.55916\n          lng: 110.346432\n
+    \       southwest:\n          lat: 1.557599\n          lng: 110.345467\n      location:\n
+    \       lat: 1.558363\n        lng: 110.345917\n      location_type: GEOMETRIC_CENTER\n
+    \     viewport:\n        northeast:\n          lat: 1.559728480291502\n          lng:
+    110.3472984802915\n        southwest:\n          lat: 1.557030519708498\n          lng:
+    110.3446005197085\n    partial_match: true\n    types:\n    - route\n  cache_hit:
+    \n"
+- :city: Kinshasa
+  :country: Democratic Republic of the Congo
+  :result_count: 2
+  :lat: -4.3316667
+  :lng: 15.3138889
+  :type: APPROXIMATE
+  :formatted: Kinshasa, Democratic Republic of the Congo
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Kinshasa\n      short_name: Kinshasa\n      types:\n      - locality\n
+    \     - political\n    - long_name: Mont Amba\n      short_name: Mont Amba\n      types:\n
+    \     - administrative_area_level_2\n      - political\n    - long_name: Kinshasa\n
+    \     short_name: Kinshasa\n      types:\n      - administrative_area_level_1\n
+    \     - political\n    - long_name: Democratic Republic of the Congo\n      short_name:
+    CD\n      types:\n      - country\n      - political\n    formatted_address: Kinshasa,
+    Democratic Republic of the Congo\n    geometry:\n      bounds:\n        northeast:\n
+    \         lat: -4.293241099999999\n          lng: 15.4695761\n        southwest:\n
+    \         lat: -4.5093664\n          lng: 15.1760791\n      location:\n        lat:
+    -4.3316667\n        lng: 15.3138889\n      location_type: APPROXIMATE\n      viewport:\n
+    \       northeast:\n          lat: -4.293241099999999\n          lng: 15.4695761\n
+    \       southwest:\n          lat: -4.5093664\n          lng: 15.1760791\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n- !ruby/object:Geocoder::Result::Google\n
+    \ data:\n    address_components:\n    - long_name: Kinshasa\n      short_name: Kinshasa\n
+    \     types:\n      - sublocality\n      - political\n    - long_name: Kinshasa\n
+    \     short_name: Kinshasa\n      types:\n      - locality\n      - political\n
+    \   - long_name: Lukunga\n      short_name: Lukunga\n      types:\n      - administrative_area_level_2\n
+    \     - political\n    - long_name: Kinshasa\n      short_name: Kinshasa\n      types:\n
+    \     - administrative_area_level_1\n      - political\n    - long_name: Democratic
+    Republic of the Congo\n      short_name: CD\n      types:\n      - country\n      -
+    political\n    formatted_address: Kinshasa, Democratic Republic of the Congo\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: -4.3104866\n          lng: 15.3214385\n
+    \       southwest:\n          lat: -4.333578999999999\n          lng: 15.3030011\n
+    \     location:\n        lat: -4.324081899999999\n        lng: 15.3101915\n      location_type:
+    APPROXIMATE\n      viewport:\n        northeast:\n          lat: -4.3104866\n          lng:
+    15.3214385\n        southwest:\n          lat: -4.333578999999999\n          lng:
+    15.3030011\n    types:\n    - sublocality\n    - political\n  cache_hit: \n"
+- :city: Macau
+  :country: Macau
+  :result_count: 1
+  :lat: 22.201874
+  :lng: 113.544202
+  :type: APPROXIMATE
+  :formatted: Macau
+  :geocode: ! "---\n- !ruby/object:Geocoder::Result::Google\n  data:\n    address_components:\n
+    \   - long_name: Macau\n      short_name: Macau\n      types:\n      - locality\n
+    \     - political\n    - long_name: Macau\n      short_name: MO\n      types:\n
+    \     - country\n      - political\n    formatted_address: Macau\n    geometry:\n
+    \     bounds:\n        northeast:\n          lat: 22.2170639\n          lng: 113.5623643\n
+    \       southwest:\n          lat: 22.1793337\n          lng: 113.528691\n      location:\n
+    \       lat: 22.201874\n        lng: 113.544202\n      location_type: APPROXIMATE\n
+    \     viewport:\n        northeast:\n          lat: 22.2170639\n          lng: 113.5623643\n
+    \       southwest:\n          lat: 22.1793337\n          lng: 113.528691\n    types:\n
+    \   - locality\n    - political\n  cache_hit: \n"

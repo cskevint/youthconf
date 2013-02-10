@@ -73,4 +73,80 @@ end
 #puts "Google Helpers: #{google.count} #{google}"
 
 require 'yaml'
-puts conferences.to_yaml
+#puts conferences.to_yaml
+
+first_conf = conferences[10]
+
+require 'geocoder'
+conferences.to_enum.with_index(1).each do |conf, i|
+  filename = "seed#{i}.yml"
+
+  next #if File.exists? filename
+
+  city = conf[:city]
+  city = conf[:google] if conf[:google]
+
+  begin
+    search = "#{city}, #{conf[:country]}"
+    result = Geocoder.search search
+
+    conf[:result_count] = result.count
+
+    conf[:lat] = result.first.data["geometry"]["location"]["lat"]
+    conf[:lng] = result.first.data["geometry"]["location"]["lng"]
+    conf[:type] = result.first.data["geometry"]["location_type"]
+    conf[:formatted] = result.first.data["formatted_address"]
+
+    conf[:geocode] = result.to_yaml
+
+    puts "#{i} out of 94 -- #{conf[:formatted]}"
+    File.open(filename, 'w') { |file| file.write(conf.to_yaml) }
+  rescue Exception => e
+    puts search
+    puts result.to_yaml
+    puts "#{e}"
+  end
+end
+#File.open('seed.yml', 'w') { |file| file.write(conferences.to_yaml) }
+
+seed_text = []
+95.times do |i|
+  next
+  filename = "seed#{i+1}.yml"
+  file = File.new(filename, 'r')
+  while (line = file.gets)
+    seed_text << line
+  end
+end
+#File.open('seed.yml', 'w') { |file| file.write(seed_text.join("")) }
+
+results = YAML.load_file('seed.yml')
+seed_data = []
+
+results.each do |c|
+  seed_data << {
+    name: c[:city],
+    city: c[:city],
+    state_province: c[:state_province],
+    country: c[:country],
+    formatted: c[:formatted],
+    google: c[:google],
+    lat: c[:lat],
+    lng: c[:lng]
+  }
+end
+
+#File.open('../../db/fixtures/conferences.yml', 'w') { |file| file.write(seed_data.to_yaml) }
+
+conferences = YAML.load_file('../../db/fixtures/conferences.yml')
+
+cities = []
+conferences.each do |c|
+  cities << c[:name]
+  puts c[:name] if uhj_cities.select { |city| city == c[:name] }.nil?
+end
+
+puts uhj_cities.count
+puts cities.uniq.count
+dup = cities.select{|element| cities.count(element) > 1 }
+puts dup

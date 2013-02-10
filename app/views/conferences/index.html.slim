@@ -1,17 +1,29 @@
-h1 Listing conferences
+h1 Listing #{@conferences.count} conferences
 
 table
   tr
+    th Name
     th City
+    th State/Province
     th Country
+    th Google
+    th Formatted
+    th Lat
+    th Lng
     th
     th
     th
 
   - @conferences.each do |conference|
     tr
+      td = conference.name
       td = conference.city
+      td = conference.state_province
       td = conference.country
+      td = conference.google
+      td = conference.formatted
+      td = conference.lat
+      td = conference.lng
       td = link_to 'Show', conference
       td = link_to 'Edit', edit_conference_path(conference)
       td = link_to 'Destroy', conference, :confirm => 'Are you sure?', :method => :delete

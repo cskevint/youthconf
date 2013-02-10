@@ -1,0 +1,753 @@
+---
+- :name: Accra
+  :city: Accra
+  :state_province: 
+  :country: Ghana
+  :formatted: Accra, Ghana
+  :google: 
+  :lat: 5.5557169
+  :lng: -0.196306
+- :name: Addis Ababa
+  :city: Addis Ababa
+  :state_province: 
+  :country: Ethiopia
+  :formatted: Addis Ababa, Ethiopia
+  :google: 
+  :lat: 9.022736
+  :lng: 38.746799
+- :name: Aguascalientes
+  :city: Aguascalientes
+  :state_province: 
+  :country: Mexico
+  :formatted: Aguascalientes Municipality, Aguascalientes, Mexico
+  :google: 
+  :lat: 21.8833333
+  :lng: -102.3
+- :name: Almaty
+  :city: Almaty
+  :state_province: 
+  :country: Kazakhstan
+  :formatted: Almaty, Kazakhstan
+  :google: 
+  :lat: 43.255058
+  :lng: 76.912628
+- :name: Antananarivo
+  :city: Antananarivo
+  :state_province: 
+  :country: Madagascar
+  :formatted: Antananarivo, Madagascar
+  :google: 
+  :lat: -18.914872
+  :lng: 47.531612
+- :name: Apia
+  :city: Apia
+  :state_province: 
+  :country: Samoa
+  :formatted: Apia, Samoa
+  :google: 
+  :lat: -13.8333333
+  :lng: -171.75
+- :name: Atlanta
+  :city: Atlanta
+  :state_province: GA
+  :country: USA
+  :formatted: Atlanta, GA, USA
+  :google: 
+  :lat: 33.7489954
+  :lng: -84.3879824
+- :name: Auckland
+  :city: Auckland
+  :state_province: 
+  :country: New Zealand
+  :formatted: Auckland, New Zealand
+  :google: 
+  :lat: -36.8484597
+  :lng: 174.7633315
+- :name: Baku
+  :city: Baku
+  :state_province: 
+  :country: Azerbaijan
+  :formatted: Baku, Azerbaijan
+  :google: 
+  :lat: 40.4349504
+  :lng: 49.8676232
+- :name: Bangalore
+  :city: Bangalore
+  :state_province: Karnataka
+  :country: India
+  :formatted: Bangalore, Karnataka, India
+  :google: 
+  :lat: 12.9715987
+  :lng: 77.5945627
+- :name: Bangui
+  :city: Bangui
+  :state_province: 
+  :country: Central African Republic
+  :formatted: Bangui, Central African Republic
+  :google: 
+  :lat: 4.361698
+  :lng: 18.555975
+- :name: Bardiya
+  :city: Bardiya
+  :state_province: 
+  :country: Nepal
+  :formatted: Bardiya, Nepal
+  :google: 
+  :lat: 28.3102323
+  :lng: 81.42789839999999
+- :name: Battambang
+  :city: Battambang
+  :state_province: 
+  :country: Cambodia
+  :formatted: Bat Dambang, Cambodia
+  :google: 
+  :lat: 13.0286971
+  :lng: 102.989615
+- :name: Bhopal
+  :city: Bhopal
+  :state_province: Madhya Pradesh
+  :country: India
+  :formatted: Bhopal, Madhya Pradesh, India
+  :google: 
+  :lat: 23.2599333
+  :lng: 77.412615
+- :name: Bhubaneswar
+  :city: Bhubaneswar
+  :state_province: Odic
+  :country: India
+  :formatted: Bhubaneshwar, Odisha, India
+  :google: 
+  :lat: 20.2960587
+  :lng: 85.8245398
+- :name: Boston
+  :city: Boston
+  :state_province: MA
+  :country: USA
+  :formatted: Boston, MA, USA
+  :google: 
+  :lat: 42.3584308
+  :lng: -71.0597732
+- :name: Brasilia
+  :city: Brasilia
+  :state_province: Federal District
+  :country: Brazil
+  :formatted: Brasília - Federal District, Brazil
+  :google: 
+  :lat: -15.7801482
+  :lng: -47.9291698
+- :name: Bridgetown
+  :city: Bridgetown
+  :state_province: 
+  :country: Barbados
+  :formatted: Bridgetown, Barbados
+  :google: 
+  :lat: 13.098938
+  :lng: -59.61335200000001
+- :name: Bukavu
+  :city: Bukavu
+  :state_province: 
+  :country: Democratic Republic of the Congo
+  :formatted: Bukavu, Democratic Republic of the Congo
+  :google: 
+  :lat: -2.515364
+  :lng: 28.845079
+- :name: Cali
+  :city: Cali
+  :state_province: Valle del Cauca
+  :country: Colombia
+  :formatted: Cali, Valle del Cauca, Colombia
+  :google: 
+  :lat: 3.4205556
+  :lng: -76.5222222
+- :name: Canoas
+  :city: Canoas
+  :state_province: Rio Grande do Sul
+  :country: Brazil
+  :formatted: Canoas - Rio Grande do Sul, Brazil
+  :google: 
+  :lat: -29.918889
+  :lng: -51.1780587
+- :name: Cartagena de Indias
+  :city: Cartagena de Indias
+  :state_province: Bolivar
+  :country: Colombia
+  :formatted: Cartagenita, Cartagena, Bolivar, Colombia
+  :google: 
+  :lat: 10.3873369
+  :lng: -75.5196631
+- :name: Chennai
+  :city: Chennai
+  :state_province: Tamil Nadu
+  :country: India
+  :formatted: Chennai, Tamil Nadu, India
+  :google: 
+  :lat: 13.060422
+  :lng: 80.249583
+- :name: Chibombo
+  :city: Chibombo
+  :state_province: 
+  :country: Zambia
+  :formatted: Chibombo, Zambia
+  :google: 
+  :lat: -14.65785
+  :lng: 28.07221
+- :name: Chicago
+  :city: Chicago
+  :state_province: IL
+  :country: USA
+  :formatted: Chicago, IL, USA
+  :google: 
+  :lat: 41.8781136
+  :lng: -87.6297982
+- :name: Chisinau
+  :city: Chisinau
+  :state_province: 
+  :country: Moldova
+  :formatted: Chi?in?u, Moldova
+  :google: 
+  :lat: 47.02685899999999
+  :lng: 28.841551
+- :name: Cochabamba
+  :city: Cochabamba
+  :state_province: 
+  :country: Bolivia
+  :formatted: Cochabamba, Bolivia
+  :google: 
+  :lat: -17.38414
+  :lng: -66.166702
+- :name: Daidanaw
+  :city: Daidanaw
+  :state_province: Yangon Region
+  :country: Myanmar
+  :formatted: Tawgyaung, Myanmar
+  :google: Tawgyaung
+  :lat: 16.4376127
+  :lng: 95.99383390000001
+- :name: Dakar
+  :city: Dakar
+  :state_province: 
+  :country: Senegal
+  :formatted: Dakar, Senegal
+  :google: 
+  :lat: 14.6927778
+  :lng: -17.4466667
+- :name: Dallas
+  :city: Dallas
+  :state_province: TX
+  :country: USA
+  :formatted: Dallas, TX, USA
+  :google: 
+  :lat: 32.7801399
+  :lng: -96.80045109999999
+- :name: Danane
+  :city: Danane
+  :state_province: 
+  :country: Côte d'Ivoire
+  :formatted: Danane, Côte d'Ivoire
+  :google: 
+  :lat: 7.260796999999999
+  :lng: -8.153685
+- :name: Dar es Salaam
+  :city: Dar es Salaam
+  :state_province: 
+  :country: Tanzania
+  :formatted: Dar es Salaam, Tanzania
+  :google: 
+  :lat: -6.822921
+  :lng: 39.269661
+- :name: Dhaka
+  :city: Dhaka
+  :state_province: 
+  :country: Bangladesh
+  :formatted: Dhaka, Bangladesh
+  :google: 
+  :lat: 23.709921
+  :lng: 90.40714299999999
+- :name: Dnipropetrovsk
+  :city: Dnipropetrovsk
+  :state_province: Dnipropetrovsk Oblast
+  :country: Ukraine
+  :formatted: Dnipropetrovs'k, Dnipropetrovsk Oblast, Ukraine
+  :google: 
+  :lat: 48.464717
+  :lng: 35.046183
+- :name: Durham
+  :city: Durham
+  :state_province: NC
+  :country: USA
+  :formatted: Durham, NC 27701, USA
+  :google: 
+  :lat: 35.999451
+  :lng: -78.898811
+- :name: Frankfurt
+  :city: Frankfurt
+  :state_province: 
+  :country: Germany
+  :formatted: Frankfurt, Germany
+  :google: 
+  :lat: 50.1109221
+  :lng: 8.6821267
+- :name: Guwahati
+  :city: Guwahati
+  :state_province: 
+  :country: Assam India
+  :formatted: Guwahati, Assam, India
+  :google: 
+  :lat: 26.147129
+  :lng: 91.7355511
+- :name: Helsinki
+  :city: Helsinki
+  :state_province: 
+  :country: Finland
+  :formatted: Helsinki, Finland
+  :google: 
+  :lat: 60.169845
+  :lng: 24.9385508
+- :name: Istanbul
+  :city: Istanbul
+  :state_province: 
+  :country: Turkey
+  :formatted: Istanbul, Turkey
+  :google: 
+  :lat: 41.00527
+  :lng: 28.97696
+- :name: Jakarta
+  :city: Jakarta
+  :state_province: 
+  :country: Indonesia
+  :formatted: Jakarta, Indonesia
+  :google: 
+  :lat: -6.211544
+  :lng: 106.845172
+- :name: Johannesburg
+  :city: Johannesburg
+  :state_province: 
+  :country: South Africa
+  :formatted: Johannesburg, South Africa
+  :google: 
+  :lat: -26.2041028
+  :lng: 28.0473051
+- :name: Kadugannawa
+  :city: Kadugannawa
+  :state_province: 
+  :country: Sri Lanka
+  :formatted: Kadugannawa, Sri Lanka
+  :google: 
+  :lat: 7.2549725
+  :lng: 80.51883959999999
+- :name: Kampala
+  :city: Kampala
+  :state_province: 
+  :country: Uganda
+  :formatted: Kampala, Uganda
+  :google: 
+  :lat: 0.3136111
+  :lng: 32.5811111
+- :name: Kananga
+  :city: Kananga
+  :state_province: 
+  :country: Democratic Republic of the Congo
+  :formatted: Kananga, Democratic Republic of the Congo
+  :google: 
+  :lat: -5.892211
+  :lng: 22.402781
+- :name: Karachi
+  :city: Karachi
+  :state_province: 
+  :country: Pakistan
+  :formatted: Karachi, Pakistan
+  :google: 
+  :lat: 24.893379
+  :lng: 67.0280609
+- :name: Khujand
+  :city: Khujand
+  :state_province: Sughd Province
+  :country: Tajikistan
+  :formatted: Khujand, Tajikistan
+  :google: 
+  :lat: 40.2833333
+  :lng: 69.6333333
+- :name: Kolkata
+  :city: Kolkata
+  :state_province: 
+  :country: West Bengal India
+  :formatted: Kolkata, West Bengal, India
+  :google: 
+  :lat: 22.572646
+  :lng: 88.36389500000001
+- :name: Kuching
+  :city: Kuching
+  :state_province: Sarawak
+  :country: Malaysia
+  :formatted: Kuching, Sarawak, Malaysia
+  :google: 
+  :lat: 1.530976
+  :lng: 110.3442199
+- :name: Lae
+  :city: Lae
+  :state_province: 
+  :country: Papua New Guinea
+  :formatted: Lae, Papua New Guinea
+  :google: 
+  :lat: -6.723669999999999
+  :lng: 146.990906
+- :name: Lima
+  :city: Lima
+  :state_province: 
+  :country: Peru
+  :formatted: Lima, Peru
+  :google: 
+  :lat: -12.0478158
+  :lng: -77.0622028
+- :name: London
+  :city: London
+  :state_province: 
+  :country: UK
+  :formatted: London, UK
+  :google: 
+  :lat: 51.5073346
+  :lng: -0.1276831
+- :name: Lubumbashi
+  :city: Lubumbashi
+  :state_province: 
+  :country: Democratic Republic of the Congo
+  :formatted: Lubumbashi, Democratic Republic of the Congo
+  :google: 
+  :lat: -11.664677
+  :lng: 27.479553
+- :name: Lucknow
+  :city: Lucknow
+  :state_province: 
+  :country: Uttar Pradesh India
+  :formatted: Lucknow, Uttar Pradesh, India
+  :google: 
+  :lat: 26.8465108
+  :lng: 80.9466832
+- :name: Madrid
+  :city: Madrid
+  :state_province: 
+  :country: Spain
+  :formatted: Madrid, Spain
+  :google: 
+  :lat: 40.4167754
+  :lng: -3.7037902
+- :name: Manila
+  :city: Manila
+  :state_province: 
+  :country: Philippines
+  :formatted: Manila, Philippines
+  :google: 
+  :lat: 14.5995124
+  :lng: 120.9842195
+- :name: Matunda Soy
+  :city: Matunda Soy
+  :state_province: 
+  :country: Kenya
+  :formatted: Matunda, Kenya
+  :google: Matunda
+  :lat: 0.8272566000000001
+  :lng: 35.1206893
+- :name: Moscow
+  :city: Moscow
+  :state_province: 
+  :country: Russia
+  :formatted: Moscow, Russia
+  :google: 
+  :lat: 55.749646
+  :lng: 37.62368
+- :name: Mwinilunga
+  :city: Mwinilunga
+  :state_province: 
+  :country: Zambia
+  :formatted: Mwinilunga, Zambia
+  :google: 
+  :lat: -12.0217497
+  :lng: 24.524264
+- :name: Mzuzu
+  :city: Mzuzu
+  :state_province: 
+  :country: Malawi
+  :formatted: Mzuzu, Malawi
+  :google: 
+  :lat: -11.45807
+  :lng: 34.015131
+- :name: Nadi
+  :city: Nadi
+  :state_province: 
+  :country: Fiji
+  :formatted: Nadi, Fiji
+  :google: 
+  :lat: -17.8
+  :lng: 177.4166667
+- :name: Nairobi
+  :city: Nairobi
+  :state_province: 
+  :country: Kenya
+  :formatted: Nairobi, Kenya
+  :google: 
+  :lat: -1.2920659
+  :lng: 36.8219462
+- :name: New Delhi
+  :city: New Delhi
+  :state_province: Delhi
+  :country: India
+  :formatted: New Delhi, Delhi, India
+  :google: 
+  :lat: 28.635308
+  :lng: 77.22496
+- :name: Oakland
+  :city: Oakland
+  :state_province: CA
+  :country: USA
+  :formatted: Oakland, CA, USA
+  :google: 
+  :lat: 37.8043637
+  :lng: -122.2711137
+- :name: Otavalo
+  :city: Otavalo
+  :state_province: 
+  :country: Ecuador
+  :formatted: Otavalo, Ecuador
+  :google: 
+  :lat: 0.2333333
+  :lng: -78.2666667
+- :name: Ouagadougou
+  :city: Ouagadougou
+  :state_province: 
+  :country: Burkina Faso
+  :formatted: Ouagadougou, Burkina Faso
+  :google: 
+  :lat: 12.364637
+  :lng: -1.5338639
+- :name: Panchgani
+  :city: Panchgani
+  :state_province: Maharashtra
+  :country: India
+  :formatted: Panchgani, Maharashtra, India
+  :google: 
+  :lat: 17.9203699
+  :lng: 73.793854
+- :name: Paris
+  :city: Paris
+  :state_province: 
+  :country: France
+  :formatted: Paris, France
+  :google: 
+  :lat: 48.856614
+  :lng: 2.3522219
+- :name: Patna
+  :city: Patna
+  :state_province: Bihar
+  :country: India
+  :formatted: Patna, Bihar, India
+  :google: 
+  :lat: 25.61046
+  :lng: 85.141667
+- :name: Perth
+  :city: Perth
+  :state_province: WA
+  :country: Australia
+  :formatted: Perth WA, Australia
+  :google: 
+  :lat: -31.9530044
+  :lng: 115.8574693
+- :name: Phoenix
+  :city: Phoenix
+  :state_province: AZ
+  :country: USA
+  :formatted: Phoenix, AZ, USA
+  :google: 
+  :lat: 33.4483771
+  :lng: -112.0740373
+- :name: Port-au-Prince
+  :city: Port-au-Prince
+  :state_province: 
+  :country: Haiti
+  :formatted: Port-au-Prince, Haiti
+  :google: 
+  :lat: 18.539269
+  :lng: -72.336408
+- :name: Port Dickson
+  :city: Port Dickson
+  :state_province: Negeri Sembilan
+  :country: Malaysia
+  :formatted: Port Dickson, Negeri Sembilan, Malaysia
+  :google: 
+  :lat: 2.536424
+  :lng: 101.8068142
+- :name: Port Moresby
+  :city: Port Moresby
+  :state_province: 
+  :country: Papua New Guinea
+  :formatted: Port Moresby, Papua New Guinea
+  :google: 
+  :lat: -9.481553000000002
+  :lng: 147.190242
+- :name: Port-Vila
+  :city: Port-Vila
+  :state_province: 
+  :country: Vanuatu
+  :formatted: Port Vila, Vanuatu
+  :google: 
+  :lat: -17.734818
+  :lng: 168.3220289
+- :name: San Diego
+  :city: San Diego
+  :state_province: CA
+  :country: USA
+  :formatted: San Diego, CA, USA
+  :google: 
+  :lat: 32.7153292
+  :lng: -117.1572551
+- :name: San Jose
+  :city: San Jose
+  :state_province: 
+  :country: Costa Rica
+  :formatted: San Jose, Costa Rica
+  :google: 
+  :lat: 9.927128
+  :lng: -84.08201199999999
+- :name: San Jose City
+  :city: San Jose City
+  :state_province: 
+  :country: Philippines
+  :formatted: San Jose City, Philippines
+  :google: 
+  :lat: 15.79006
+  :lng: 120.987396
+- :name: San Salvador
+  :city: San Salvador
+  :state_province: San Salvador
+  :country: El Salvador
+  :formatted: San Salvador, El Salvador
+  :google: 
+  :lat: 13.706881
+  :lng: -89.20181
+- :name: Santiago
+  :city: Santiago
+  :state_province: Santiago Metropolitan Region
+  :country: Chile
+  :formatted: Santiago, Santiago Metropolitan Region, Chile
+  :google: 
+  :lat: -33.4691199
+  :lng: -70.641997
+- :name: Sapele
+  :city: Sapele
+  :state_province: 
+  :country: Nigeria
+  :formatted: Sapele, Nigeria
+  :google: 
+  :lat: 5.893112899999999
+  :lng: 5.678691
+- :name: Sarh
+  :city: Sarh
+  :state_province: 
+  :country: Chad
+  :formatted: Sarh, Chad
+  :google: 
+  :lat: 9.15
+  :lng: 18.3833333
+- :name: Seberang Perai
+  :city: Seberang Perai
+  :state_province: Penang
+  :country: Malaysia
+  :formatted: Perai, Penang, Malaysia
+  :google: Perai
+  :lat: 5.384388
+  :lng: 100.3896169
+- :name: South Tarawa
+  :city: South Tarawa
+  :state_province: 
+  :country: Kiribati
+  :formatted: Bairiki, Kiribati
+  :google: Bairiki
+  :lat: 1.3290526
+  :lng: 172.9790528
+- :name: Sydney
+  :city: Sydney
+  :state_province: NSW
+  :country: Australia
+  :formatted: Sydney NSW, Australia
+  :google: 
+  :lat: -33.8674869
+  :lng: 151.2069902
+- :name: Tbilisi
+  :city: Tbilisi
+  :state_province: 
+  :country: Georgia
+  :formatted: Tbilisi, Georgia
+  :google: 
+  :lat: 41.709981
+  :lng: 44.792998
+- :name: Thyolo
+  :city: Thyolo
+  :state_province: 
+  :country: Malawi
+  :formatted: Thyolo, Malawi
+  :google: 
+  :lat: -16.069257
+  :lng: 35.1406293
+- :name: Tirana
+  :city: Tirana
+  :state_province: 
+  :country: Albania
+  :formatted: Tirana, Albania
+  :google: 
+  :lat: 41.33165
+  :lng: 19.8318
+- :name: Toronto
+  :city: Toronto
+  :state_province: 'ON'
+  :country: Canada
+  :formatted: Toronto, ON, Canada
+  :google: 
+  :lat: 43.653226
+  :lng: -79.3831843
+- :name: Ulaanbaatar
+  :city: Ulaanbaatar
+  :state_province: 
+  :country: Mongolia
+  :formatted: Ulaanbaatar, Mongolia
+  :google: 
+  :lat: 47.921378
+  :lng: 106.90554
+- :name: Vancouver
+  :city: Vancouver
+  :state_province: BC
+  :country: Canada
+  :formatted: Vancouver, BC, Canada
+  :google: 
+  :lat: 49.261226
+  :lng: -123.1139268
+- :name: Verona
+  :city: Verona
+  :state_province: 
+  :country: Italy
+  :formatted: Verona Province of Verona, Italy
+  :google: 
+  :lat: 45.4383563
+  :lng: 10.9916578
+- :name: Yaounde
+  :city: Yaounde
+  :state_province: 
+  :country: Cameroon
+  :formatted: Yaounde, Cameroon
+  :google: 
+  :lat: 3.866666699999999
+  :lng: 11.5166667
+- :name: Kinshasa
+  :city: Kinshasa
+  :state_province: 
+  :country: Democratic Republic of the Congo
+  :formatted: Kinshasa, Democratic Republic of the Congo
+  :google: 
+  :lat: -4.3316667
+  :lng: 15.3138889
+- :name: Macau
+  :city: Macau
+  :state_province: 
+  :country: Macau
+  :formatted: Macau
+  :google: 
+  :lat: 22.201874
+  :lng: 113.544202
