@@ -11,13 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130210042328) do
+ActiveRecord::Schema.define(:version => 20130210054142) do
 
   create_table "conferences", :force => true do |t|
     t.string   "city"
     t.string   "country"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+    t.string   "state_province"
   end
 
   create_table "sessions", :force => true do |t|

@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rack', '1.4.1'
+gem 'rails', '3.2.10'
 gem 'pg'
 gem 'jquery-rails'
 
