@@ -47,14 +47,8 @@ var R = Raphael("map");
 renderMap(R, map, attr);
 
 
-var conferences = {};
-
-$.ajax({
-	url: '/conferences.json',
-	success: function (data) {
-		for (var c=0; c<data.length; c++) {
-			plot(data[c].lat, data[c].lng, 10, data[c].name);
-		}
-	}
-});
+var data = $.parseJSON($("#data").text());
+for (var c=0; c<data.length; c++) {
+    plot(data[c].lat, data[c].lng, 10, data[c].name);
+}
 

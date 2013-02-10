@@ -1,6 +1,20 @@
-h1 Listing #{@conferences.count} conferences
+.navbar
+  .navbar-inner
+    .container
+      a.brand(href="#") 95 Youth Conferences
+.container-fluid
+  .row-fluid
+    #map.span12
 
-table
+#data(style="display:none")
+  = @conferences.to_json
+
+script(type="text/javascript" src="/js/worldmap.js")
+script(type="text/javascript" src="/js/app.js")
+
+/h1 Listing #{@conferences.count} conferences
+
+/table
   tr
     th Name
     th City
@@ -28,6 +42,6 @@ table
       td = link_to 'Edit', edit_conference_path(conference)
       td = link_to 'Destroy', conference, :confirm => 'Are you sure?', :method => :delete
 
-br
+/br
 
-= link_to 'New Conference', new_conference_path
+/= link_to 'New Conference', new_conference_path
