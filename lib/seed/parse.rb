@@ -136,4 +136,4 @@ results.each do |c|
   }
 end
 
-File.open('../../db/fixtures/conferences.yml', 'w') { |file| file.write(seed_data.to_yaml) }
+#File.open('../../db/fixtures/conferences.yml', 'w') { |file| file.write(seed_data.to_yaml) }
