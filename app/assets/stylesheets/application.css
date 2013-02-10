@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+
+.smooth {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: .8s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: .8s;
+	-o-transition-property: -o-transform;
+	-o-transition-duration: .8s;
+	-ms-transition-property: -ms-transform;
+	-ms-transition-duration: .8s;
+	transition-property: transform;
+	transition-duration: .8s;
+}
