@@ -3,6 +3,7 @@
 
 ## Install Rails
 
+    $ gem install rack
     $ gem install rails
 
 ## Install Postgresql
