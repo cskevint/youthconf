@@ -121,10 +121,19 @@ end
 #File.open('seed.yml', 'w') { |file| file.write(seed_text.join("")) }
 
 results = YAML.load_file('seed.yml')
+seed_data = []
 
 results.each do |c|
-  puts c
+  seed_data << {
+    name: c[:city],
+    city: c[:city],
+    state_province: c[:state_province],
+    country: c[:country],
+    formatted: c[:formatted],
+    google: c[:google],
+    lat: c[:lat],
+    lng: c[:lng]
+  }
 end
 
-#File.open('temp.yml', 'w') { |file| file.write([{name:"kevin",last:"trotter"},{name:"selena",last:"trotter"}].to_yaml) }
-
+File.open('../../db/fixtures/conferences.yml', 'w') { |file| file.write(seed_data.to_yaml) }
