@@ -1,8 +1,9 @@
 # Be sure to restart your server when you modify this file.
 
-Youthconf::Application.config.session_store :cookie_store, key: '_youthconf_session'
+# Youthconf::Application.config.session_store :cookie_store, key: '_youthconf_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# Youthconf::Application.config.session_store :active_record_store
+
+Youthconf::Application.config.session_store :active_record_store
