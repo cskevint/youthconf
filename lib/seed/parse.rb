@@ -137,3 +137,16 @@ results.each do |c|
 end
 
 #File.open('../../db/fixtures/conferences.yml', 'w') { |file| file.write(seed_data.to_yaml) }
+
+conferences = YAML.load_file('../../db/fixtures/conferences.yml')
+
+cities = []
+conferences.each do |c|
+  cities << c[:name]
+  puts c[:name] if uhj_cities.select { |city| city == c[:name] }.nil?
+end
+
+puts uhj_cities.count
+puts cities.uniq.count
+dup = cities.select{|element| cities.count(element) > 1 }
+puts dup

@@ -1,11 +1,29 @@
 p#notice = notice
 
 p
+  strong Name:
+  = @conference.name
+p
   strong City:
   = @conference.city
 p
+  strong State/Province:
+  = @conference.state_province
+p
   strong Country:
   = @conference.country
+p
+  strong Google:
+  = @conference.google
+p
+  strong Formatted:
+  = @conference.formatted
+p
+  strong Latitude:
+  = @conference.lat
+p
+  strong Longitude:
+  = @conference.lng
 
 = link_to 'Edit', edit_conference_path(@conference)
 '|
