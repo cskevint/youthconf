@@ -1,0 +1,15 @@
+= form_for @conference do |f|
+  - if @conference.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@conference.errors.count, "error")} prohibited this conference from being saved:"
+      ul
+        - @conference.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :city
+    = f.text_field :city
+  .field
+    = f.label :country
+    = f.text_field :country
+  .actions = f.submit 'Save'

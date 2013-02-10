@@ -1,4 +1,6 @@
 Youthconf::Application.routes.draw do
+  resources :conferences
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
