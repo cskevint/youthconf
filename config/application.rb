@@ -2,10 +2,6 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-def local_request?
-  false
-end
-
 if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
@@ -64,3 +60,10 @@ module Youthconf
     config.assets.version = '1.0'
   end
 end
+
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "/database.yml")["config"]
+
+def local_request?
+  false
+end
+
