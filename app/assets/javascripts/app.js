@@ -2,6 +2,19 @@ var MAP_WIDTH;
 var MAP_HEIGHT;
 var current = [];
 
+function showPopover($node, confname) {
+	$map.unbind().bind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend", function() {
+		$node.popover({
+			title: confname,
+			container: 'body'
+		}).popover('show');
+	});
+}
+
+function hidePopover() {
+	$(".pop").popover('destroy');
+}
+
 function lng2x(lng) {
 	var xfactor = 2.752;
 	var xoffset = 473.75;
@@ -56,6 +69,8 @@ function plot(R, lat, lng, size, confname) {
 	}).click(function(e) {
 		if (this.data('selected')) {
 			current = [];
+			$map.unbind();
+			hidePopover();
 			this.attr({
 				stroke: "none"
 			}).data('selected', false);
@@ -64,6 +79,7 @@ function plot(R, lat, lng, size, confname) {
 		else {
 			// deselect current conf
 			if (current.length > 0) {
+				hidePopover();
 				current[0].attr({
 					stroke: "none"				
 				}).data('selected', false);
@@ -78,9 +94,8 @@ function plot(R, lat, lng, size, confname) {
 
 			// zoom to current conf
 			zoomToXY(lng2x(lng), lat2y(lat), true);
-			$(this.node).popover({
-				title: confname			
-			}).popover('show');
+			var $node = $(this.node).attr({class: 'pop'});
+			showPopover($node, confname);
 		}
 	});
 }
