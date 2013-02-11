@@ -1,0 +1,18 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @user.name
+p
+  strong Date of birth:
+  = @user.date_of_birth
+p
+  strong Password digest:
+  = @user.password_digest
+p
+  strong Email:
+  = @user.email
+
+= link_to 'Edit', edit_user_path(@user)
+'|
+= link_to 'Back', users_path

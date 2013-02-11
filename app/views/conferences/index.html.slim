@@ -3,6 +3,9 @@ header.header
     #map
 
 .container
+  - if current_user
+    .user(style="text-align:right")
+      = "Logged in as: #{current_user.name}"
   .row-fluid
     #content.span12
       h2#title

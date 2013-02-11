@@ -10,6 +10,7 @@ gem 'sass-rails',   '~> 3.2.3'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'quiet_assets', :group => :development
 gem 'thin'
+gem 'bcrypt-ruby'
 
 group :assets do
   gem 'uglifier', '>= 1.0.3'
