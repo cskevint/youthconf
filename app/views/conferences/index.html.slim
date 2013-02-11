@@ -9,23 +9,11 @@
 
 javascript:
   $(function(){
-    MAP_WIDTH = $('#map').width();
-    MAP_HEIGHT = $('#map').height();
-    var attr = {
-      fill: "#333",
-      stroke: "#888",
-      "stroke-width": .5,
-      "stroke-linejoin": "round"
-    };
 
-    var map = {};
-    var R = Raphael("map");
-    renderMap(R, map, attr);
-    
-    var data = $.parseJSON($("#data").text());
-    for(var c = 0; c < data.length; c++) {
-      plot(R, data[c].lat, data[c].lng, 10, data[c].name);
-    }
+    $('#map').confmap({
+      conferences: $.parseJSON($("#data").text())
+    });
+
   });
 
 /h1 Listing #{@conferences.count} conferences
