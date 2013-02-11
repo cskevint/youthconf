@@ -33,7 +33,7 @@ function zoomToXY(x, y, smooth) {
 	$map.css('-webkit-transform', 'matrix(' + sf + ', 0, 0, ' + sf + ', ' + tx + ', ' + ty + ')');
 }
 
-function plot(R, lat, lng, size, name) {
+function plot(R, lat, lng, size, confname) {
 	var conf_attr = {
 		fill: Raphael.getColor(.9),
 		stroke: "none",
@@ -41,12 +41,12 @@ function plot(R, lat, lng, size, name) {
 	};
 
 	size = size * .5 + 4;
-	return R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('name', name).hover(function(e) {
+	return R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('confname', confname).hover(function(e) {
 		this.attr({
 			stroke: "#00f",
 			'stroke-width': 2
 		});
-		console.log(this.data('name'));
+		console.log(this.data('confname'));
 	}, function(e) {
 		if (!(this.data('selected'))) {
 			this.attr({
@@ -78,6 +78,9 @@ function plot(R, lat, lng, size, name) {
 
 			// zoom to current conf
 			zoomToXY(lng2x(lng), lat2y(lat), true);
+			$(this.node).popover({
+				title: confname			
+			}).popover('show');
 		}
 	});
 }
