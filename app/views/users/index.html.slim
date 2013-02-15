@@ -5,16 +5,18 @@
     table.table.table-striped.span8
       tr
         th Name
-        th Date of birth
         th Email
+        th DOB
+        th Role
         th
         th
         th
       - @users.each do |user|
         tr
           td = user.name
-          td = user.date_of_birth
           td = user.email
+          td = user.date_of_birth.strftime("%m/%d/%Y")
+          td = user.role
           td = link_to 'Show', user, class: 'btn btn-primary'
           td = link_to 'Edit', edit_user_path(user), class: 'btn'
           td = link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete, class: 'btn'

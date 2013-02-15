@@ -1,7 +1,13 @@
 .container
-  p#notice = notice
-
   h3 = @user.name
+
+  - if notice
+    .row
+      .span3
+      .span6
+        .alert.alert-success
+          button(type="button" class="close" data-dismiss="alert") &times;
+          = notice
 
   .row
     .span3
@@ -30,4 +36,5 @@
     .span3
     .btn-group.span6.text-right
       = link_to 'Edit', edit_user_path(@user), class:'btn inline btn-primary'
-      = link_to 'Back', users_path, class:'btn inline'
+      - if current_user.is_admin
+        = link_to 'List', users_path, class:'btn inline'

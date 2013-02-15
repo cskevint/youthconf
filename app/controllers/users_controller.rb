@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   before_filter :require_admin, :only => [:index, :destroy]
 
   def require_admin
-    redirect_to user_path(current_user) if not current_user.role == 'admin'
+    redirect_to user_path(current_user) if not current_user.is_admin
   end
 
   # GET /users
@@ -18,6 +18,7 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
+    reset_session
     @user = User.new
   end
 
@@ -28,8 +29,10 @@ class UsersController < ApplicationController
 
   # POST /users
   def create
+    params[:user][:role] = 'normal'
     @user = User.new(params[:user])
     if @user.save
+      session[:user_id] = @user.id
       redirect_to root_url, :notice => "Signed up!"
     else
       render "new"

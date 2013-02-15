@@ -12,4 +12,11 @@ class User < ActiveRecord::Base
 
   validates_presence_of :password, :on => :create
 
+  def is_admin
+    role == 'admin'
+  end
+
+  def is_organizer
+    role == 'organizer'
+  end
 end

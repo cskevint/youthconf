@@ -1,28 +1,64 @@
 .row
-  .span3
-  .span6
-    = form_for @user, class: 'form-horizontal' do |f|
+  .span2
+  .span8
+    = form_for @user, html: { class: 'form-horizontal' } do |f|
       - if @user.errors.any?
         .alert.alert-error
           button(type="button" class="close" data-dismiss="alert") &times;
-          h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+          p
+            strong
+              = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
           ul
             - @user.errors.full_messages.each do |message|
               li = message
-
-      .field
-        = f.label :name
-        = f.text_field :name
-      .field
-        = f.label :date_of_birth
-        = f.date_select :date_of_birth, class: 'span1'
-      .field
-        = f.label :password
-        = f.text_field :password
-      .field
-        = f.label :password_confirmation
-        = f.text_field :password_confirmation
-      .field
-        = f.label :email
-        = f.text_field :email
-      .actions = f.submit 'Save', class: 'btn btn-primary'
+      .control-group
+        = f.label :name, class:'control-label'
+        .controls
+          = f.text_field :name
+      .control-group
+        = f.label :email, class:'control-label'
+        .controls
+          = f.text_field :email
+      .control-group
+        = f.label :date_of_birth, class:'control-label'
+        .controls
+          .input-append.date
+            - date_of_birth = @user.date_of_birth.strftime("%Y-%m-%d") rescue ""
+            = f.text_field :date_of_birth, :readonly => true, :value => date_of_birth
+        	span.add-on
+              i.icon-calendar
+      - if current_user.is_admin
+        .control-group
+          = f.label :role, class:'control-label'
+          .controls
+            = f.select :role, options_for_select(['admin','organizer','normal'], @user.role)
+      - if not @user.new_record?
+        h4 Reset password
+      .control-group
+        = f.label :password, class:'control-label'
+        .controls
+          = f.text_field :password
+      .control-group
+        = f.label "confirmation", class:'control-label'
+        .controls
+          = f.text_field :password_confirmation
+      .control-group
+        .controls
+          = f.submit "#{@user.new_record? ? 'Register' : 'Save'}", class: 'btn btn-primary'
+javascript:
+  $(function(){
+    function showPicker($elem) {
+      $elem.datepicker({
+        format: 'yyyy-mm-dd',
+        startView: 2
+      }).on('changeDate', function() {
+        $elem.datepicker('hide');
+      });
+    }
+    $(".date input").focus(function() {
+      showPicker($(this).closest(".date"));
+    });
+    $(".date").mousedown(function(){
+      showPicker($(this));
+    })
+  });

@@ -3,7 +3,8 @@
 
   == render 'form'
 
-  .row
-    .span3
-    .btn-group.span6.text-right
-      = link_to 'Back', users_path, class:'btn'
+  - if current_user.is_admin
+    .row
+      .span3
+      .btn-group.span6.text-right
+        = link_to 'List', users_path, class:'btn'
