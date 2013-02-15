@@ -1,18 +1,33 @@
-p#notice = notice
+.container
+  p#notice = notice
 
-p
-  strong Name:
-  = @user.name
-p
-  strong Date of birth:
-  = @user.date_of_birth
-p
-  strong Password digest:
-  = @user.password_digest
-p
-  strong Email:
-  = @user.email
+  h3 = @user.name
 
-= link_to 'Edit', edit_user_path(@user)
-'|
-= link_to 'Back', users_path
+  .row
+    .span3
+    table.table.span6
+      tr
+        td
+          strong Name:
+        td
+          = @user.name
+      tr
+        td
+          strong Date of birth:
+        td
+          = @user.date_of_birth.strftime("%m/%d/%Y")
+      tr
+        td
+          strong Email:
+        td
+          = @user.email
+      tr
+        td
+          strong Role:
+        td
+          = @user.role
+  .row
+    .span3
+    .btn-group.span6.text-right
+      = link_to 'Edit', edit_user_path(@user), class:'btn inline btn-primary'
+      = link_to 'Back', users_path, class:'btn inline'

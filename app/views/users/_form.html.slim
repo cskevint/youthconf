@@ -1,24 +1,28 @@
-= form_for @user do |f|
-  - if @user.errors.any?
-    #error_explanation
-      h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
-      ul
-        - @user.errors.full_messages.each do |message|
-          li = message
+.row
+  .span3
+  .span6
+    = form_for @user, class: 'form-horizontal' do |f|
+      - if @user.errors.any?
+        .alert.alert-error
+          button(type="button" class="close" data-dismiss="alert") &times;
+          h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+          ul
+            - @user.errors.full_messages.each do |message|
+              li = message
 
-  .field
-    = f.label :name
-    = f.text_field :name
-  .field
-    = f.label :date_of_birth
-    = f.datetime_select :date_of_birth
-  .field
-    = f.label :password
-    = f.text_field :password
-  .field
-    = f.label :password_confirmation
-    = f.text_field :password_confirmation
-  .field
-    = f.label :email
-    = f.text_field :email
-  .actions = f.submit 'Save'
+      .field
+        = f.label :name
+        = f.text_field :name
+      .field
+        = f.label :date_of_birth
+        = f.date_select :date_of_birth, class: 'span1'
+      .field
+        = f.label :password
+        = f.text_field :password
+      .field
+        = f.label :password_confirmation
+        = f.text_field :password_confirmation
+      .field
+        = f.label :email
+        = f.text_field :email
+      .actions = f.submit 'Save', class: 'btn btn-primary'

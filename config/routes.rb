@@ -1,4 +1,5 @@
 Youthconf::Application.routes.draw do
+
   resources :users
 
   resources :conferences

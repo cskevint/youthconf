@@ -1,16 +1,26 @@
-h1 Log in
+.container
+  h1 Login
 
-- if flash[:notice]
-  #error_explanation
-    ul
-      li
-        = flash[:notice]
+  .row
+    .span3
+    .span6
+      - if flash[:notice]
+        .alert.alert-error
+          button(type="button" class="close" data-dismiss="alert") &times;
+          = flash[:notice]
 
-= form_tag sessions_path do 
-  .field
-    = label_tag :email
-    = text_field_tag :email, params[:email] 
-  .field
-    = label_tag :password 
-    = password_field_tag :password 
-  .actions = submit_tag "Log in"
+  .row
+    .span3
+    .span4
+      = form_tag sessions_path, class: 'form-horizontal' do
+        .control-group
+          = label_tag :email, nil, class:'control-label'
+          .controls
+            = text_field_tag :email, params[:email] || 'cskevint@gmail.com'
+        .control-group
+          = label_tag :password, nil, class:'control-label'
+          .controls
+            = password_field_tag :password, 'bahai1844'
+        .control-group
+          .controls
+            = submit_tag "Log in", class: 'btn btn-primary'
