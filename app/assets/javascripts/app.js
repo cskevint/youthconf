@@ -1,3 +1,20 @@
+var visitClick = function (c) {
+	$("#map").confmap.hideAllConferences().hidePopover().minimize();
+	$("#map").trigger('visitClicked', [c]);
+};
+
+$(document).on('showConference', function (evt, c) {
+	console.log('showConference triggered', c);
+	$('header').css({
+		'background-image': 'url(assets/' + c.toLowerCase() + '.jpg)'
+	});
+	$("#title").html(c);
+	$("#map").on('click', function() {
+		$("#map").confmap.restore();
+	});
+});
+
+
 (function($, undefined) {
 
 	var MAP_WIDTH;
@@ -6,6 +23,7 @@
 	var current = [];
 	var $map; // jQuery map el
 	var countries = {};
+	var conferences = {};
 	var R; // Raphael canvas
 
 	function renderMap(attr) {
@@ -218,6 +236,10 @@
 
 		// draw map inside Raphael canvas
 		R = Raphael($map[0], MAP_WIDTH, MAP_HEIGHT);
+		$map.on('visitClicked', function (evt, c) {
+			console.log('visitClicked triggered', c);
+			$(document).trigger('showConference', [c]);
+		});
 
 		return this.each(function() {
 			renderMap(opts.worldMapAttr);
@@ -229,23 +251,77 @@
 		});
 	};
 
+	$.fn.confmap.showTooltip = function($node, confname) {
+		$node.tooltip({
+			placement: 'right',
+			title: confname,
+			container: 'body'
+		}).tooltip('show');
+		return $map.confmap;
+	};
+
 	$.fn.confmap.showPopover = function($node, confname) {
-		$map.unbind().bind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend", function() {
+		$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend")
+			.bind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend", function() {
 			$node.popover({
 				title: confname,
-				container: 'body'
+				container: 'body',
+				html: true,
+				content: "<small><a href='#' onclick='visitClick(\"" + confname + "\");'>visit</a></small>"
 			}).popover('show');
 		});
+		return $map.confmap;
+	};
+
+	$.fn.confmap.hideTooltip = function() {
+		$(".tip").tooltip('hide');
+		return $map.confmap;
 	};
 
 	$.fn.confmap.hidePopover = function() {
 		$(".pop").popover('destroy');
+		return $map.confmap;
+	};
+
+	$.fn.confmap.hideAllConferences = function () {
+		for (var c in conferences) {
+			conferences.hasOwnProperty(c) ? conferences[c].hide() : false;
+		}
+		return $map.confmap;
+	};
+
+	$.fn.confmap.showAllConferences = function () {
+		for (var c in conferences) {
+			conferences.hasOwnProperty(c) ? conferences[c].show() : false;
+		}
+		return $map.confmap;
+	};
+
+	$.fn.confmap.hideConference = function (c) {
+		c = c.toLowerCase();
+		conferences.hasOwnProperty(c) ? conferences[c].hide() : false;
+		return $map.confmap;
+	};
+
+	$.fn.confmap.showConference = function (c) {
+		c = c.toLowerCase();
+		conferences.hasOwnProperty(c) ? conferences[c].show() : false;
+		return $map.confmap;
+	};
+
+	$.fn.confmap.getAllConferences = function () {
+		return conferences;
 	};
 
 	$.fn.confmap.zoomToLatLng = function(lat, lng) {
 		var x = lng2x(lng);
 		var y = lat2y(lat);
 		R.setViewBox(x - 100, y - 100, 100 * 2, 100 * 2, true);
+		return $map.confmap;
+	};
+
+	$.fn.confmap.getSelectedConf = function () {
+		return (current.length>0)? current[0] : null;
 	};
 
 	$.fn.confmap.zoomToXY = function(x, y, smooth) {
@@ -257,7 +333,28 @@
 			$map.addClass('smooth');
 		}
 		$map.css('-webkit-transform', 'matrix(' + sf + ', 0, 0, ' + sf + ', ' + tx + ', ' + ty + ')');
+		return $map.confmap;
 	};
+
+	$.fn.zoomToConference = function (c) {
+
+	};
+
+	$.fn.confmap.minimize = function () {
+		var sf = .15;
+		$map.css({
+			'-webkit-transform-origin': '0px 400px',
+			'-webkit-transform': 'matrix(' + sf + ', 0, 0, ' + sf + ', 0, 0)'
+		});		
+		return $map.confmap;
+	};
+
+	$.fn.confmap.restore = function () {
+		$map.css({
+			'-webkit-transform-origin': '0px 400px',
+			'-webkit-transform': 'matrix(1, 0, 0, 1, 0, 0)'
+		}).confmap.showAllConferences();
+	}
 
 	$.fn.confmap.plot = function(lat, lng, size, confname) {
 		var conf_attr = {
@@ -267,12 +364,18 @@
 		};
 
 		size = size * .5 + 4;
-		return R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('confname', confname).hover(function(e) {
+		return conferences[confname.toLowerCase()] = R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('confname', confname).hover(function(e) {
 			this.attr({
 				stroke: "#00f",
 				'stroke-width': 2
 			});
-			console.log(this.data('confname'));
+			if(this.data('selected')) {
+				$map.confmap.hideTooltip();
+			}
+			else {
+				$map.confmap.showTooltip($(this.node).attr({ class: 'tip' }), confname);
+			}
+
 		}, function(e) {
 			if(!(this.data('selected'))) {
 				this.attr({
@@ -280,10 +383,11 @@
 				});
 			}
 		}).click(function(e) {
+			console.log('conference clicked');
 			if(this.data('selected')) {
 				current = [];
-				$map.unbind();
-				$map.confmap.hidePopover();
+				$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend");
+				$map.confmap.hidePopover().hideTooltip();
 				this.attr({
 					stroke: "none"
 				}).data('selected', false);
@@ -307,10 +411,7 @@
 
 				// zoom to current conf
 				$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), true);
-				var $node = $(this.node).attr({
-					class: 'pop'
-				});
-				$map.confmap.showPopover($node, confname);
+				$map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
 			}
 		});
 	};

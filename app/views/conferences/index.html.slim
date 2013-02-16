@@ -1,8 +1,16 @@
-#mapcontainer
-  #map
-.container-fluid
+header.header
+  #mapcontainer
+    #map
+
+.container
   .row-fluid
     #content.span12
+      h2#title
+
+
+footer.footer
+  .container
+    p Designed and built with all the love in the world
 
 #data(style="display:none")
   = @conferences.to_json
