@@ -1,30 +1,34 @@
-p#notice = notice
-
-p
-  strong Name:
-  = @conference.name
-p
-  strong City:
-  = @conference.city
-p
-  strong State/Province:
-  = @conference.state_province
-p
-  strong Country:
-  = @conference.country
-p
-  strong Google:
-  = @conference.google
-p
-  strong Formatted:
-  = @conference.formatted
-p
-  strong Latitude:
-  = @conference.lat
-p
-  strong Longitude:
-  = @conference.lng
-
-= link_to 'Edit', edit_conference_path(@conference)
-'|
-= link_to 'Back', conferences_path
+div(style="background:gray;height:40px")
+div(style="background:black")
+  .container
+    .row
+      .span12(style="position:relative")
+        div(style="border:1px solid white;height:400px;")
+        div(style="position:absolute;bottom:0px;left:0px;width:150px;height:150px;border:1px solid red")
+          #map
+div
+  .container
+    .row
+      .span3
+        .well
+          .btn-group.text-center
+            - if @conference.previous
+              = link_to "Previous", conference_path(id:@conference.previous.url_code), class:'btn'
+            - if current_user.is_admin
+              = link_to 'Edit', edit_conference_path(@conference), class:'btn btn-primary'
+            = link_to 'List', conferences_path, class:'btn'
+            - if @conference.next
+              = link_to "Next", conference_path(id:@conference.next.url_code), class:'btn'
+          h6 Attending
+          p 95
+          h6 Location
+          p Hotel
+      .span9
+        div(style="border:1px solid black;height:400px;")
+          h3 = @conference.name
+          h4
+            - if @conference.state_province
+              = "#{@conference.city}, #{@conference.state_province}, #{@conference.country}"
+            - else
+              = "#{@conference.city}, #{@conference.country}"
+javascript:

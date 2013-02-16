@@ -13,7 +13,11 @@ class ConferencesController < ApplicationController
   # GET /conferences/1
   # GET /conferences/1.json
   def show
-    @conference = Conference.find(params[:id])
+    if params[:id].to_i > 0
+      @conference = Conference.find(params[:id])
+    else
+      @conference = Conference.all.select { |c| c.url_code == params[:id].downcase.gsub(" ","") }.first
+    end
 
     respond_to do |format|
       format.html # show.html.erb
