@@ -32,3 +32,10 @@ div
             - else
               = "#{@conference.city}, #{@conference.country}"
 javascript:
+  $(function(){
+    $('#map').confmap({
+      conferences: $.parseJSON($("#data").text())
+    });
+    conference = "#{@conference.name.downcase}"
+    $('#map').confmap.zoomToConference(conference);
+  });

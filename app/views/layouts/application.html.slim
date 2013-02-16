@@ -6,4 +6,11 @@ html
     = javascript_include_tag 'application'
     = csrf_meta_tags
   body(class="#{action_name}")
+    - if current_user
+      .container
+        .user(style="text-align:right")
+          = "Logged in as: #{current_user.name}"
     = yield
+    #data(style="display:none")
+      = Conference.all.to_json
+
