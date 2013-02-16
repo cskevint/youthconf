@@ -285,27 +285,27 @@ $(document).on('showConference', function (evt, c) {
 
 	$.fn.confmap.hideAllConferences = function () {
 		for (var c in conferences) {
-			conferences.hasOwnProperty(c) ? conferences[c].hide() : false;
+			conferences.hasOwnProperty(c) ? conferences[c].node.hide() : false;
 		}
 		return $map.confmap;
 	};
 
 	$.fn.confmap.showAllConferences = function () {
 		for (var c in conferences) {
-			conferences.hasOwnProperty(c) ? conferences[c].show() : false;
+			conferences.hasOwnProperty(c) ? conferences[c].node.show() : false;
 		}
 		return $map.confmap;
 	};
 
 	$.fn.confmap.hideConference = function (c) {
 		c = c.toLowerCase();
-		conferences.hasOwnProperty(c) ? conferences[c].hide() : false;
+		conferences.hasOwnProperty(c) ? conferences[c].node.hide() : false;
 		return $map.confmap;
 	};
 
 	$.fn.confmap.showConference = function (c) {
 		c = c.toLowerCase();
-		conferences.hasOwnProperty(c) ? conferences[c].show() : false;
+		conferences.hasOwnProperty(c) ? conferences[c].node.show() : false;
 		return $map.confmap;
 	};
 
@@ -336,8 +336,11 @@ $(document).on('showConference', function (evt, c) {
 		return $map.confmap;
 	};
 
-	$.fn.zoomToConference = function (c) {
-
+	$.fn.confmap.zoomToConference = function (c) {
+		var sf = 3;
+		if (conferences.hasOwnProperty(c)) {
+			$map.confmap.zoomToXY(lng2x(conferences[c].lng), lat2y(conferences[c].lat), true);
+		}
 	};
 
 	$.fn.confmap.minimize = function () {
@@ -364,56 +367,60 @@ $(document).on('showConference', function (evt, c) {
 		};
 
 		size = size * .5 + 4;
-		return conferences[confname.toLowerCase()] = R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('confname', confname).hover(function(e) {
-			this.attr({
-				stroke: "#00f",
-				'stroke-width': 2
-			});
-			if(this.data('selected')) {
-				$map.confmap.hideTooltip();
-			}
-			else {
-				$map.confmap.showTooltip($(this.node).attr({ class: 'tip' }), confname);
-			}
+		return conferences[confname.toLowerCase()] = {
+			'node': R.circle(lng2x(lng), lat2y(lat), size).attr(conf_attr).data('confname', confname).hover(function(e) {
+					this.attr({
+						stroke: "#00f",
+						'stroke-width': 2
+					});
+					if(this.data('selected')) {
+						$map.confmap.hideTooltip();
+					}
+					else {
+						$map.confmap.showTooltip($(this.node).attr({ class: 'tip' }), confname);
+					}
 
-		}, function(e) {
-			if(!(this.data('selected'))) {
-				this.attr({
-					stroke: "none"
-				});
-			}
-		}).click(function(e) {
-			console.log('conference clicked');
-			if(this.data('selected')) {
-				current = [];
-				$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend");
-				$map.confmap.hidePopover().hideTooltip();
-				this.attr({
-					stroke: "none"
-				}).data('selected', false);
-				$map.css('-webkit-transform', 'matrix(1, 0, 0, 1, 0, 0)');
-				
-			} else {
-				// deselect current conf
-				if(current.length > 0) {
-					$map.confmap.hidePopover();
-					current[0].attr({
-						stroke: "none"
-					}).data('selected', false);
-				}
+				}, function(e) {
+					if(!(this.data('selected'))) {
+						this.attr({
+							stroke: "none"
+						});
+					}
+				}).click(function(e) {
+					console.log('conference clicked');
+					if(this.data('selected')) {
+						current = [];
+						$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend");
+						$map.confmap.hidePopover().hideTooltip();
+						this.attr({
+							stroke: "none"
+						}).data('selected', false);
+						$map.css('-webkit-transform', 'matrix(1, 0, 0, 1, 0, 0)');
+						
+					} else {
+						// deselect current conf
+						if(current.length > 0) {
+							$map.confmap.hidePopover();
+							current[0].attr({
+								stroke: "none"
+							}).data('selected', false);
+						}
 
-				// add new current conf
-				current = [this];
-				this.attr({
-					stroke: "#00f",
-					'stroke-width': 2
-				}).data('selected', true);
+						// add new current conf
+						current = [this];
+						this.attr({
+							stroke: "#00f",
+							'stroke-width': 2
+						}).data('selected', true);
 
-				// zoom to current conf
-				$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), true);
-				$map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
-			}
-		});
+						// zoom to current conf
+						$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), true);
+						$map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
+					}
+				}),
+			'lat': lat,
+			'lng': lng 
+		};
 	};
 
 })(jQuery);
