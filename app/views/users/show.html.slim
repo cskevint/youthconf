@@ -11,6 +11,11 @@
 
   .row
     .span3
+      .well
+        h4 Attending these conferences:
+        - current_user.conferences.each do |conf|
+          p
+            = link_to conf.name, conference_path(id: conf.url_code)
     table.table.span6
       tr
         td
@@ -34,6 +39,7 @@
           = @user.role
   .row
     .span3
+
     .btn-group.span6.text-right
       = link_to 'Edit', edit_user_path(@user), class:'btn inline btn-primary'
       - if current_user.is_admin

@@ -87,7 +87,7 @@ class ConferencesController < ApplicationController
 
   # DELETE /conferences/1/attending
   def attending
-    if current_user
+    if is_logged_in
       if params[:attending] == 'true'
         Conference.find(params[:id]).users.push(current_user)
       else
