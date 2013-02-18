@@ -84,4 +84,16 @@ class ConferencesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  # DELETE /conferences/1/attending
+  def attending
+    if current_user
+      if params[:attending] == 'true'
+        Conference.find(params[:id]).users.push(current_user)
+      else
+        Conference.find(params[:id]).users.delete(current_user)
+      end
+    end
+    redirect_to :back
+  end
 end

@@ -20,7 +20,13 @@ div
             - if @conference.next
               = link_to "Next", conference_path(id:@conference.next.url_code), class:'btn'
           h6 Attending
-          p 95
+          p
+            = @conference.users.count
+          p
+            - if current_user.conferences.include?(@conference)
+              = link_to "Not Attending", attending_conference_path(@conference, attending:false), class:'btn'
+            - else
+              = link_to "Attending", attending_conference_path(@conference, attending:true), class:'btn btn-primary'
           h6 Location
           p Hotel
       .span9

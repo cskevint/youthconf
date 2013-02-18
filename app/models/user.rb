@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
                   :date_of_birth,
                   :role
 
+  has_and_belongs_to_many :conferences
+
   has_secure_password
 
   validates_presence_of :password, :on => :create

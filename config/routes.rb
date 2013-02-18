@@ -2,7 +2,11 @@ Youthconf::Application.routes.draw do
 
   resources :users
 
-  resources :conferences
+  resources :conferences do
+    member do
+      get 'attending'
+    end
+  end
 
   resources :sessions, :only => [:new, :create]
 

@@ -325,7 +325,7 @@ $(document).on('showConference', function (evt, c) {
 	};
 
 	$.fn.confmap.zoomToXY = function(x, y, smooth) {
-		sf = 1;
+		sf = 3;
 		tx = ((MAP_WIDTH / 2) - x) * sf;
 		ty = ((MAP_HEIGHT / 2) - y) * sf;
 		if(smooth) {

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130215041246) do
+ActiveRecord::Schema.define(:version => 20130217065501) do
 
   create_table "conferences", :force => true do |t|
     t.string   "city"
@@ -24,6 +24,11 @@ ActiveRecord::Schema.define(:version => 20130215041246) do
     t.string   "google"
     t.float    "lat"
     t.float    "lng"
+  end
+
+  create_table "conferences_users", :id => false, :force => true do |t|
+    t.integer "conference_id"
+    t.integer "user_id"
   end
 
   create_table "sessions", :force => true do |t|
