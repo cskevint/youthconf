@@ -14,19 +14,12 @@
 		background-color: #f5f5f5;
 	}
 
-	#mapcontainer {
-		/*background-color: lightblue;*/
-		position: relative;
-		height: 500px;
-		width: 100%;
-		overflow: hidden;
-	}
-
 	#map {
-		/*background-color: lightgreen;*/
-		width: 1000px;
-		height: 400px;
+		background-color: lightgreen;
 		margin: 10px auto;
+		width: 1500px;
+		height: 500px;
+		overflow: hidden;
 	}
 
 	#content {

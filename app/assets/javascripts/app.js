@@ -1,5 +1,5 @@
 var visitClick = function (c) {
-	$("#map").confmap.hideAllConferences().hidePopover().minimize();
+	$("#map").confmap.hideAllConferences().hidePopover();
 	$("#map").trigger('visitClicked', [c]);
 };
 
@@ -19,6 +19,10 @@ $(document).on('showConference', function (evt, c) {
 
 	var MAP_WIDTH;
 	var MAP_HEIGHT;
+	var SVG_WIDTH = 1000;	// can change based on canvas size
+	var SVG_HEIGHT = 400;	// can change based on canvas size
+	var ORIGINAL_SVG_WIDTH = 1000;
+	var ORIGINAL_SVG_HEIGHT = 400;
 	var opts = {}; // options
 	var current = [];
 	var $map; // jQuery map el
@@ -219,13 +223,22 @@ $(document).on('showConference', function (evt, c) {
 		return y;
 	};	
 
+	var panNzoom = function (x, y, sf) {
+		if (sf == undefined) { sf = 1; }
+		R.setViewBox(x - (MAP_WIDTH/(2*sf)), y - (MAP_HEIGHT/(2*sf)), SVG_WIDTH/sf, SVG_HEIGHT/sf);		
+	};
+
 	$.fn.confmap = function(options) {
 		$map = $(this);
 		MAP_WIDTH = $map.width();
 		MAP_HEIGHT = $map.height();
-
+		SVG_WIDTH = (MAP_WIDTH > SVG_WIDTH) ? MAP_WIDTH : SVG_WIDTH;
+		SVG_HEIGHT = (MAP_HEIGHT > SVG_HEIGHT) ? MAP_HEIGHT : SVG_HEIGHT;
+		// console.log('*init* mw=', MAP_WIDTH, 'mh=', MAP_HEIGHT, 'svgw', SVG_WIDTH, 'svgh', SVG_HEIGHT);
 		opts = $.extend({
 			conferences: [],
+			initWithConference: '',
+			initialScaleFactor: 1,
 			worldMapAttr: {
 				"fill": "#333",
 				"stroke": "#888",
@@ -235,7 +248,9 @@ $(document).on('showConference', function (evt, c) {
 		}, options);
 
 		// draw map inside Raphael canvas
-		R = Raphael($map[0], MAP_WIDTH, MAP_HEIGHT);
+		R = Raphael($map[0], SVG_WIDTH, SVG_HEIGHT);
+
+		// events on map
 		$map.on('visitClicked', function (evt, c) {
 			console.log('visitClicked triggered', c);
 			$(document).trigger('showConference', [c]);
@@ -247,6 +262,12 @@ $(document).on('showConference', function (evt, c) {
 				for(var c = 0; c < opts.conferences.length; c++) {
 					$map.confmap.plot(opts.conferences[c].lat, opts.conferences[c].lng, 10, opts.conferences[c].name);
 				}
+			}
+			if (opts.initWithConference !== '') {
+				$map.confmap.zoomToConference(opts.initWithConference, opts.initialScaleFactor);
+			}
+			else {
+				$map.confmap.restore();
 			}
 		});
 	};
@@ -261,15 +282,12 @@ $(document).on('showConference', function (evt, c) {
 	};
 
 	$.fn.confmap.showPopover = function($node, confname) {
-		$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend")
-			.bind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend", function() {
-			$node.popover({
-				title: confname,
-				container: 'body',
-				html: true,
-				content: "<small><a href='#' onclick='visitClick(\"" + confname + "\");'>visit</a></small>"
-			}).popover('show');
-		});
+		$node.popover({
+			title: confname,
+			container: 'body',
+			html: true,
+			content: "<small><a href='#' onclick='visitClick(\"" + confname + "\");'>visit</a></small>"
+		}).popover('show');
 		return $map.confmap;
 	};
 
@@ -313,50 +331,38 @@ $(document).on('showConference', function (evt, c) {
 		return conferences;
 	};
 
-	$.fn.confmap.zoomToLatLng = function(lat, lng) {
+	$.fn.confmap.zoomToLatLng = function(lat, lng, sf) {
 		var x = lng2x(lng);
 		var y = lat2y(lat);
-		R.setViewBox(x - 100, y - 100, 100 * 2, 100 * 2, true);
+		if (sf == undefined) { sf = 3; }
+		panNzoom(x, y, sf);
 		return $map.confmap;
+	};
+
+	$.fn.confmap.zoomToXY = function(x, y, sf) {
+		if (sf == undefined) { sf = 3; }
+		panNzoom(x, y, sf);
+	};
+
+	$.fn.confmap.zoomToConference = function (c, sf) {
+		if (conferences.hasOwnProperty(c)) {
+			$map.confmap.zoomToXY(lng2x(conferences[c].lng), lat2y(conferences[c].lat), sf);
+		}
 	};
 
 	$.fn.confmap.getSelectedConf = function () {
 		return (current.length>0)? current[0] : null;
 	};
 
-	$.fn.confmap.zoomToXY = function(x, y, smooth) {
-		sf = 1;
-		tx = ((MAP_WIDTH / 2) - x) * sf;
-		ty = ((MAP_HEIGHT / 2) - y) * sf;
-		if(smooth) {
-			$map.addClass('smooth');
-		}
-		$map.css('-webkit-transform', 'matrix(' + sf + ', 0, 0, ' + sf + ', ' + tx + ', ' + ty + ')');
-		return $map.confmap;
-	};
-
-	$.fn.confmap.zoomToConference = function (c) {
-		var sf = 3;
-		if (conferences.hasOwnProperty(c)) {
-			$map.confmap.zoomToXY(lng2x(conferences[c].lng), lat2y(conferences[c].lat), true);
-		}
-	};
-
-	$.fn.confmap.minimize = function () {
-		var sf = .15;
-		$map.css({
-			'-webkit-transform-origin': '0px 400px',
-			'-webkit-transform': 'matrix(' + sf + ', 0, 0, ' + sf + ', 0, 0)'
-		});		
-		return $map.confmap;
-	};
-
 	$.fn.confmap.restore = function () {
-		$map.css({
-			'-webkit-transform-origin': '0px 400px',
-			'-webkit-transform': 'matrix(1, 0, 0, 1, 0, 0)'
-		}).confmap.showAllConferences();
-	}
+		console.log("*restore* originalw",ORIGINAL_SVG_WIDTH,(ORIGINAL_SVG_WIDTH - SVG_WIDTH)/2, (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT)/2);
+		R.setViewBox((ORIGINAL_SVG_WIDTH - SVG_WIDTH)/2, (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT)/2 , SVG_WIDTH*SVG_WIDTH/MAP_WIDTH, SVG_HEIGHT*SVG_HEIGHT/MAP_HEIGHT);		
+		$map.confmap.showAllConferences();
+	};
+
+	$.fn.confmap.R = function () {
+		return R;
+	};
 
 	$.fn.confmap.plot = function(lat, lng, size, confname) {
 		var conf_attr = {
@@ -389,12 +395,11 @@ $(document).on('showConference', function (evt, c) {
 					console.log('conference clicked');
 					if(this.data('selected')) {
 						current = [];
-						$map.unbind("transitionend webkitTransitionEnd msTransitionEnd oTransitionEnd otransitionend");
 						$map.confmap.hidePopover().hideTooltip();
 						this.attr({
 							stroke: "none"
 						}).data('selected', false);
-						$map.css('-webkit-transform', 'matrix(1, 0, 0, 1, 0, 0)');
+						$map.confmap.restore();
 						
 					} else {
 						// deselect current conf
@@ -413,8 +418,8 @@ $(document).on('showConference', function (evt, c) {
 						}).data('selected', true);
 
 						// zoom to current conf
-						$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), true);
-						$map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
+						$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), 2);
+						// $map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
 					}
 				}),
 			'lat': lat,
