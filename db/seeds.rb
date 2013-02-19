@@ -38,3 +38,16 @@ User.create(
     date_of_birth:Date.parse('1981-05-12'),
     role:'admin'
 )
+
+Post.delete_all
+Conference.all.each do |conf|
+  User.all.each do |user|
+    rand(5).times do
+      p = Post.create_and_link(Faker::Lorem.sentences(rand(4)+2).join(" "), user, conf)
+      rand(3).times do
+        c = Post.create_and_link(Faker::Lorem.sentences(rand(4)+2).join(" "), user, conf)
+        p.comments.push(c)
+      end
+    end
+  end
+end

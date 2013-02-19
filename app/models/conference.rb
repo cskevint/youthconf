@@ -8,6 +8,10 @@ class Conference < ActiveRecord::Base
                   :lat,
                   :lng
 
+  has_and_belongs_to_many :users
+
+  has_many :posts
+
   def url_code
     name.downcase.gsub(" ","")
   end

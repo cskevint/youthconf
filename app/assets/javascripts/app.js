@@ -234,6 +234,7 @@ $(document).on('showConference', function (evt, c) {
 		MAP_HEIGHT = $map.height();
 		SVG_WIDTH = (MAP_WIDTH > SVG_WIDTH) ? MAP_WIDTH : SVG_WIDTH;
 		SVG_HEIGHT = (MAP_HEIGHT > SVG_HEIGHT) ? MAP_HEIGHT : SVG_HEIGHT;
+
 		// console.log('*init* mw=', MAP_WIDTH, 'mh=', MAP_HEIGHT, 'svgw', SVG_WIDTH, 'svgh', SVG_HEIGHT);
 		opts = $.extend({
 			conferences: [],
