@@ -30,13 +30,22 @@ div
           h6 Location
           p Hotel
       .span9
-        div(style="border:1px solid black;height:400px;")
+        div
           h3 = @conference.name
           h4
             - if @conference.state_province
               = "#{@conference.city}, #{@conference.state_province}, #{@conference.country}"
             - else
               = "#{@conference.city}, #{@conference.country}"
+          .well
+            - @conference.posts.each do |post|
+              strong = post.user.name
+              p = post.content
+              - post.comments.each do |comment|
+                div(style="padding:20px")
+                  strong = comment.user.name
+                  p = comment.content
+
 javascript:
   $(function(){
     $('#map').confmap({

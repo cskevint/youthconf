@@ -13,9 +13,11 @@ gem 'quiet_assets', :group => :development
 gem 'thin'
 gem 'bcrypt-ruby'
 
+# temporary
+gem 'faker'
+gem 'geocoder'
+
 group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-# scripts only for now
-gem 'geocoder'
