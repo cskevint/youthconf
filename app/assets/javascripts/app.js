@@ -1,3 +1,37 @@
+// extend Raphael
+Raphael.fn.animateViewBox = function animateViewBox( x, y, w, h, duration, easing_function, callback )
+{
+    var cx = this._viewBox ? this._viewBox[0] : 0,
+        dx = x - cx,
+        cy = this._viewBox ? this._viewBox[1] : 0,
+        dy = y - cy,
+        cw = this._viewBox ? this._viewBox[2] : this.width,
+        dw = w - cw,
+        ch = this._viewBox ? this._viewBox[3] : this.height,
+        dh = h - ch,
+        self = this;;
+    easing_function = easing_function || "linear";
+
+    var interval = 25;
+    var steps = duration / interval;
+    var current_step = 0;
+    var easing_formula = Raphael.easing_formulas[easing_function];
+
+    var intervalID = setInterval( function()
+        {
+            var ratio = current_step / steps;
+            self.setViewBox( cx + dx * easing_formula( ratio ),
+                             cy + dy * easing_formula( ratio ),
+                             cw + dw * easing_formula( ratio ),
+                             ch + dh * easing_formula( ratio ), false );
+            if ( current_step++ >= steps )
+            {
+                clearInterval( intervalID );
+                callback && callback();
+            }
+        }, interval );
+};
+
 var visitClick = function (c) {
 	$("#map").confmap.hideAllConferences().hidePopover();
 	$("#map").trigger('visitClicked', [c]);
@@ -29,6 +63,9 @@ $(document).on('showConference', function (evt, c) {
 	var countries = {};
 	var conferences = {};
 	var R; // Raphael canvas
+	window.confmap = {};
+
+	console.log('window.confmap=', window.confmap);
 
 	function renderMap(attr) {
 		countries.AE = R.path("M615.622,164.177l0.582,0.000l0.000,0.580l2.324,-0.289l2.326,0.000l1.455,0.000l2.033,-1.743l2.034,-1.743l1.745,-1.742l0.583,0.871l0.291,2.324l-1.456,0.000l-0.289,1.742l0.581,0.291l-1.163,0.580l0.000,1.161l-0.873,1.162l0.000,1.162l-0.580,0.580l-8.430,-1.452l-0.872,-2.613l0.291,0.871z").attr(attr);
@@ -224,8 +261,42 @@ $(document).on('showConference', function (evt, c) {
 	};	
 
 	var panNzoom = function (x, y, sf) {
+		R.animateViewBox(x - (MAP_WIDTH / (2 * sf)), y - (MAP_HEIGHT / (2 * sf)), SVG_WIDTH / sf, SVG_HEIGHT / sf, 1200, '<>', function() {
+			console.log('anim done');
+    	});
+		/*
 		if (sf == undefined) { sf = 1; }
-		R.setViewBox(x - (MAP_WIDTH/(2*sf)), y - (MAP_HEIGHT/(2*sf)), SVG_WIDTH/sf, SVG_HEIGHT/sf);		
+		var wc = window.confmap;
+		wc.x2 = x - (MAP_WIDTH / (2 * sf));
+		wc.y2 = y - (MAP_HEIGHT / (2 * sf));
+		wc.w2 = SVG_WIDTH / sf;
+		wc.h2 = SVG_HEIGHT / sf;
+		var DURATION = 1000, // milliseconds
+			INTERVAL = 10,	// milliseconds
+			animTimer, durationTimer;
+		console.log(DURATION/INTERVAL, wc.x2, wc.x1, wc.x2-wc.x1);
+		wc.dx = (wc.x2 - wc.x1) / (DURATION / INTERVAL);
+		wc.dy = (wc.y2 - wc.y1) / (DURATION / INTERVAL);
+		wc.dw = (wc.w2 - wc.w1) / (DURATION / INTERVAL);
+		wc.dh = (wc.h2 - wc.h1) / (DURATION / INTERVAL);
+
+		animTimer = setInterval(function() {
+			var wc = window.confmap;
+			console.log('animate map...');
+			wc.x1 = wc.x1 + wc.dx;
+			wc.y1 = wc.y1 + wc.dy;
+			wc.w1 = wc.w1 + wc.dw;
+			wc.h1 = wc.h1 + wc.dh;
+			console.log('x1',wc.x1, 'y1', wc.y1, 'w1', wc.w1, 'h1', wc.h1);
+
+			R.setViewBox(wc.x1, wc.y1, wc.w1, wc.h1);		
+		}, INTERVAL);
+		setTimeout(function () {
+			console.log('clear timers');
+			clearInterval(animTimer);
+		}, DURATION+1000);
+		R.setViewBox(x - (MAP_WIDTH/(2*sf)), y - (MAP_HEIGHT/(2*sf)), SVG_WIDTH/sf, SVG_HEIGHT/sf);
+		*/
 	};
 
 	$.fn.confmap = function(options) {
@@ -357,7 +428,12 @@ $(document).on('showConference', function (evt, c) {
 
 	$.fn.confmap.restore = function () {
 		console.log("*restore* originalw",ORIGINAL_SVG_WIDTH,(ORIGINAL_SVG_WIDTH - SVG_WIDTH)/2, (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT)/2);
-		R.setViewBox((ORIGINAL_SVG_WIDTH - SVG_WIDTH)/2, (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT)/2 , SVG_WIDTH*SVG_WIDTH/MAP_WIDTH, SVG_HEIGHT*SVG_HEIGHT/MAP_HEIGHT);		
+		var wc = window.confmap;
+		wc.x1 = (ORIGINAL_SVG_WIDTH - SVG_WIDTH) / 2;
+		wc.y1 = (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT) / 2;
+		wc.w1 = SVG_WIDTH * SVG_WIDTH / MAP_WIDTH;
+		wc.h1 = SVG_HEIGHT * SVG_HEIGHT / MAP_HEIGHT;
+		R.animateViewBox(wc.x1, wc.y1, wc.w1, wc.h1, 500, '<>', function() {});
 		$map.confmap.showAllConferences();
 	};
 
