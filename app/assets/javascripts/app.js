@@ -1,5 +1,5 @@
 // extend Raphael
-Raphael.fn.animateViewBox = function animateViewBox( x, y, w, h, duration, easing_function, callback )
+Raphael.fn.animateViewBox = function animateViewBox(x, y, w, h, duration, easing_function, callback )
 {
     var cx = this._viewBox ? this._viewBox[0] : 0,
         dx = x - cx,
@@ -36,6 +36,14 @@ var visitClick = function (c) {
 	$("#map").confmap.hideAllConferences().hidePopover();
 	$("#map").trigger('visitClicked', [c]);
 };
+
+
+$(window).on('resize', function () {
+	$map = $("#map");
+	// $map.confmap.setMapWidth($map.width());
+	// $map.confmap.setMapHeight($map.height());
+	$map.confmap.setSize($map.width(), $map.height());
+});
 
 $(document).on('showConference', function (evt, c) {
 	console.log('showConference triggered', c);
@@ -264,39 +272,6 @@ $(document).on('showConference', function (evt, c) {
 		R.animateViewBox(x - (MAP_WIDTH / (2 * sf)), y - (MAP_HEIGHT / (2 * sf)), SVG_WIDTH / sf, SVG_HEIGHT / sf, 1200, '<>', function() {
 			console.log('anim done');
     	});
-		/*
-		if (sf == undefined) { sf = 1; }
-		var wc = window.confmap;
-		wc.x2 = x - (MAP_WIDTH / (2 * sf));
-		wc.y2 = y - (MAP_HEIGHT / (2 * sf));
-		wc.w2 = SVG_WIDTH / sf;
-		wc.h2 = SVG_HEIGHT / sf;
-		var DURATION = 1000, // milliseconds
-			INTERVAL = 10,	// milliseconds
-			animTimer, durationTimer;
-		console.log(DURATION/INTERVAL, wc.x2, wc.x1, wc.x2-wc.x1);
-		wc.dx = (wc.x2 - wc.x1) / (DURATION / INTERVAL);
-		wc.dy = (wc.y2 - wc.y1) / (DURATION / INTERVAL);
-		wc.dw = (wc.w2 - wc.w1) / (DURATION / INTERVAL);
-		wc.dh = (wc.h2 - wc.h1) / (DURATION / INTERVAL);
-
-		animTimer = setInterval(function() {
-			var wc = window.confmap;
-			console.log('animate map...');
-			wc.x1 = wc.x1 + wc.dx;
-			wc.y1 = wc.y1 + wc.dy;
-			wc.w1 = wc.w1 + wc.dw;
-			wc.h1 = wc.h1 + wc.dh;
-			console.log('x1',wc.x1, 'y1', wc.y1, 'w1', wc.w1, 'h1', wc.h1);
-
-			R.setViewBox(wc.x1, wc.y1, wc.w1, wc.h1);		
-		}, INTERVAL);
-		setTimeout(function () {
-			console.log('clear timers');
-			clearInterval(animTimer);
-		}, DURATION+1000);
-		R.setViewBox(x - (MAP_WIDTH/(2*sf)), y - (MAP_HEIGHT/(2*sf)), SVG_WIDTH/sf, SVG_HEIGHT/sf);
-		*/
 	};
 
 	$.fn.confmap = function(options) {
@@ -427,7 +402,7 @@ $(document).on('showConference', function (evt, c) {
 	};
 
 	$.fn.confmap.restore = function () {
-		console.log("*restore* originalw",ORIGINAL_SVG_WIDTH,(ORIGINAL_SVG_WIDTH - SVG_WIDTH)/2, (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT)/2);
+		console.log("*restore* originalw",ORIGINAL_SVG_WIDTH, ORIGINAL_SVG_HEIGHT, MAP_WIDTH, MAP_HEIGHT);
 		var wc = window.confmap;
 		wc.x1 = (ORIGINAL_SVG_WIDTH - SVG_WIDTH) / 2;
 		wc.y1 = (ORIGINAL_SVG_HEIGHT - SVG_HEIGHT) / 2;
@@ -439,6 +414,18 @@ $(document).on('showConference', function (evt, c) {
 
 	$.fn.confmap.R = function () {
 		return R;
+	};
+
+	$.fn.confmap.setSize = function (w, h) {
+		return R.setSize(w, h);
+	};
+
+	$.fn.confmap.setMapWidth = function (w) {
+		MAP_WIDTH = w;
+	};
+
+	$.fn.confmap.setMapHeight = function (h) {
+		MAP_HEIGHT = h;
 	};
 
 	$.fn.confmap.plot = function(lat, lng, size, confname) {
