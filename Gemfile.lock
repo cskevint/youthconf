@@ -59,6 +59,8 @@ GEM
     multi_json (1.6.1)
     pg (0.14.1)
     polyglot (0.3.3)
+    powify (0.8.5)
+      json
     quiet_assets (1.0.1)
       railties (~> 3.1)
     rack (1.4.1)
@@ -135,6 +137,7 @@ DEPENDENCIES
   geocoder
   jquery-rails
   pg
+  powify
   quiet_assets
   rack (= 1.4.1)
   rails (= 3.2.10)

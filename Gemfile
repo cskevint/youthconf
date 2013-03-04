@@ -12,6 +12,7 @@ gem 'bootstrap-datepicker-rails', '~> 0.6.41'
 gem 'quiet_assets', :group => :development
 gem 'thin'
 gem 'bcrypt-ruby'
+gem 'powify'
 
 # temporary
 gem 'faker'
