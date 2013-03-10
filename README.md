@@ -1,11 +1,6 @@
 95 Youth Conferences
 =========
 
-## Install Rails
-
-    $ gem install rack
-    $ gem install rails
-
 ## Install Postgresql
 
     $ brew install postgresql
