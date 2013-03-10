@@ -3,16 +3,19 @@ div(style="background:black")
     .row
       .span12(style="position:relative")
         #map
-div
-  .container
-    .row
-      .span12
-        #content
-          p 95 Youth Conferences
+- if session[:developer]
+  div
+    .container
+      .row
+        .span12
+          = render partial: 'common/fb_register'
+          #content
+            p 95 Youth Conferences
 
 footer.footer
-  .container
-    p Designed and built with all the love in the world
+  - if session[:developer]
+    .container
+      p Designed and built with all the love in the world
 
 javascript:
   $(function(){

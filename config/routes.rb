@@ -2,7 +2,6 @@ Youthconf::Application.routes.draw do
 
   resources :posts
 
-
   resources :users
 
   resources :conferences do

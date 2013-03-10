@@ -2,6 +2,7 @@ class ConferencesController < ApplicationController
   # GET /conferences
   # GET /conferences.json
   def index
+    session[:developer] = params[:developer] == 'true' if params[:developer]
     @conferences = Conference.all.sort_by! { |a| a.name }
 
     respond_to do |format|
