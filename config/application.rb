@@ -61,7 +61,7 @@ module Youthconf
   end
 end
 
-CONFIG = YAML.load_file(File.dirname(__FILE__) + "/database.yml")["config"]
+CONFIG = YAML.load_file(ERB.new(File.dirname(__FILE__) + "/database.yml").result)["config"]
 
 def local_request?
   false
