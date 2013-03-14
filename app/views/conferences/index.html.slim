@@ -4,13 +4,13 @@ div(style="background:black")
       .span12(style="position:relative")
         #map
 - if session[:developer]
+  /= render partial: 'common/fb_register'
   div
     .container
       .row
-        .span12
-          = render partial: 'common/fb_register'
-          #content
-            p 95 Youth Conferences
+        .span1
+        .span10.well
+          = render partial: 'common/posts', locals: { posts: @posts, name: true }
 
 footer.footer
   - if session[:developer]

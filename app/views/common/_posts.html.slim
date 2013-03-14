@@ -1,0 +1,18 @@
+- posts.each do |post|
+  strong = post.user.name
+  span &nbsp;
+  strong(style='color:blue') = post.created_at.strftime("%Y-%m-%d")
+  - if name
+    span &nbsp;
+    strong(style='color:red')
+      = link_to post.conference.name, conference_path(id:post.conference.url_code)
+  p = post.content
+  - post.comments.each do |comment|
+    div(style="padding-left:25px")
+      strong = comment.user.name
+      span &nbsp;
+      strong(style='color:blue') = post.created_at.strftime("%Y-%m-%d")
+      - if name
+        span &nbsp;
+        strong(style='color:red') = post.conference.name
+      p = comment.content

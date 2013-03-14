@@ -6,7 +6,10 @@ class ConferencesController < ApplicationController
     @conferences = Conference.all.sort_by! { |a| a.name }
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html do
+        @posts = Post.all(limit: 50, order: 'created_at DESC')
+        render 'index'
+      end
       format.json { render json: @conferences }
     end
   end

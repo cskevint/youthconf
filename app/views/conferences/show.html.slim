@@ -38,13 +38,7 @@ div
             - else
               = "#{@conference.city}, #{@conference.country}"
           .well
-            - @conference.posts.each do |post|
-              strong = post.user.name
-              p = post.content
-              - post.comments.each do |comment|
-                div(style="padding:20px")
-                  strong = comment.user.name
-                  p = comment.content
+            = render partial: 'common/posts', locals: { posts: @conference.posts, name: false }
 
 javascript:
   $(function(){
