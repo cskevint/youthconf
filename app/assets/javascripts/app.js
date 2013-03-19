@@ -38,12 +38,12 @@ var visitClick = function (c) {
 };
 
 
-$(window).on('resize', function () {
+/*$(window).on('resize', function () {
 	$map = $("#map");
 	// $map.confmap.setMapWidth($map.width());
 	// $map.confmap.setMapHeight($map.height());
 	$map.confmap.setSize($map.width(), $map.height());
-});
+});*/
 
 $(document).on('showConference', function (evt, c) {
 	console.log('showConference triggered', c);

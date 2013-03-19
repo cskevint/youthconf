@@ -2,7 +2,7 @@ div(style="background:black")
   .container
     .row
       .span12(style="position:relative")
-        div(style="border:1px solid white;height:400px;")
+        div(style="border:1px solid white;height:400px;background-image:url(../assets/perth.jpg);background-size:cover;")
         div(style="position:absolute;overflow:hidden;bottom:0px;left:0px;width:150px;height:150px;border:1px solid red")
           #map(style="width:150px;height:150px;")
 div
@@ -42,9 +42,11 @@ div
 
 javascript:
   $(function(){
-    $('#map').confmap({
+    var $map = $('#map');
+    $map.confmap({
       conferences: $.parseJSON($("#data").text()),
       initWithConference: "#{@conference.name.downcase}",
       initialScaleFactor: 2
     });
+    $map.confmap.hideAllConferences().showConference("#{@conference.name.downcase}");
   });
