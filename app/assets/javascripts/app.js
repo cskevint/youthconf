@@ -268,10 +268,15 @@ $(document).on('showConference', function (evt, c) {
 		return y;
 	};	
 
-	var panNzoom = function (x, y, sf) {
-		R.animateViewBox(x - (MAP_WIDTH / (2 * sf)), y - (MAP_HEIGHT / (2 * sf)), SVG_WIDTH / sf, SVG_HEIGHT / sf, 1200, '<>', function() {
-			console.log('anim done');
-    	});
+	var panNzoom = function (x, y, sf, animate) {
+		if (animate) {
+			R.animateViewBox(x - (MAP_WIDTH / (2 * sf)), y - (MAP_HEIGHT / (2 * sf)), SVG_WIDTH / sf, SVG_HEIGHT / sf, 1200, '<>', function() {
+				console.log('anim done');
+	    	});
+	    }
+	    else {
+			R.setViewBox(x - (MAP_WIDTH / (2 * sf)), y - (MAP_HEIGHT / (2 * sf)), SVG_WIDTH / sf, SVG_HEIGHT / sf);
+	    }
 	};
 
 	$.fn.confmap = function(options) {
@@ -311,7 +316,7 @@ $(document).on('showConference', function (evt, c) {
 				}
 			}
 			if (opts.initWithConference !== '') {
-				$map.confmap.zoomToConference(opts.initWithConference, opts.initialScaleFactor);
+				$map.confmap.zoomToConference(opts.initWithConference, opts.initialScaleFactor, false);
 			}
 			else {
 				$map.confmap.restore();
@@ -378,22 +383,22 @@ $(document).on('showConference', function (evt, c) {
 		return conferences;
 	};
 
-	$.fn.confmap.zoomToLatLng = function(lat, lng, sf) {
+	$.fn.confmap.zoomToLatLng = function(lat, lng, sf, animate) {
 		var x = lng2x(lng);
 		var y = lat2y(lat);
 		if (sf == undefined) { sf = 3; }
-		panNzoom(x, y, sf);
+		panNzoom(x, y, sf, animate);
 		return $map.confmap;
 	};
 
-	$.fn.confmap.zoomToXY = function(x, y, sf) {
+	$.fn.confmap.zoomToXY = function(x, y, sf, animate) {
 		if (sf == undefined) { sf = 3; }
-		panNzoom(x, y, sf);
+		panNzoom(x, y, sf, animate);
 	};
 
-	$.fn.confmap.zoomToConference = function (c, sf) {
+	$.fn.confmap.zoomToConference = function (c, sf, animate) {
 		if (conferences.hasOwnProperty(c)) {
-			$map.confmap.zoomToXY(lng2x(conferences[c].lng), lat2y(conferences[c].lat), sf);
+			$map.confmap.zoomToXY(lng2x(conferences[c].lng), lat2y(conferences[c].lat), sf, animate);
 		}
 	};
 
@@ -482,7 +487,7 @@ $(document).on('showConference', function (evt, c) {
 						}).data('selected', true);
 
 						// zoom to current conf
-						$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), 2);
+						$map.confmap.zoomToXY(lng2x(lng), lat2y(lat), 2, true);
 						// $map.confmap.showPopover($(this.node).attr({ class: 'pop' }), confname);
 					}
 				}),
